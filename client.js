@@ -28,8 +28,7 @@ window.__ModuleLoader__.load({
       .ss-error{padding:10px 14px;border-radius:9px;margin-bottom:14px;font-size:13px;background:color-mix(in srgb,var(--dsw-alias-state-error-primary) 12%,transparent);border:1px solid color-mix(in srgb,var(--dsw-alias-state-error-primary) 35%,transparent);color:var(--dsw-alias-state-error-primary)}
       .ss-ok{padding:10px 14px;border-radius:9px;margin-bottom:14px;font-size:13px;background:color-mix(in srgb,var(--dsw-alias-state-success-primary) 12%,transparent);border:1px solid color-mix(in srgb,var(--dsw-alias-state-success-primary) 35%,transparent);color:var(--dsw-alias-state-success-primary)}
 
-      /* 概览 */
-      .ss-overview{border:1px solid var(--dsw-alias-border-l1);border-radius:12px;background:var(--dsw-alias-bg-layer-1);padding:14px 16px;margin-bottom:16px}
+      /* 概览（已移入「来源分布」标签页） */
       .ss-ov-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:10px}
       .ss-ov-head h2{margin:0;font-size:13px;font-weight:600}
       .ss-bar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:var(--dsw-alias-bg-layer-2);margin-bottom:10px}
@@ -671,27 +670,9 @@ window.__ModuleLoader__.load({
       // 侧边栏显示「全库」每个大类有多少个，不能用当前页结果推算
       const groupCounts = boot?.groupCounts || {};
 
-      return h(React.Fragment, null,
-        h(Styles),
-        h('div', { className: 'ss-page' },
-        h('div', { className: 'ss-head' },
-          h('h1', null,
-            'Agent Skill 商店',
-            h('span', { className: 'ss-count' }, `${boot?.meta?.total || 0} 个 skill`)),
-          h('div', { className: 'ss-actions' },
-            h('button', { className: 'ss-btn sm', onClick: () => setSideOpen((v) => !v) }, '筛选'),
-            h('button', {
-              className: `ss-btn sm ${onlyFavorites ? 'primary' : ''}`,
-              onClick: () => setOnlyFavorites((v) => !v),
-            }, `★ 收藏 ${(boot?.favorites || []).length}`),
-            h('button', { className: 'ss-btn sm', onClick: doSync, disabled: syncing, title: '立即检查 7 个来源是否有新增 skill' },
-              syncing ? h('span', null, h('i', { className: 'ss-spinner' }), ' 同步中') : '检查更新'))),
-
-        error ? h('div', { className: 'ss-error', onClick: () => setError('') , role: 'alert' }, error) : null,
-        toast ? h('div', { className: 'ss-ok', role: 'status' }, toast) : null,
-
-        // ---- 概览 ----
-        ov ? h('section', { className: 'ss-overview' },
+      // 来源分布做成独立 tab：内容与原来的概览一致，只是不再常驻页面顶部
+      const overviewPanel = ov
+        ? h('div', null,
           h('div', { className: 'ss-ov-head' },
             h('h2', null, '来源分布'),
             h('span', { className: 'ss-caption' }, `共 ${ov.total} 个 skill，点方块可筛选`)),
@@ -727,15 +708,40 @@ window.__ModuleLoader__.load({
                 h('span', { className: 'ss-cat-label', title: c.category }, c.category),
                 h('span', { className: 'ss-cat-track' }, h('span', { className: 'ss-cat-fill', style: { width: `${(c.count / max) * 100}%` } })),
                 h('span', { className: 'ss-cat-num' }, c.count));
-            }))) : null,
+            })))
+        : h('div', { className: 'ss-empty', style: { padding: '18px' } }, '还没有可展示的统计数据');
+
+      return h(React.Fragment, null,
+        h(Styles),
+        h('div', { className: 'ss-page' },
+        h('div', { className: 'ss-head' },
+          h('h1', null,
+            'Agent Skill 商店',
+            h('span', { className: 'ss-count' }, `${boot?.meta?.total || 0} 个 skill`)),
+          h('div', { className: 'ss-actions' },
+            h('button', { className: 'ss-btn sm', onClick: () => setSideOpen((v) => !v) }, '筛选'),
+            h('button', {
+              className: `ss-btn sm ${onlyFavorites ? 'primary' : ''}`,
+              onClick: () => setOnlyFavorites((v) => !v),
+            }, `★ 收藏 ${(boot?.favorites || []).length}`),
+            h('button', { className: 'ss-btn sm', onClick: doSync, disabled: syncing, title: '立即检查 7 个来源是否有新增 skill' },
+              syncing ? h('span', null, h('i', { className: 'ss-spinner' }), ' 同步中') : '检查更新'))),
+
+        error ? h('div', { className: 'ss-error', onClick: () => setError('') , role: 'alert' }, error) : null,
+        toast ? h('div', { className: 'ss-ok', role: 'status' }, toast) : null,
+
+        // ---- 概览已移入「来源分布」标签页 ----
 
         // ---- 发现 ----
         h('section', { className: 'ss-discover' },
           h('div', { className: 'ss-tabs' },
             h('button', { className: `ss-tab ${tab === 'ai' ? 'on' : ''}`, onClick: () => setTab('ai') }, 'AI 智能推荐'),
-            h('button', { className: `ss-tab ${tab === 'role' ? 'on' : ''}`, onClick: () => setTab('role') }, '按角色推荐')),
+            h('button', { className: `ss-tab ${tab === 'role' ? 'on' : ''}`, onClick: () => setTab('role') }, '按角色推荐'),
+            h('button', { className: `ss-tab ${tab === 'ov' ? 'on' : ''}`, onClick: () => setTab('ov') }, '来源分布')),
           h('div', { className: 'ss-tab-body' },
-            tab === 'ai'
+            tab === 'ov'
+              ? overviewPanel
+              : tab === 'ai'
               ? h('div', null,
                 h('div', { className: 'ss-ai-row' },
                   h('input', {
