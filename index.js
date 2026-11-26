@@ -14,7 +14,7 @@ import { z } from 'zod';
 import { parseAll, DOC_FILES } from './lib/parse.js';
 import { classify, groupOf, GROUPS } from './lib/classify.js';
 import { SOURCES, TAGS, ROLES, EXAMPLE_PROMPTS, skillId, sourceOf, installCommand } from './lib/catalog.js';
-import { searchSkills, overview, msUntilNextSync } from './lib/search.js';
+import { searchSkills, recallForRecommendation, overview, msUntilNextSync } from './lib/search.js';
 import { mergeNewSkills, syncStatus } from './lib/sync.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -362,7 +362,7 @@ export async function apply(ctx, input) {
     const text = String(need || '').trim();
     if (!text) throw new Error('请先描述你需要什么样的 skill');
 
-    const candidates = searchSkills(dataset.skills, { query: text }).slice(0, 70);
+    const candidates = recallForRecommendation(dataset.skills, text);
     if (!candidates.length) {
       return { picks: [], pairing: '', reason: '没有检索到相关 skill，换个说法试试。' };
     }
