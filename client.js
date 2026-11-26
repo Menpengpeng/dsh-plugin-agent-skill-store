@@ -670,47 +670,6 @@ window.__ModuleLoader__.load({
       // 侧边栏显示「全库」每个大类有多少个，不能用当前页结果推算
       const groupCounts = boot?.groupCounts || {};
 
-      // 来源分布做成独立 tab：内容与原来的概览一致，只是不再常驻页面顶部
-      const overviewPanel = ov
-        ? h('div', null,
-          h('div', { className: 'ss-ov-head' },
-            h('h2', null, '来源分布'),
-            h('span', { className: 'ss-caption' }, `共 ${ov.total} 个 skill，点方块可筛选`)),
-          h('div', { className: 'ss-bar', role: 'presentation' },
-            ov.sources.filter((s) => s.count).map((s) => h('span', {
-              key: s.key,
-              style: { background: s.color, width: `${s.share * 100}%` },
-              title: `${s.label}：${s.count} 个（${(s.share * 100).toFixed(1)}%）`,
-              onClick: () => setSource(source === s.key ? '' : s.key),
-            }))),
-          h('div', { className: 'ss-src-list' },
-            ov.sources.map((s) => h('div', {
-              key: s.key,
-              className: `ss-src ${source === s.key ? 'on' : ''}`,
-              onClick: () => setSource(source === s.key ? '' : s.key),
-              role: 'button',
-              tabIndex: 0,
-              onKeyDown: (e) => { if (e.key === 'Enter') setSource(source === s.key ? '' : s.key); },
-            },
-              h('span', { className: 'ss-src-dot', style: { background: s.color } }),
-              h('span', { className: 'ss-src-name', title: s.repo }, s.label),
-              h('span', { className: 'ss-src-num' }, `${s.count} · ${(s.share * 100).toFixed(1)}%`)))),
-          h('div', { className: 'ss-cat-chart' },
-            h('div', { className: 'ss-caption', style: { marginBottom: '3px' } }, '分类 Top 10'),
-            ov.topCategories.map((c) => {
-              const max = ov.topCategories[0]?.count || 1;
-              return h('div', {
-                key: c.category,
-                className: `ss-cat-row ${group === c.category.split(' / ')[0] ? 'on' : ''}`,
-                onClick: () => setGroup(group === c.category.split(' / ')[0] ? '' : c.category.split(' / ')[0]),
-                title: `筛选：${c.category}`,
-              },
-                h('span', { className: 'ss-cat-label', title: c.category }, c.category),
-                h('span', { className: 'ss-cat-track' }, h('span', { className: 'ss-cat-fill', style: { width: `${(c.count / max) * 100}%` } })),
-                h('span', { className: 'ss-cat-num' }, c.count));
-            })))
-        : h('div', { className: 'ss-empty', style: { padding: '18px' } }, '还没有可展示的统计数据');
-
       return h(React.Fragment, null,
         h(Styles),
         h('div', { className: 'ss-page' },
@@ -736,12 +695,9 @@ window.__ModuleLoader__.load({
         h('section', { className: 'ss-discover' },
           h('div', { className: 'ss-tabs' },
             h('button', { className: `ss-tab ${tab === 'ai' ? 'on' : ''}`, onClick: () => setTab('ai') }, 'AI 智能推荐'),
-            h('button', { className: `ss-tab ${tab === 'role' ? 'on' : ''}`, onClick: () => setTab('role') }, '按角色推荐'),
-            h('button', { className: `ss-tab ${tab === 'ov' ? 'on' : ''}`, onClick: () => setTab('ov') }, '来源分布')),
+            h('button', { className: `ss-tab ${tab === 'role' ? 'on' : ''}`, onClick: () => setTab('role') }, '按角色推荐')),
           h('div', { className: 'ss-tab-body' },
-            tab === 'ov'
-              ? overviewPanel
-              : tab === 'ai'
+            tab === 'ai'
               ? h('div', null,
                 h('div', { className: 'ss-ai-row' },
                   h('input', {
@@ -825,7 +781,48 @@ window.__ModuleLoader__.load({
                   className: `ss-side-item ${group === g ? 'on' : ''}`,
                   onClick: () => setGroup(group === g ? '' : g),
                 }, h('span', null, g), h('span', { className: 'ss-side-num' }, count));
-              }))),
+              })),
+
+            // 来源占比：点条目即按来源筛选，与卡片上的来源色一致
+            ov ? h('div', { className: 'ss-side-group' },
+              h('div', { className: 'ss-side-title' }, `来源（共 ${ov.total} 个）`),
+              h('div', { className: 'ss-bar', role: 'presentation', style: { marginBottom: '8px' } },
+                ov.sources.filter((s) => s.count).map((s) => h('span', {
+                  key: s.key,
+                  style: { background: s.color, width: `${s.share * 100}%` },
+                  title: `${s.label}：${s.count} 个（${(s.share * 100).toFixed(1)}%）`,
+                  onClick: () => setSource(source === s.key ? '' : s.key),
+                }))),
+              ov.sources.map((s) => h('div', {
+                key: s.key,
+                className: `ss-side-item ${source === s.key ? 'on' : ''}`,
+                onClick: () => setSource(source === s.key ? '' : s.key),
+                role: 'button',
+                tabIndex: 0,
+                onKeyDown: (e) => { if (e.key === 'Enter') setSource(source === s.key ? '' : s.key); },
+                title: s.repo,
+              },
+                h('span', { className: 'ss-src-name' },
+                  h('span', { className: 'ss-src-dot', style: { background: s.color, display: 'inline-block', marginRight: '6px' } }),
+                  s.label),
+                h('span', { className: 'ss-side-num' }, `${s.count} · ${(s.share * 100).toFixed(1)}%`)))) : null,
+
+            // 分类 Top 10：点击落到对应大类，避免和上面的「大类」重复列出全部
+            ov ? h('div', { className: 'ss-side-group' },
+              h('div', { className: 'ss-side-title' }, '分类 Top 10'),
+              ov.topCategories.map((c) => {
+                const max = ov.topCategories[0]?.count || 1;
+                const top = c.category.split(' / ')[0];
+                return h('div', {
+                  key: c.category,
+                  className: `ss-cat-row ${group === top ? 'on' : ''}`,
+                  onClick: () => setGroup(group === top ? '' : top),
+                  title: `筛选：${c.category}`,
+                },
+                  h('span', { className: 'ss-cat-label', title: c.category }, c.category),
+                  h('span', { className: 'ss-cat-track' }, h('span', { className: 'ss-cat-fill', style: { width: `${(c.count / max) * 100}%` } })),
+                  h('span', { className: 'ss-cat-num' }, c.count));
+              })) : null),
 
           h('div', null,
             h('div', { className: 'ss-toolbar' },
