@@ -289,7 +289,7 @@ window.__ModuleLoader__.load({
     }
 
     // ---------------------------------------------------------------- 详情面板
-    function DetailPanel({ skill, source, favorited, note, similar, onClose, onToggleFav, onOpen, onSaveNote, onDeleteNote, onCopy }) {
+    function DetailPanel({ skill, source, installState, onInstall, favorited, note, similar, onClose, onToggleFav, onOpen, onSaveNote, onDeleteNote, onCopy }) {
       const [rating, setRating] = useState(note?.rating || 0);
       const [text, setText] = useState(note?.note || '');
       const [saving, setSaving] = useState(false);
@@ -363,6 +363,9 @@ window.__ModuleLoader__.load({
 
             h('div', { className: 'ss-block' },
               h('h3', null, '安装方式'),
+              h('button', { className: 'ss-btn primary', disabled: installState?.phase === 'pending' || installState?.phase === 'done', onClick: () => onInstall(skill) },
+                installState?.phase === 'pending' ? h('span', null, h('i', { className: 'ss-spinner' }), ' 正在安装…') : installState?.phase === 'done' ? '已安装到 DSH' : '一键安装到 DSH'),
+              installState?.message ? h('div', { className: installState.phase === 'done' ? 'ss-ok' : 'ss-error', role: 'status' }, installState.message) : null,
               install.command
                 ? h('div', { className: 'ss-cmd' },
                   h('code', null, install.command),
@@ -453,6 +456,26 @@ window.__ModuleLoader__.load({
 
       // 详情
       const [detail, setDetail] = useState(null);
+      const detailRequest = useRef(0);
+      const installLocks = useRef(new Set());
+      const [installs, setInstalls] = useState({});
+      const installSkill = async (skill) => {
+        const skillId = skill.id;
+        if (installLocks.current.has(skillId)) return;
+        if (!window.confirm(`将「${skill.name}」安装到 DSH？\n来源：${sourceOfKey(skill.source).label}\n${skill.url}\n第三方技能可能包含不安全的指令或脚本。请核实来源，仅安装你信任的内容。`)) return;
+        installLocks.current.add(skillId);
+        const update = (state) => setInstalls((prev) => ({ ...prev, [skillId]: state }));
+        update({ phase: 'pending' });
+        try {
+          const { name, files } = await post({ type: 'install-skill', skillId });
+          const count = Array.isArray(files) ? files.length : files;
+          if (!name || !Number.isInteger(count) || count < 0) throw new Error('未收到有效的安装结果');
+          update({ phase: 'done', message: `安装成功：${name}（${count} 个文件）` });
+        } catch (error) {
+          installLocks.current.delete(skillId);
+          update({ phase: 'error', message: `安装失败：${error.message}` });
+        }
+      };
       const [similar, setSimilar] = useState([]);
       const [sideOpen, setSideOpen] = useState(false);
       const [syncing, setSyncing] = useState(false);
@@ -548,13 +571,16 @@ window.__ModuleLoader__.load({
 
       /** 打开详情。进面板时向 Host 要安装命令与同类 skill，避免在客户端重复推导。 */
       const openDetail = useCallback(async (skill) => {
+        const request = ++detailRequest.current;
         setDetail(skill);
         setSimilar([]);
         try {
           const data = await post({ type: 'detail', skillId: skill.id });
+          if (request !== detailRequest.current) return;
           setDetail(data.skill);
           setSimilar(data.similar || []);
         } catch (e) {
+          if (request !== detailRequest.current) return;
           // 详情补充信息拿不到时，先用列表里已有的字段把面板打开
           setError(e.message);
         }
@@ -861,7 +887,9 @@ window.__ModuleLoader__.load({
           favorited: favSet.has(detail.id),
           note: notes[detail.id],
           similar,
-          onClose: () => setDetail(null),
+          installState: installs[detail.id],
+          onInstall: installSkill,
+          onClose: () => { ++detailRequest.current; setDetail(null); },
           onToggleFav: toggleFav,
           onOpen: (s) => openDetail(s),
           onSaveNote: saveNote,

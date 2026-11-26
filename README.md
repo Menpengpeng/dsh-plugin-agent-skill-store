@@ -1,4 +1,4 @@
-﻿# Agent Skill 商店
+# Agent Skill 商店
 
 DSH 插件：把 7 个开源 Agent Skill 合集汇总成一个可检索的中文清单，带收藏、评分、笔记与每日增量同步。
 
@@ -45,7 +45,8 @@ DSH 插件：把 7 个开源 Agent Skill 合集汇总成一个可检索的中文
 
 **详情侧栏**（Esc 或点遮罩关闭）
 - 完整描述、来源合集、原始链接
-- 安装方式，一键复制：
+- **一键安装到 DSH**：确认第三方来源后，只下载所选技能目录及其资源，不执行仓库脚本，也不覆盖已有同名技能。无法确定单个技能目录时，请打开原始链接核对，不会退而安装整个合集。
+- 其他安装方式，一键复制：
   - Anthropic 官方 → `/plugin marketplace add anthropics/skills`
   - 其他 GitHub 仓库 → `npx skills add <owner>/<repo>`
   - 无法判定时提示看 README

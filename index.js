@@ -1,4 +1,4 @@
-﻿// Agent Skill 商店 Host 端：数据集加载、个人数据（收藏/评分/笔记）存储、
+// Agent Skill 商店 Host 端：数据集加载、个人数据（收藏/评分/笔记）存储、
 // HTTP 路由、AI 推荐（LLM 调用）与每日 09:00 增量同步。
 //
 // 设计原则：
@@ -506,6 +506,15 @@ export async function apply(ctx, input) {
 
           if (req.method === 'POST') {
             const body = await requestBody(req);
+
+            if (body.type === 'install-skill') {
+              // 安装目标只取自本机目录，不接受客户端提供的 URL 或文件路径。
+              if (!/^application\/json(?:;|$)/i.test(req.headers['content-type'] || '')) return json(res, 415, { error: '需要 JSON 请求' });
+              const skill = dataset.skills.find(s => s.id === body.skillId);
+              if (!skill) return json(res, 404, { error: '未找到指定技能' });
+              const { installSkill } = await import('./lib/install.js');
+              return json(res, 200, await installSkill(skill));
+            }
 
             if (body.type === 'search') {
               const result = searchSkills(dataset.skills, body);
