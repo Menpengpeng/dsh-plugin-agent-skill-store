@@ -1,0 +1,12 @@
+[
+ {
+  "id": "sk_655988b9af69",
+  "name": "Revenue-Centric Design",
+  "desc": "Playbook of 134 evidence-backed principles for designing SaaS and startup products that convert, retain, and monetize — landing pages & CRO, checkout/forms, dashboards/data viz, onboarding/activation, churn reduction, pricing psychology, behavioral science, feature discipline, positioning/ICP, go-to-market, and AI-era differentiation. Every principle names its mechanism (decoy effect, Zeigarnik, Schwartz awareness levels…) and links back to its source post. Ships with revenue-math scripts (A/B sample size, churn→LTV, CAC per closed deal), an audit output template, per-project memory (rcd-log.m"
+ },
+ {
+  "id": "sk_908fb178d1c6",
+  "name": "Motion Ad",
+  "desc": "Produces a short motion-graphics video ad — a 15s Facebook/Instagram/TikTok spot — as a rendered MP4. Researches the destination landing page so every on-screen claim matches it, pulls real product imagery off the live site, animates one paused GSAP timeline in a single HTML page, and renders it frame-accurately through Playwright and ffmpeg. Ships a finished 15s 4:5 ad as a template (hook + phone → before/after scan reveal → 3D wall of outputs → showcase carousel + proof → CTA end card) whose entire brand and product content lives in one CONFIG object."
+ }
+]

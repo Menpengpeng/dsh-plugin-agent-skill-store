@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "sk_22b176af15a2",
+  "name": "microsoft/azure-keyvault-certificates-rust",
+  "desc": "Key Vault certificate management"
+ },
+ {
+  "id": "sk_6b78ef1cb3ed",
+  "name": "microsoft/azure-keyvault-keys-rust",
+  "desc": "Key Vault cryptographic key management"
+ },
+ {
+  "id": "sk_e96195512c75",
+  "name": "microsoft/azure-keyvault-secrets-rust",
+  "desc": "Key Vault secret storage"
+ },
+ {
+  "id": "sk_6a72f1054200",
+  "name": "microsoft/azure-storage-blob-rust",
+  "desc": "Blob object storage client"
+ },
+ {
+  "id": "sk_ebfa3d536f69",
+  "name": "microsoft/azure-ai-contentsafety-ts",
+  "desc": "Content safety for text and images"
+ },
+ {
+  "id": "sk_3a60a2e6391d",
+  "name": "microsoft/azure-ai-document-intelligence-ts",
+  "desc": "Document text and table extraction"
+ },
+ {
+  "id": "sk_c90a009c90cd",
+  "name": "microsoft/azure-ai-projects-ts",
+  "desc": "AI Foundry project client and agents"
+ },
+ {
+  "id": "sk_f1f93d24f9f8",
+  "name": "microsoft/azure-ai-translation-ts",
+  "desc": "Text and document translation"
+ },
+ {
+  "id": "sk_496571bd2c51",
+  "name": "microsoft/azure-ai-voicelive-ts",
+  "desc": "Real-time bidirectional voice AI"
+ },
+ {
+  "id": "sk_9690b17bc0a9",
+  "name": "microsoft/azure-appconfiguration-ts",
+  "desc": "App config, feature flags, dynamic refresh"
+ },
+ {
+  "id": "sk_e7bfc3251477",
+  "name": "microsoft/azure-cosmos-ts",
+  "desc": "Cosmos DB NoSQL CRUD and queries"
+ },
+ {
+  "id": "sk_b630700d238c",
+  "name": "microsoft/azure-eventhub-ts",
+  "desc": "High-throughput event streaming"
+ },
+ {
+  "id": "sk_36f06807e6ea",
+  "name": "microsoft/azure-identity-ts",
+  "desc": "Microsoft Entra ID authentication"
+ },
+ {
+  "id": "sk_b6466c1df5b0",
+  "name": "microsoft/azure-keyvault-keys-ts",
+  "desc": "Cryptographic key management"
+ },
+ {
+  "id": "sk_0664004edfdd",
+  "name": "microsoft/azure-keyvault-secrets-ts",
+  "desc": "Secret storage and retrieval"
+ },
+ {
+  "id": "sk_8a20ddf253fe",
+  "name": "microsoft/azure-microsoft-playwright-testing-ts",
+  "desc": "Playwright tests at scale on Azure"
+ },
+ {
+  "id": "sk_921371ea51ce",
+  "name": "microsoft/azure-monitor-opentelemetry-ts",
+  "desc": "Application Insights tracing and metrics"
+ },
+ {
+  "id": "sk_fedf5e1fe25d",
+  "name": "microsoft/azure-postgres-ts",
+  "desc": "PostgreSQL Flexible Server connection"
+ },
+ {
+  "id": "sk_3d86b35700e3",
+  "name": "microsoft/azure-search-documents-ts",
+  "desc": "Vector/hybrid search with semantic ranking"
+ },
+ {
+  "id": "sk_1a78f8922b39",
+  "name": "microsoft/azure-servicebus-ts",
+  "desc": "Messaging with queues and topics"
+ },
+ {
+  "id": "sk_e3739dab4f70",
+  "name": "microsoft/azure-storage-blob-ts",
+  "desc": "Blob upload, download, and management"
+ },
+ {
+  "id": "sk_82f587f6128c",
+  "name": "microsoft/azure-storage-file-share-ts",
+  "desc": "SMB file share operations"
+ },
+ {
+  "id": "sk_2551d3f4cfe0",
+  "name": "microsoft/azure-storage-queue-ts",
+  "desc": "Queue message operations"
+ },
+ {
+  "id": "sk_b76d2ac5eddc",
+  "name": "microsoft/azure-web-pubsub-ts",
+  "desc": "Real-time WebSocket pub/sub messaging"
+ },
+ {
+  "id": "sk_397345f30eca",
+  "name": "microsoft/frontend-ui-dark-ts",
+  "desc": "Dark-themed React with Tailwind and animations"
+ },
+ {
+  "id": "sk_5cf9a035174c",
+  "name": "microsoft/m365-agents-ts",
+  "desc": "M365, Teams, and Copilot Studio agents"
+ },
+ {
+  "id": "sk_2391dccd1c18",
+  "name": "microsoft/react-flow-node-ts",
+  "desc": "React Flow node components with Zustand"
+ },
+ {
+  "id": "sk_42a9bad2620a",
+  "name": "microsoft/zustand-store-ts",
+  "desc": "Zustand stores with middleware patterns"
+ },
+ {
+  "id": "sk_492299355b72",
+  "name": "fal-ai-community/fal-3d",
+  "desc": "Generate 3D models from text or images"
+ },
+ {
+  "id": "sk_177cc6268cb4",
+  "name": "fal-ai-community/fal-audio",
+  "desc": "Text-to-speech and speech-to-text using fal.ai audio models"
+ },
+ {
+  "id": "sk_053863e01bdd",
+  "name": "fal-ai-community/fal-generate",
+  "desc": "Generate images and videos using fal.ai AI models"
+ },
+ {
+  "id": "sk_dfde16b12de8",
+  "name": "fal-ai-community/fal-image-edit",
+  "desc": "AI-powered image editing with style transfer and object removal"
+ },
+ {
+  "id": "sk_485e54e97d62",
+  "name": "fal-ai-community/fal-kling-o3",
+  "desc": "Generate images and videos with Kling O3 — Kling's most powerful model family"
+ },
+ {
+  "id": "sk_98d6cdcc4858",
+  "name": "fal-ai-community/fal-lip-sync",
+  "desc": "Create talking head videos and lip sync audio to video"
+ },
+ {
+  "id": "sk_88379b936627",
+  "name": "fal-ai-community/fal-platform",
+  "desc": "Platform APIs for model management, pricing, and usage tracking"
+ },
+ {
+  "id": "sk_4436409fff06",
+  "name": "fal-ai-community/fal-realtime",
+  "desc": "Real-time and streaming AI image generation"
+ },
+ {
+  "id": "sk_07fbeb8d27e6",
+  "name": "fal-ai-community/fal-restore",
+  "desc": "Restore and fix image quality — deblur, denoise, fix faces, restore documents"
+ },
+ {
+  "id": "sk_e64d0ecc1627",
+  "name": "fal-ai-community/fal-train",
+  "desc": "Train custom AI models (LoRA) on fal.ai for personalized image generation"
+ },
+ {
+  "id": "sk_c2346057b5a1",
+  "name": "fal-ai-community/fal-tryon",
+  "desc": "Virtual try-on — see how clothes look on a person"
+ },
+ {
+  "id": "sk_61f209ef696a",
+  "name": "fal-ai-community/fal-upscale",
+  "desc": "Upscale and enhance image and video resolution using AI"
+ },
+ {
+  "id": "sk_8d054d90c2b9",
+  "name": "fal-ai-community/fal-video-edit",
+  "desc": "Edit existing videos using AI — remix style, upscale, remove background, add audio"
+ },
+ {
+  "id": "sk_d6ec48eb0f80",
+  "name": "fal-ai-community/fal-vision",
+  "desc": "Analyze images — segment objects, detect, OCR, describe, visual Q&A"
+ },
+ {
+  "id": "sk_330f18d25235",
+  "name": "fal-ai-community/fal-workflow",
+  "desc": "Generate workflow JSON files for chaining AI models"
+ },
+ {
+  "id": "sk_548457f66d84",
+  "name": "WordPress/wordpress-router",
+  "desc": "Classifies WordPress repos and routes to the right workflow"
+ },
+ {
+  "id": "sk_a3c95d58fdf8",
+  "name": "WordPress/wp-project-triage",
+  "desc": "Detects project type, tooling, and versions automatically"
+ },
+ {
+  "id": "sk_595ba184e8b1",
+  "name": "WordPress/wp-block-development",
+  "desc": "Gutenberg blocks: block.json, attributes, rendering, deprecations"
+ },
+ {
+  "id": "sk_0aa65b3dac52",
+  "name": "WordPress/wp-block-themes",
+  "desc": "Block themes: theme.json, templates, patterns, style variations"
+ },
+ {
+  "id": "sk_a73c4fe830cd",
+  "name": "WordPress/wp-plugin-development",
+  "desc": "Plugin architecture, hooks, settings API, security"
+ },
+ {
+  "id": "sk_412407bea6f9",
+  "name": "WordPress/wp-rest-api",
+  "desc": "REST API routes/endpoints, schema, auth, and response shaping"
+ },
+ {
+  "id": "sk_abed7f600fec",
+  "name": "WordPress/wp-interactivity-api",
+  "desc": "Frontend interactivity with data-wp- directives and stores"
+ },
+ {
+  "id": "sk_877d16146608",
+  "name": "WordPress/wp-abilities-api",
+  "desc": "Capability-based permissions and REST API authentication"
+ },
+ {
+  "id": "sk_484012c12874",
+  "name": "WordPress/wp-wpcli-and-ops",
+  "desc": "WP-CLI commands, automation, multisite, search-replace"
+ },
+ {
+  "id": "sk_d1a8399edb59",
+  "name": "WordPress/wp-performance",
+  "desc": "Profiling, caching, database optimization, Server-Timing"
+ },
+ {
+  "id": "sk_37d35cd04241",
+  "name": "WordPress/wp-phpstan",
+  "desc": "PHPStan static analysis for WordPress projects"
+ },
+ {
+  "id": "sk_a7eb6fcfd355",
+  "name": "WordPress/wp-playground",
+  "desc": "WordPress Playground for instant local environments"
+ },
+ {
+  "id": "sk_3bc4a56b394f",
+  "name": "WordPress/wpds",
+  "desc": "WordPress Design System"
+ },
+ {
+  "id": "sk_ae391085ff50",
+  "name": "openai/cloudflare-deploy",
+  "desc": "Deploy apps to Cloudflare using Workers, Pages, and platform services"
+ },
+ {
+  "id": "sk_d419e1a604bc",
+  "name": "openai/doc",
+  "desc": "Read, create, and edit .docx documents with formatting and layout fidelity"
+ },
+ {
+  "id": "sk_981a967e11d4",
+  "name": "openai/gh-address-comments",
+  "desc": "Address review and issue comments on open GitHub PRs via CLI"
+ },
+ {
+  "id": "sk_ff73ec93a8fc",
+  "name": "openai/gh-fix-ci",
+  "desc": "Debug and fix failing GitHub Actions PR checks using log inspection"
+ },
+ {
+  "id": "sk_803b8fe228b9",
+  "name": "openai/imagegen",
+  "desc": "Generate and edit images using OpenAI's Image API for projects"
+ },
+ {
+  "id": "sk_9195470e12ea",
+  "name": "openai/jupyter-notebook",
+  "desc": "Create clean, reproducible Jupyter notebooks for experiments and tutorials"
+ },
+ {
+  "id": "sk_c2b72a4c1ea9",
+  "name": "openai/linear",
+  "desc": "Manage issues, projects, and team workflows in Linear"
+ },
+ {
+  "id": "sk_5ed3701bd554",
+  "name": "openai/netlify-deploy",
+  "desc": "Automate Netlify deployments with CLI auth, linking, and environment support"
+ },
+ {
+  "id": "sk_ac77317d5ed3",
+  "name": "openai/notion-knowledge-capture",
+  "desc": "Convert conversations into structured, searchable Notion wiki entries"
+ },
+ {
+  "id": "sk_14d21acd50e7",
+  "name": "openai/notion-meeting-intelligence",
+  "desc": "Prep meetings by pulling Notion context and tailoring agendas"
+ },
+ {
+  "id": "sk_d07cc985c035",
+  "name": "openai/notion-research-documentation",
+  "desc": "Research Notion content and synthesize findings into structured briefs"
+ },
+ {
+  "id": "sk_c6321af8adfc",
+  "name": "openai/notion-spec-to-implementation",
+  "desc": "Convert Notion specs into linked implementation plans and tasks"
+ },
+ {
+  "id": "sk_494a85bb4ced",
+  "name": "openai/openai-docs",
+  "desc": "Provide authoritative guidance from OpenAI developer documentation"
+ },
+ {
+  "id": "sk_c4927f76053f",
+  "name": "openai/pdf",
+  "desc": "Read, create, and review PDFs with layout and visual formatting integrity"
+ },
+ {
+  "id": "sk_eadf31c3d1b0",
+  "name": "openai/playwright",
+  "desc": "Automate real browser interactions for navigation, forms, and scraping"
+ },
+ {
+  "id": "sk_737d622fb38d",
+  "name": "openai/render-deploy",
+  "desc": "Deploy applications to Render's cloud platform using Git-backed services"
+ },
+ {
+  "id": "sk_354b3cab9566",
+  "name": "openai/screenshot",
+  "desc": "Capture desktop, app windows, or pixel regions across OS platforms"
+ },
+ {
+  "id": "sk_33cfb062dbf2",
+  "name": "openai/security-best-practices",
+  "desc": "Review code for language-specific security vulnerabilities"
+ },
+ {
+  "id": "sk_cc9739b542f0",
+  "name": "openai/security-ownership-map",
+  "desc": "Map people-to-file ownership, compute bus factor, and identify risks"
+ },
+ {
+  "id": "sk_bbc0aaaa3a13",
+  "name": "openai/security-threat-model",
+  "desc": "Generate repo-specific threat models identifying trust boundaries"
+ },
+ {
+  "id": "sk_56984c63ed02",
+  "name": "openai/sentry",
+  "desc": "Inspect Sentry issues, summarize production errors, and pull health data"
+ },
+ {
+  "id": "sk_61a90716c6a7",
+  "name": "openai/sora",
+  "desc": "Generate, remix, and manage short video clips via OpenAI's Sora API"
+ },
+ {
+  "id": "sk_e45bac1f4408",
+  "name": "openai/speech",
+  "desc": "Generate spoken audio from text using OpenAI's API with built-in voices"
+ },
+ {
+  "id": "sk_56d7d72a4008",
+  "name": "openai/spreadsheet",
+  "desc": "Create, edit, analyze, and visualize spreadsheets with formulas"
+ },
+ {
+  "id": "sk_52f424fa2e1c",
+  "name": "openai/transcribe",
+  "desc": "Transcribe audio files to text with optional speaker diarization"
+ },
+ {
+  "id": "sk_055a658cd6f7",
+  "name": "openai/vercel-deploy",
+  "desc": "Deploy applications and websites to Vercel with preview or production options"
+ },
+ {
+  "id": "sk_634f3f4fe5d9",
+  "name": "openai/yeet",
+  "desc": "Stage, commit, push code, and open a GitHub pull request via CLI"
+ },
+ {
+  "id": "sk_f5e4054bdbdf",
+  "name": "openai/aspnet-core",
+  "desc": "Build, review, and architect ASP.NET Core apps (Blazor, MVC, Minimal APIs, etc.)"
+ },
+ {
+  "id": "sk_3bbaa30b4f88",
+  "name": "openai/chatgpt-apps",
+  "desc": "Build, scaffold, and troubleshoot ChatGPT Apps SDK apps with MCP server and widget UI"
+ },
+ {
+  "id": "sk_b061830293b3",
+  "name": "openai/figma",
+  "desc": "Use the Figma MCP server to fetch design context and translate nodes into production code"
+ },
+ {
+  "id": "sk_a0350f169238",
+  "name": "openai/figma-code-connect-components",
+  "desc": "Connect Figma design components to code components using Code Connect"
+ },
+ {
+  "id": "sk_27dc34f2e016",
+  "name": "openai/figma-create-design-system-rules",
+  "desc": "Rules for implementing Figma designs using the Figma MCP server"
+ },
+ {
+  "id": "sk_3ee00fd70108",
+  "name": "openai/figma-create-new-file",
+  "desc": "Create a new blank Figma file or FigJam file"
+ },
+ {
+  "id": "sk_13e49d9016e7",
+  "name": "openai/figma-generate-design",
+  "desc": "Translate app pages and layouts into Figma using design system tokens"
+ },
+ {
+  "id": "sk_4692df230b83",
+  "name": "openai/figma-generate-library",
+  "desc": "Build or update a professional-grade design system in Figma from a codebase"
+ },
+ {
+  "id": "sk_b6d57fbaab32",
+  "name": "openai/figma-implement-design",
+  "desc": "Translate Figma designs into production-ready code with 1:1 visual fidelity"
+ },
+ {
+  "id": "sk_60711bb8629b",
+  "name": "openai/figma-use",
+  "desc": "Prerequisite skill for every usefigma tool call — write/read actions in Figma context"
+ },
+ {
+  "id": "sk_b35c22e2c36c",
+  "name": "openai/playwright-interactive",
+  "desc": "Persistent browser and Electron interaction via jsrepl for iterative UI debugging"
+ },
+ {
+  "id": "sk_40fc00e042f8",
+  "name": "openai/slides",
+  "desc": "Create and edit .pptx presentation decks with PptxGenJS"
+ },
+ {
+  "id": "sk_68b508597263",
+  "name": "openai/winui-app",
+  "desc": "Bootstrap and develop modern WinUI 3 desktop apps with C# and Windows App SDK"
+ },
+ {
+  "id": "sk_31290b7c2b8b",
+  "name": "figma/figma-code-connect-components",
+  "desc": "Connect Figma design components to code components using Code Connect"
+ },
+ {
+  "id": "sk_9ce5e677b9a4",
+  "name": "figma/figma-create-design-system-rules",
+  "desc": "Generate project-specific design system rules for Figma-to-code workflows"
+ },
+ {
+  "id": "sk_b802556360d3",
+  "name": "figma/figma-create-new-file",
+  "desc": "Create a new blank Figma Design or FigJam file"
+ },
+ {
+  "id": "sk_a1f72010e5da",
+  "name": "figma/figma-generate-design",
+  "desc": "Build or update screens in Figma from code or description using design system components"
+ },
+ {
+  "id": "sk_5ead704d40db",
+  "name": "figma/figma-generate-library",
+  "desc": "Build or update a design system library in Figma from a codebase"
+ },
+ {
+  "id": "sk_566ae40f3e8d",
+  "name": "figma/figma-implement-design",
+  "desc": "Translate Figma designs into production-ready application code with 1:1 fidelity"
+ },
+ {
+  "id": "sk_19555a51e736",
+  "name": "figma/figma-use",
+  "desc": "Run Figma Plugin API scripts for canvas writes, inspections, variables, and design-system work"
+ },
+ {
+  "id": "sk_8866914f7aef",
+  "name": "coreyhaines31/ab-testing",
+  "desc": "Plan and implement A/B tests or experiments for any digital experience"
+ },
+ {
+  "id": "sk_bd94dce86981",
+  "name": "coreyhaines31/ad-creative",
+  "desc": "Generate and iterate ad creative including headlines, descriptions, and primary text"
+ },
+ {
+  "id": "sk_1917b2ce9aba",
+  "name": "coreyhaines31/ai-seo",
+  "desc": "Optimize content to appear in AI-generated answers and LLM search results"
+ },
+ {
+  "id": "sk_1cd893a66ffb",
+  "name": "coreyhaines31/analytics",
+  "desc": "Set up and audit analytics tracking and measurement pipelines"
+ },
+ {
+  "id": "sk_728f2670c5ae",
+  "name": "coreyhaines31/churn-prevention",
+  "desc": "Build cancellation flows, save offers, and recover failed payments"
+ },
+ {
+  "id": "sk_a8ecb5a9aca0",
+  "name": "coreyhaines31/cold-email",
+  "desc": "Write B2B cold emails and follow-up sequences that convert"
+ },
+ {
+  "id": "sk_38b321e8dc49",
+  "name": "coreyhaines31/competitors",
+  "desc": "Build competitor comparison and alternative landing pages for SEO"
+ },
+ {
+  "id": "sk_41bfe78f260e",
+  "name": "coreyhaines31/content-strategy",
+  "desc": "Plan content strategy and decide what topics and formats to prioritize"
+ },
+ {
+  "id": "sk_594377e5f471",
+  "name": "coreyhaines31/copy-editing",
+  "desc": "Edit and improve existing marketing copy for clarity and impact"
+ },
+ {
+  "id": "sk_db074d4c5ab9",
+  "name": "coreyhaines31/copywriting",
+  "desc": "Write and rewrite marketing copy for landing pages, homepages, and ads"
+ },
+ {
+  "id": "sk_ea7651c5e49c",
+  "name": "coreyhaines31/emails",
+  "desc": "Build email sequences, drip campaigns, and lifecycle email flows"
+ },
+ {
+  "id": "sk_5334db21d35b",
+  "name": "coreyhaines31/free-tools",
+  "desc": "Plan and build free tools for lead generation and SEO value"
+ },
+ {
+  "id": "sk_b8b6033f7bb0",
+  "name": "coreyhaines31/launch",
+  "desc": "Plan product launches, feature announcements, and go-to-market strategies"
+ },
+ {
+  "id": "sk_3f637a88bcb6",
+  "name": "coreyhaines31/marketing-ideas",
+  "desc": "Generate marketing strategies and campaign ideas for SaaS products"
+ },
+ {
+  "id": "sk_82130fadfd10",
+  "name": "coreyhaines31/marketing-psychology",
+  "desc": "Apply psychological principles and behavioral science to copy and design"
+ },
+ {
+  "id": "sk_fc25359a993c",
+  "name": "coreyhaines31/onboarding",
+  "desc": "Optimize post-signup onboarding and user activation to improve time-to-value"
+ },
+ {
+  "id": "sk_6ca9837b4990",
+  "name": "coreyhaines31/cro",
+  "desc": "Improve conversion rates on any marketing page or form, including homepages, landing pages, and contact forms"
+ },
+ {
+  "id": "sk_e620d4c76885",
+  "name": "coreyhaines31/ads",
+  "desc": "Create and optimize paid campaigns on Google, Meta, LinkedIn, and more"
+ },
+ {
+  "id": "sk_2e826d65e135",
+  "name": "coreyhaines31/paywalls",
+  "desc": "Design and optimize upgrade screens, paywalls, and upsell modals"
+ },
+ {
+  "id": "sk_dac414d01c49",
+  "name": "coreyhaines31/popups",
+  "desc": "Create and optimize popups, modals, and slide-ins for conversions"
+ },
+ {
+  "id": "sk_6e4ee9e99e9f",
+  "name": "coreyhaines31/pricing",
+  "desc": "Define pricing, packaging, and monetization strategy for SaaS products"
+ },
+ {
+  "id": "sk_1e00a865989f",
+  "name": "coreyhaines31/product-marketing",
+  "desc": "Create and maintain a product marketing context document for consistent messaging"
+ },
+ {
+  "id": "sk_650393951dd0",
+  "name": "coreyhaines31/programmatic-seo",
+  "desc": "Build SEO-driven page templates for large-scale content generation"
+ },
+ {
+  "id": "sk_32693b015ca8",
+  "name": "coreyhaines31/referrals",
+  "desc": "Design and optimize referral, affiliate, and word-of-mouth programs"
+ },
+ {
+  "id": "sk_829a30b7f462",
+  "name": "coreyhaines31/revops",
+  "desc": "Streamline revenue operations, lead lifecycle, and marketing-to-sales handoff"
+ },
+ {
+  "id": "sk_08bc6b8a389f",
+  "name": "coreyhaines31/sales-enablement",
+  "desc": "Create pitch decks, one-pagers, objection handling docs, and demo scripts"
+ },
+ {
+  "id": "sk_58dfddaeeae4",
+  "name": "coreyhaines31/schema",
+  "desc": "Add and optimize schema markup and structured data for better SEO"
+ },
+ {
+  "id": "sk_ccabb3d0df57",
+  "name": "coreyhaines31/seo-audit",
+  "desc": "Audit and diagnose technical and on-page SEO issues on a site"
+ },
+ {
+  "id": "sk_fa613a4ec44a",
+  "name": "coreyhaines31/signup",
+  "desc": "Optimize signup, registration, and trial activation flows for higher conversion"
+ },
+ {
+  "id": "sk_53301c174d1e",
+  "name": "coreyhaines31/site-architecture",
+  "desc": "Plan and restructure page hierarchy, navigation, and URL structure"
+ },
+ {
+  "id": "sk_f431b5828e3e",
+  "name": "coreyhaines31/social",
+  "desc": "Create and schedule social media content for LinkedIn, Twitter/X, and Instagram"
+ },
+ {
+  "id": "sk_fd2c0e9d50c7",
+  "name": "realkimbarrett/avatar-extraction",
+  "desc": "Define exactly who the buyer is, what they want, what they've tried, and what's driving their decisions"
+ },
+ {
+  "id": "sk_ae546ecc1e81",
+  "name": "realkimbarrett/offer-extraction",
+  "desc": "Turn a product or service into a compelling, high-converting offer"
+ },
+ {
+  "id": "sk_f00d5802183b",
+  "name": "realkimbarrett/schwartz-awareness-mapper",
+  "desc": "Determine audience awareness level and the correct messaging approach"
+ },
+ {
+  "id": "sk_60fa3e24eb8d",
+  "name": "realkimbarrett/mechanism-builder",
+  "desc": "Explain why your solution works and others failed with a unique mechanism"
+ },
+ {
+  "id": "sk_db71abc6c58b",
+  "name": "realkimbarrett/headline-matrix",
+  "desc": "Generate high-performing headline variations across different angles"
+ },
+ {
+  "id": "sk_d966884071ff",
+  "name": "realkimbarrett/objection-crusher",
+  "desc": "Identify and neutralize buyer objections and hesitation"
+ },
+ {
+  "id": "sk_6a7acd3e365d",
+  "name": "realkimbarrett/ad-angle-multiplier",
+  "desc": "Expand a core idea into multiple distinct ad angles for creative testing"
+ },
+ {
+  "id": "sk_578e520dae44",
+  "name": "realkimbarrett/scroll-stopping-creative",
+  "desc": "Create ad concepts that stop attention in the first 3 seconds"
+ },
+ {
+  "id": "sk_974fa7af9175",
+  "name": "realkimbarrett/conversion-path-builder",
+  "desc": "Design the optimal funnel from click to conversion and booked calls"
+ },
+ {
+  "id": "sk_b69fca6e1ff8",
+  "name": "realkimbarrett/performance-diagnosis",
+  "desc": "Diagnose why campaigns are underperforming — low conversion, high CPL, bad ads"
+ },
+ {
+  "id": "sk_37088f1e4e00",
+  "name": "realkimbarrett/full-funnel-campaign-orchestrator",
+  "desc": "Coordinate all skills to build a complete ads + funnel campaign end-to-end"
+ },
+ {
+  "id": "sk_292cd3ab5227",
+  "name": "realkimbarrett/generic-language-killer",
+  "desc": "Remove vague, corporate, or AI-sounding language and replace it with clear, specific, human wording"
+ },
+ {
+  "id": "sk_2139d23005d7",
+  "name": "binance/crypto-market-rank",
+  "desc": "Query crypto market rankings including trending tokens, smart money inflows, meme rankings, and top trader PnL leaderboards"
+ },
+ {
+  "id": "sk_cc8262ddb24d",
+  "name": "binance/meme-rush",
+  "desc": "Track real-time meme token lists from launchpads (Pump.fun, Four.meme) and AI-powered hot market topics ranked by net inflow"
+ },
+ {
+  "id": "sk_9e67eace1b31",
+  "name": "binance/query-address-info",
+  "desc": "Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana"
+ },
+ {
+  "id": "sk_60041be2efd7",
+  "name": "binance/query-token-audit",
+  "desc": "Audit token security to detect scams, honeypots, and malicious contracts across BSC, Base, Solana, and Ethereum"
+ },
+ {
+  "id": "sk_4a2288b2d5ae",
+  "name": "binance/query-token-info",
+  "desc": "Search tokens and fetch metadata, real-time market data, and K-Line candlestick charts by keyword or contract address"
+ },
+ {
+  "id": "sk_b5dc9258909c",
+  "name": "binance/trading-signal",
+  "desc": "Monitor on-chain Smart Money buy/sell signals with price, max gain, and exit rate data on Solana and BSC"
+ },
+ {
+  "id": "sk_7e653523e7d1",
+  "name": "binance/spot",
+  "desc": "Place and manage spot trading orders on Binance via API key authentication, supporting mainnet and testnet"
+ },
+ {
+  "id": "sk_d3100fedef77",
+  "name": "apollographql/apollo-client",
+  "desc": "Build React applications with Apollo Client 4"
+ },
+ {
+  "id": "sk_9fbaf4c2ed09",
+  "name": "apollographql/apollo-connectors",
+  "desc": "Integrate REST APIs into GraphQL supergraphs using Apollo Connectors"
+ },
+ {
+  "id": "sk_4262acafe06d",
+  "name": "apollographql/apollo-federation",
+  "desc": "Write Apollo Federation 2 subgraph schemas and compose them into a supergraph"
+ },
+ {
+  "id": "sk_463088169464",
+  "name": "apollographql/apollo-kotlin",
+  "desc": "A GraphQL client for Android, JVM, and Kotlin Multiplatform projects"
+ },
+ {
+  "id": "sk_0cbf88356f33",
+  "name": "apollographql/apollo-mcp-server",
+  "desc": "Connect AI agents to GraphQL APIs through the Model Context Protocol"
+ },
+ {
+  "id": "sk_cb0b6c84df06",
+  "name": "apollographql/apollo-router",
+  "desc": "Version-aware configuration generator for the Rust-based Apollo Router"
+ },
+ {
+  "id": "sk_45458c707567",
+  "name": "apollographql/apollo-router-plugin-creator",
+  "desc": "Write native Rust plugins for Apollo Router"
+ },
+ {
+  "id": "sk_59d7f6e72c1c",
+  "name": "apollographql/apollo-server",
+  "desc": "Build GraphQL servers using Apollo Server 5"
+ },
+ {
+  "id": "sk_6d0709998e6e",
+  "name": "apollographql/graphql-operations",
+  "desc": "Write GraphQL queries, mutations, and subscriptions following best practices"
+ },
+ {
+  "id": "sk_d4089110d0a0",
+  "name": "apollographql/graphql-schema",
+  "desc": "Reference guide for designing clean, evolvable GraphQL schemas"
+ },
+ {
+  "id": "sk_0a3bb53087d8",
+  "name": "apollographql/rover",
+  "desc": "CLI tool for managing GraphQL schemas in Apollo GraphOS"
+ },
+ {
+  "id": "sk_7dab1477b122",
+  "name": "apollographql/rust-best-practices",
+  "desc": "Rust coding guidelines drawn from Apollo GraphQL's internal handbook"
+ },
+ {
+  "id": "sk_dda1f5a63333",
+  "name": "apollographql/skill-creator",
+  "desc": "Create and structure Agent Skills focused on Apollo GraphQL"
+ },
+ {
+  "id": "sk_f99d92101992",
+  "name": "auth0/auth0-android",
+  "desc": "Add authentication to native Android apps using the Auth0 SDK"
+ },
+ {
+  "id": "sk_051534644fe7",
+  "name": "auth0/auth0-angular",
+  "desc": "Add authentication to Angular apps using @auth0/auth0-angular"
+ },
+ {
+  "id": "sk_aa7b9fc4bf2c",
+  "name": "auth0/auth0-aspnetcore-api",
+  "desc": "Add JWT access token validation to ASP.NET Core APIs"
+ },
+ {
+  "id": "sk_71659109d27b",
+  "name": "auth0/auth0-express",
+  "desc": "Add session-based authentication to Express.js apps"
+ },
+ {
+  "id": "sk_13e9f3ba01c5",
+  "name": "auth0/auth0-fastify",
+  "desc": "Add session-based authentication to Fastify web apps"
+ },
+ {
+  "id": "sk_95e8ba40d2f2",
+  "name": "auth0/auth0-fastify-api",
+  "desc": "Secure Fastify API endpoints with JWT Bearer token validation"
+ },
+ {
+  "id": "sk_e3478a7411b7",
+  "name": "auth0/auth0-mfa",
+  "desc": "Add Multi-Factor Authentication to Auth0-powered apps"
+ },
+ {
+  "id": "sk_67e7d40dcd78",
+  "name": "auth0/auth0-migration",
+  "desc": "Migrate users and auth flows from other providers to Auth0"
+ },
+ {
+  "id": "sk_bc5234d7751e",
+  "name": "auth0/auth0-nextjs",
+  "desc": "Add authentication to Next.js apps"
+ },
+ {
+  "id": "sk_f45655029cfa",
+  "name": "auth0/auth0-nuxt",
+  "desc": "Add Auth0 authentication to Nuxt 3/4 apps with encrypted cookie sessions"
+ },
+ {
+  "id": "sk_e2b0a5881219",
+  "name": "auth0/auth0-quickstart",
+  "desc": "Detect your framework and scaffold Auth0 integration automatically"
+ },
+ {
+  "id": "sk_770908b7b0b6",
+  "name": "auth0/auth0-react",
+  "desc": "Add authentication to React SPAs using @auth0/auth0-react"
+ },
+ {
+  "id": "sk_abeb3fbbecf2",
+  "name": "auth0/auth0-react-native",
+  "desc": "Add authentication to React Native and Expo mobile apps"
+ },
+ {
+  "id": "sk_9be7f36f54d4",
+  "name": "auth0/auth0-vue",
+  "desc": "Add authentication to Vue.js apps"
+ },
+ {
+  "id": "sk_fda5a9ec3dc5",
+  "name": "brave/answers",
+  "desc": "AI-generated answers grounded in live web search results"
+ },
+ {
+  "id": "sk_b4695431ee32",
+  "name": "brave/bx",
+  "desc": "CLI tool for web search built for AI agents"
+ },
+ {
+  "id": "sk_0fdcba3356d7",
+  "name": "brave/images-search",
+  "desc": "Search for images using the Brave Search API"
+ },
+ {
+  "id": "sk_5cc0aef4169f",
+  "name": "brave/llm-context",
+  "desc": "Return pre-extracted web content (text, tables, code) from Brave Search"
+ },
+ {
+  "id": "sk_4f96ef1606f2",
+  "name": "brave/local-descriptions",
+  "desc": "Fetch AI-generated text descriptions for points of interest"
+ },
+ {
+  "id": "sk_de92d88bea9e",
+  "name": "brave/local-pois",
+  "desc": "Retrieve detailed local business and POI information"
+ },
+ {
+  "id": "sk_442e4193d72c",
+  "name": "brave/news-search",
+  "desc": "Search Brave's news index with article metadata"
+ },
+ {
+  "id": "sk_b78dcadd03d5",
+  "name": "brave/spellcheck",
+  "desc": "Check search queries for spelling errors and get corrections"
+ },
+ {
+  "id": "sk_03ed56fb4482",
+  "name": "brave/suggest",
+  "desc": "Query autocomplete suggestions via the Brave Search API"
+ },
+ {
+  "id": "sk_f98acf9463c6",
+  "name": "brave/videos-search",
+  "desc": "Search for videos across the web via the Brave Search API"
+ },
+ {
+  "id": "sk_2d935361fb21",
+  "name": "brave/web-search",
+  "desc": "Search the web via Brave's Search API with ranked results"
+ },
+ {
+  "id": "sk_0ec9700e0b67",
+  "name": "browserbase/browser",
+  "desc": "Automate web browser interactions through natural language CLI commands"
+ },
+ {
+  "id": "sk_d2e447386133",
+  "name": "browserbase/browserbase-cli",
+  "desc": "CLI wrapper around the Browserbase platform"
+ },
+ {
+  "id": "sk_cd1ec235a97c",
+  "name": "browserbase/cookie-sync",
+  "desc": "Export cookies from local Chrome into a Browserbase persistent context"
+ },
+ {
+  "id": "sk_453b28a089f2",
+  "name": "browserbase/fetch",
+  "desc": "Fetch HTML, JSON, headers, and status codes through the Browserbase API"
+ },
+ {
+  "id": "sk_8685719b358f",
+  "name": "browserbase/functions",
+  "desc": "Deploy browser automation scripts as serverless cloud functions"
+ },
+ {
+  "id": "sk_374c5efd8ecb",
+  "name": "browserbase/search",
+  "desc": "Search the web via the Browserbase API with structured results"
+ },
+ {
+  "id": "sk_0dcd7f7c2f3c",
+  "name": "browserbase/ui-test",
+  "desc": "Run adversarial UI tests by analyzing git diffs in a real browser"
+ },
+ {
+  "id": "sk_79a725fd329d",
+  "name": "coderabbitai/autofix",
+  "desc": "Fetch unresolved CodeRabbit review comments from GitHub PRs and apply fixes"
+ },
+ {
+  "id": "sk_6110997b55f6",
+  "name": "coderabbitai/code-review",
+  "desc": "Run AI-powered code reviews through the CodeRabbit CLI"
+ }
+]

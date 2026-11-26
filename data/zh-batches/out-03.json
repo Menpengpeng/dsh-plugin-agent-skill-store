@@ -1,0 +1,802 @@
+﻿[
+ {
+  "id": "sk_8321a56a81cf",
+  "zh": "在 Key Vault 中管理证书的申请、续期与吊销"
+ },
+ {
+  "id": "sk_d5e9115bf5a3",
+  "zh": "在 Key Vault 中管理加密密钥的生成与轮换"
+ },
+ {
+  "id": "sk_8c497e6652b9",
+  "zh": "在 Key Vault 中存取机密信息并控制访问权限"
+ },
+ {
+  "id": "sk_4d41c4b6727b",
+  "zh": "Blob 对象存储的 Rust 客户端与读写操作示例"
+ },
+ {
+  "id": "sk_87eb50ae4722",
+  "zh": "对文本与图片做内容安全检测并给出风险等级"
+ },
+ {
+  "id": "sk_92dd86d2d0f2",
+  "zh": "从文档中提取文本与表格并保留原有版面结构"
+ },
+ {
+  "id": "sk_c9bf974dc20a",
+  "zh": "AI Foundry 项目客户端与 agent 的用法"
+ },
+ {
+  "id": "sk_28c38b3d1153",
+  "zh": "翻译文本与整份文档，支持多种目标语言与术语表"
+ },
+ {
+  "id": "sk_da8f809d8e28",
+  "zh": "实现双向实时的语音 AI 交互与低延迟响应"
+ },
+ {
+  "id": "sk_5feed5d23620",
+  "zh": "管理应用配置、功能开关与配置的动态刷新机制"
+ },
+ {
+  "id": "sk_2e7426d8a35f",
+  "zh": "对 Cosmos DB NoSQL 做增删改查与查询"
+ },
+ {
+  "id": "sk_d680adace628",
+  "zh": "高吞吐的事件流式传输、分区消费与位点管理"
+ },
+ {
+  "id": "sk_07950e39c696",
+  "zh": "接入 Microsoft Entra ID 完成身份认证"
+ },
+ {
+  "id": "sk_ff8b0fb6221e",
+  "zh": "在 Key Vault 中管理加密密钥的生成与轮换"
+ },
+ {
+  "id": "sk_5fa6d1a74303",
+  "zh": "存取 Key Vault 中的机密信息及其版本"
+ },
+ {
+  "id": "sk_ce2480d357c5",
+  "zh": "在 Azure 上大规模运行 Playwright 测试"
+ },
+ {
+  "id": "sk_825531ced2a6",
+  "zh": "接入 Application Insights 做链路追踪与指标上报"
+ },
+ {
+  "id": "sk_dd45230fea57",
+  "zh": "连接 PostgreSQL Flexible Server 并处理连接串与池化"
+ },
+ {
+  "id": "sk_649cdbdc86d9",
+  "zh": "支持语义排序的向量检索与混合检索查询方式"
+ },
+ {
+  "id": "sk_1709febed164",
+  "zh": "基于队列与主题的消息传递、消费与重试处理"
+ },
+ {
+  "id": "sk_f2af4489b2cc",
+  "zh": "上传、下载并管理 Blob 对象的生命周期"
+ },
+ {
+  "id": "sk_37c6cab22a1b",
+  "zh": "进行 SMB 文件共享的读写、目录操作与配额管理"
+ },
+ {
+  "id": "sk_a3b1e9041c01",
+  "zh": "对队列消息进行发送、接收、查看与删除处理"
+ },
+ {
+  "id": "sk_37abbb7031d3",
+  "zh": "基于 WebSocket 的实时发布订阅消息"
+ },
+ {
+  "id": "sk_f5a9449811f7",
+  "zh": "用 Tailwind 与动画实现深色主题的 React 界面"
+ },
+ {
+  "id": "sk_6c96daf3c73d",
+  "zh": "构建 M365、Teams 与 Copilot Studio 中的 agent"
+ },
+ {
+  "id": "sk_ae0f50e0ff31",
+  "zh": "用 Zustand 管理状态来编写 React Flow 节点组件"
+ },
+ {
+  "id": "sk_dd94bf5412c1",
+  "zh": "编写带中间件模式的 Zustand 状态仓库"
+ },
+ {
+  "id": "sk_0cb8b762f50e",
+  "zh": "从文本或图片生成可直接使用的 3D 模型"
+ },
+ {
+  "id": "sk_67681bd5889e",
+  "zh": "使用 fal.ai 的音频模型做语音合成与语音识别"
+ },
+ {
+  "id": "sk_8de7f5d971db",
+  "zh": "使用 fal.ai 的模型生成图片与视频"
+ },
+ {
+  "id": "sk_542f23ec03c7",
+  "zh": "AI 图像编辑，支持风格迁移与画面物体移除"
+ },
+ {
+  "id": "sk_35fedc51a30e",
+  "zh": "用 Kling 最强的 O3 模型系列生成图片与视频"
+ },
+ {
+  "id": "sk_6047d174ce4d",
+  "zh": "生成口型同步的说话人头视频，把音频对到视频上"
+ },
+ {
+  "id": "sk_6b7ac3fac511",
+  "zh": "平台接口，用于模型管理、定价与用量统计查询"
+ },
+ {
+  "id": "sk_b369a16dfae7",
+  "zh": "实时与流式的 AI 图像生成，边生成边返回"
+ },
+ {
+  "id": "sk_d0f3e90ffacc",
+  "zh": "修复画质，含去模糊、降噪、修脸与文档修复"
+ },
+ {
+  "id": "sk_473343a80255",
+  "zh": "在 fal.ai 上训练 LoRA 自定义模型，实现个性化图像生成"
+ },
+ {
+  "id": "sk_aace3dd75b57",
+  "zh": "虚拟试衣，查看衣服穿在人身上的真实效果与贴合度"
+ },
+ {
+  "id": "sk_bf221b8c8169",
+  "zh": "用 AI 提升图片与视频的分辨率并改善画质"
+ },
+ {
+  "id": "sk_7c57df811eb9",
+  "zh": "用 AI 编辑已有视频，含风格重制、超分、去背与配音"
+ },
+ {
+  "id": "sk_dbf71cbce695",
+  "zh": "图像分析，含分割、检测、文字识别、描述与视觉问答"
+ },
+ {
+  "id": "sk_04863f5ee9a1",
+  "zh": "生成用于串联多个 AI 模型的工作流 JSON 文件"
+ },
+ {
+  "id": "sk_5a9bbde44e8c",
+  "zh": "识别 WordPress 仓库类型并路由到对应工作流"
+ },
+ {
+  "id": "sk_ef4f21191f23",
+  "zh": "自动识别 WordPress 项目类型、工具链与版本"
+ },
+ {
+  "id": "sk_d46f8a8a2fbd",
+  "zh": "开发 Gutenberg 区块，含 block.json、属性、渲染与弃用处理"
+ },
+ {
+  "id": "sk_5fe8c9c1883f",
+  "zh": "开发区块主题，含 theme.json、模板、样板与样式变体"
+ },
+ {
+  "id": "sk_302908b274cd",
+  "zh": "WordPress 插件架构、钩子、设置 API 与安全写法"
+ },
+ {
+  "id": "sk_d472049f1f98",
+  "zh": "WordPress REST API 的路由、端点、schema、认证与响应结构"
+ },
+ {
+  "id": "sk_96073d7e596e",
+  "zh": "用 data-wp- 指令与状态仓库实现前台交互"
+ },
+ {
+  "id": "sk_bce3d5a86ea2",
+  "zh": "基于能力的权限控制与 REST API 认证"
+ },
+ {
+  "id": "sk_9cf562254ac8",
+  "zh": "WP-CLI 命令、自动化、多站点与搜索替换"
+ },
+ {
+  "id": "sk_9feb9053c368",
+  "zh": "性能剖析、缓存、数据库优化与 Server-Timing"
+ },
+ {
+  "id": "sk_f57c3b8c2267",
+  "zh": "对 WordPress 项目做 PHPStan 静态分析"
+ },
+ {
+  "id": "sk_4d8d897d116c",
+  "zh": "用 WordPress Playground 秒级搭起本地环境"
+ },
+ {
+  "id": "sk_970f7b2d0935",
+  "zh": "WordPress 官方设计系统的组件与用法规约"
+ },
+ {
+  "id": "sk_7bb6b5a8bded",
+  "zh": "用 Workers、Pages 及平台服务把应用部署到 Cloudflare"
+ },
+ {
+  "id": "sk_20ecbda054b6",
+  "zh": "读写 .docx 文档并保持格式与版式一致"
+ },
+ {
+  "id": "sk_18a3bab7e085",
+  "zh": "通过 CLI 处理 GitHub 开放 PR 上的评审与 issue 评论"
+ },
+ {
+  "id": "sk_ab5cad11de64",
+  "zh": "阅读日志定位并修复 GitHub Actions 中失败的 PR 检查"
+ },
+ {
+  "id": "sk_37067f74ff17",
+  "zh": "用 OpenAI Image API 为项目生成与编辑图片"
+ },
+ {
+  "id": "sk_33a56ffffa7f",
+  "zh": "编写整洁可复现的 Jupyter notebook，用于实验与教程"
+ },
+ {
+  "id": "sk_81c802e4786c",
+  "zh": "管理 Linear 中的 issue、项目与团队流程"
+ },
+ {
+  "id": "sk_cb876da08328",
+  "zh": "用 CLI 登录、关联项目并区分环境完成 Netlify 自动部署"
+ },
+ {
+  "id": "sk_981b3098633d",
+  "zh": "把对话整理成结构化可检索的 Notion 知识条目"
+ },
+ {
+  "id": "sk_3be786cf4b7a",
+  "zh": "拉取 Notion 上下文并定制议程来准备会议"
+ },
+ {
+  "id": "sk_0bb8ca33e73c",
+  "zh": "检索 Notion 内容并归纳成结构化的研究简报"
+ },
+ {
+  "id": "sk_eeecfafe3ccf",
+  "zh": "把 Notion 规格文档转成相互关联的实施方案与任务"
+ },
+ {
+  "id": "sk_a6580ac811bc",
+  "zh": "依据 OpenAI 开发者文档给出权威用法说明"
+ },
+ {
+  "id": "sk_afa7cd54e4d0",
+  "zh": "读取、生成并审查 PDF，保持版式与视觉格式完整"
+ },
+ {
+  "id": "sk_6cf3f26c8cf7",
+  "zh": "自动化真实浏览器操作，含页面导航、表单填写与抓取"
+ },
+ {
+  "id": "sk_8fbf809ad495",
+  "zh": "把应用以 Git 仓库服务的方式部署到 Render 云平台"
+ },
+ {
+  "id": "sk_0deb1019738a",
+  "zh": "跨操作系统截取桌面、应用窗口或指定像素区域"
+ },
+ {
+  "id": "sk_c284bf40d244",
+  "zh": "按语言特性审查代码中的安全漏洞与不安全写法"
+ },
+ {
+  "id": "sk_92ce5f729e04",
+  "zh": "梳理人员与文件的归属关系，计算关键人依赖并识别风险"
+ },
+ {
+  "id": "sk_a8bf531f07f3",
+  "zh": "为具体仓库生成威胁模型并标出信任边界与攻击面"
+ },
+ {
+  "id": "sk_3d96b2ca9e3d",
+  "zh": "查看 Sentry 问题、归纳线上错误并拉取健康度数据"
+ },
+ {
+  "id": "sk_add7481e1b0b",
+  "zh": "通过 OpenAI 的 Sora API 生成、重制并管理短视频片段"
+ },
+ {
+  "id": "sk_dd3840c42934",
+  "zh": "用 OpenAI API 的内置音色把文字转成语音"
+ },
+ {
+  "id": "sk_7205ef9b42c9",
+  "zh": "创建、编辑、分析电子表格并做公式与可视化"
+ },
+ {
+  "id": "sk_7f07502c025a",
+  "zh": "把音频文件转写成文字，可选区分不同说话人"
+ },
+ {
+  "id": "sk_e222918eba33",
+  "zh": "把应用与网站部署到 Vercel，可选预览或生产环境"
+ },
+ {
+  "id": "sk_6388d4fccb0b",
+  "zh": "通过 CLI 暂存、提交并推送代码，再到 GitHub 开 PR"
+ },
+ {
+  "id": "sk_ece1a116913d",
+  "zh": "构建、评审与架构 ASP.NET Core 应用，含 Blazor、MVC 与 Minimal API"
+ },
+ {
+  "id": "sk_19f1fcdeb68b",
+  "zh": "构建、脚手架并排查 ChatGPT Apps SDK 应用，含 MCP 服务与组件界面"
+ },
+ {
+  "id": "sk_e0f41e08a794",
+  "zh": "用 Figma MCP 服务获取设计上下文并把节点转成生产代码"
+ },
+ {
+  "id": "sk_6418dead0121",
+  "zh": "用 Code Connect 把 Figma 设计组件关联到代码组件"
+ },
+ {
+  "id": "sk_b8fe20bc3f89",
+  "zh": "使用 Figma MCP 服务实现设计稿的规则约定"
+ },
+ {
+  "id": "sk_cc417f0b5070",
+  "zh": "新建空白的 Figma 设计文件或 FigJam 文件"
+ },
+ {
+  "id": "sk_b645a975877d",
+  "zh": "借助设计系统 token 把应用页面与布局还原到 Figma"
+ },
+ {
+  "id": "sk_2f9f54ef7cee",
+  "zh": "根据代码库在 Figma 中搭建或更新专业级设计系统"
+ },
+ {
+  "id": "sk_ed45ffe6079b",
+  "zh": "把 Figma 设计还原成生产级代码并保持视觉一比一"
+ },
+ {
+  "id": "sk_191a9dc8f220",
+  "zh": "所有 usefigma 工具调用的前置 skill，在 Figma 上下文中执行读写"
+ },
+ {
+  "id": "sk_37c85cbca7f0",
+  "zh": "通过 jsrepl 保持浏览器与 Electron 会话做迭代式界面调试"
+ },
+ {
+  "id": "sk_3e68a5039c68",
+  "zh": "用 PptxGenJS 创建并编辑 .pptx 演示文稿"
+ },
+ {
+  "id": "sk_fc09e7a33003",
+  "zh": "用 C# 与 Windows App SDK 初始化并开发 WinUI 3 桌面应用"
+ },
+ {
+  "id": "sk_218a11d888c6",
+  "zh": "用 Code Connect 把 Figma 设计组件关联到代码组件"
+ },
+ {
+  "id": "sk_45abcca1a256",
+  "zh": "为设计稿转代码流程生成项目专属的设计系统规则"
+ },
+ {
+  "id": "sk_12cf59a7671c",
+  "zh": "新建空白的 Figma 设计文件或 FigJam 文件"
+ },
+ {
+  "id": "sk_d3dc433a8362",
+  "zh": "依据代码或描述、复用设计系统组件在 Figma 中搭建或更新界面"
+ },
+ {
+  "id": "sk_177b9319425f",
+  "zh": "根据代码库在 Figma 中搭建或更新设计系统库"
+ },
+ {
+  "id": "sk_87133c30b09b",
+  "zh": "把 Figma 设计还原成生产级应用代码并保持一比一"
+ },
+ {
+  "id": "sk_ffde72f163c3",
+  "zh": "运行 Figma 插件 API 脚本，完成画布写入、检查、变量与设计系统操作"
+ },
+ {
+  "id": "sk_440099dac8e2",
+  "zh": "为各类数字体验规划并实施 A/B 测试与实验"
+ },
+ {
+  "id": "sk_4b271b3a3762",
+  "zh": "生成并迭代广告创意，含标题、描述与正文文案"
+ },
+ {
+  "id": "sk_55cbbfb1b202",
+  "zh": "优化内容以出现在 AI 生成的回答与大模型搜索结果中"
+ },
+ {
+  "id": "sk_034feb100055",
+  "zh": "搭建并审计数据分析埋点与度量指标链路与口径"
+ },
+ {
+  "id": "sk_cb4913206b0c",
+  "zh": "设计退订流程与挽留优惠，并挽回失败的付款"
+ },
+ {
+  "id": "sk_028fa60f3119",
+  "zh": "撰写能带来转化的 B2B 冷邮件与跟进序列"
+ },
+ {
+  "id": "sk_58aedd78aa70",
+  "zh": "为 SEO 搭建竞品对比页与替代方案落地页"
+ },
+ {
+  "id": "sk_f90133325159",
+  "zh": "规划内容策略，确定优先做的选题与内容形式"
+ },
+ {
+  "id": "sk_4bb5ec703f1d",
+  "zh": "编辑并提升现有营销文案的清晰度与传播效果"
+ },
+ {
+  "id": "sk_87e2f10f2b6b",
+  "zh": "为落地页、首页与广告撰写和改写营销文案内容"
+ },
+ {
+  "id": "sk_df2023ca684e",
+  "zh": "搭建邮件序列、滴灌培育与用户生命周期邮件"
+ },
+ {
+  "id": "sk_433f85b847ec",
+  "zh": "规划并开发用于获客与提升 SEO 价值的免费工具"
+ },
+ {
+  "id": "sk_6fcfba21499d",
+  "zh": "规划产品发布、功能公告与整体上市节奏策略"
+ },
+ {
+  "id": "sk_e99493efd227",
+  "zh": "为 SaaS 产品产出营销策略与活动创意"
+ },
+ {
+  "id": "sk_245bec47bc24",
+  "zh": "把心理学原理与行为科学用于文案和界面设计"
+ },
+ {
+  "id": "sk_7f17ca138b20",
+  "zh": "优化注册后引导与用户激活，缩短价值感知时间"
+ },
+ {
+  "id": "sk_9d79d500260e",
+  "zh": "提升营销页与表单的转化率，含首页、落地页与联系表单"
+ },
+ {
+  "id": "sk_c1106c448106",
+  "zh": "在 Google、Meta、LinkedIn 等平台创建并优化付费广告"
+ },
+ {
+  "id": "sk_d01506cae67f",
+  "zh": "设计与优化升级页、付费墙与追加销售弹窗等场景"
+ },
+ {
+  "id": "sk_f99066bfbfec",
+  "zh": "制作并优化用于转化的弹窗、模态框与滑入广告"
+ },
+ {
+  "id": "sk_ccf701221e71",
+  "zh": "为 SaaS 产品制定定价、套餐组合与变现策略"
+ },
+ {
+  "id": "sk_4377af8bd158",
+  "zh": "撰写并维护产品营销背景文档，保持对外表述一致"
+ },
+ {
+  "id": "sk_3a6eb1bd4233",
+  "zh": "搭建程序化 SEO 的页面模板，实现大规模内容生成"
+ },
+ {
+  "id": "sk_fa1d80d999b6",
+  "zh": "设计并优化推荐、联盟与口碑传播等增长计划"
+ },
+ {
+  "id": "sk_91efec2fa8ac",
+  "zh": "理顺收入运营、线索生命周期与市场到销售的衔接"
+ },
+ {
+  "id": "sk_642ed74afe2f",
+  "zh": "撰写路演材料、单页介绍、异议应对文档与演示脚本"
+ },
+ {
+  "id": "sk_eaf59775aad3",
+  "zh": "添加并优化 schema 标记与结构化数据以提升 SEO"
+ },
+ {
+  "id": "sk_647fa4e61cb3",
+  "zh": "审计并诊断站点的技术 SEO 与页面 SEO 问题"
+ },
+ {
+  "id": "sk_7f55388790c0",
+  "zh": "优化注册、账号创建与试用激活流程以提升转化"
+ },
+ {
+  "id": "sk_84fb9fa069d7",
+  "zh": "规划并重构页面层级、导航与 URL 结构"
+ },
+ {
+  "id": "sk_ff86971867dd",
+  "zh": "为 LinkedIn、Twitter/X 与 Instagram 制作并排期内容"
+ },
+ {
+  "id": "sk_b079f895f745",
+  "zh": "明确买家是谁、想要什么、试过什么以及决策动因"
+ },
+ {
+  "id": "sk_04f143fb9b9a",
+  "zh": "把产品或服务打磨成有吸引力且高转化的报价方案"
+ },
+ {
+  "id": "sk_0f3d51bc7999",
+  "zh": "判断受众所处的认知阶段并确定匹配的表达方式"
+ },
+ {
+  "id": "sk_e197a48655f3",
+  "zh": "用独特机制说明为何你的方案有效而别人的失败"
+ },
+ {
+  "id": "sk_76a2fff46624",
+  "zh": "从不同切入角度批量生成高效果的标题文案变体"
+ },
+ {
+  "id": "sk_9b1232ae3462",
+  "zh": "识别并化解买家在决策前的顾虑、犹豫与抗拒"
+ },
+ {
+  "id": "sk_c186c03055ba",
+  "zh": "把一个核心想法扩展成多个不同的广告切入角度用于测试"
+ },
+ {
+  "id": "sk_e243dd17f45e",
+  "zh": "创作能在前三秒抓住注意力并留住视线的广告创意"
+ },
+ {
+  "id": "sk_c6b67402695e",
+  "zh": "设计从点击到转化再到预约通话的最优漏斗路径"
+ },
+ {
+  "id": "sk_43229f03560b",
+  "zh": "诊断广告效果不佳的原因，如转化低、线索成本高或素材差"
+ },
+ {
+  "id": "sk_bd30f3567e99",
+  "zh": "统筹各项能力，端到端搭出完整的广告加漏斗投放方案"
+ },
+ {
+  "id": "sk_2184ca1da8a6",
+  "zh": "清除含糊、公文化或 AI 味的表述，换成清晰具体的人话"
+ },
+ {
+  "id": "sk_386d820af7cf",
+  "zh": "查询加密市场榜单，含热门代币、聪明钱流入、meme 排行与交易员盈亏榜"
+ },
+ {
+  "id": "sk_a603ca3fdfca",
+  "zh": "追踪 Pump.fun、Four.meme 等发射平台的实时 meme 代币与净流入热点话题"
+ },
+ {
+  "id": "sk_b29ce2c81f17",
+  "zh": "查询任意钱包在 BSC、Base 或 Solana 上的代币持仓与组合头寸"
+ },
+ {
+  "id": "sk_c49e21ac0f82",
+  "zh": "审计代币安全，识别 BSC、Base、Solana 与 Ethereum 上的骗局、貔貅盘与恶意合约"
+ },
+ {
+  "id": "sk_b75af86368d5",
+  "zh": "按关键词或合约地址搜索代币并获取元数据、实时行情与 K 线图"
+ },
+ {
+  "id": "sk_3869fc91cdbb",
+  "zh": "监控 Solana 与 BSC 上的链上聪明钱买卖信号，含价格、最大涨幅与退出率"
+ },
+ {
+  "id": "sk_eaaeae2ce45f",
+  "zh": "通过 API key 认证在 Binance 下单并管理现货交易，支持主网与测试网"
+ },
+ {
+  "id": "sk_85baa7a77d89",
+  "zh": "用 Apollo Client 4 构建 React 应用"
+ },
+ {
+  "id": "sk_b9c36560a1de",
+  "zh": "借助 Apollo Connectors 把 REST 接口接入 GraphQL 超级图"
+ },
+ {
+  "id": "sk_fab0bf8335ee",
+  "zh": "编写 Apollo Federation 2 子图 schema 并组合成超级图"
+ },
+ {
+  "id": "sk_6274deb87c8b",
+  "zh": "面向 Android、JVM 与 Kotlin Multiplatform 的 GraphQL 客户端"
+ },
+ {
+  "id": "sk_15322bf825f4",
+  "zh": "通过模型上下文协议让 AI agent 接入 GraphQL 接口"
+ },
+ {
+  "id": "sk_9fff82347422",
+  "zh": "为 Rust 实现的 Apollo Router 生成版本匹配的配置"
+ },
+ {
+  "id": "sk_2c10fe015981",
+  "zh": "用 Rust 为 Apollo Router 编写原生插件"
+ },
+ {
+  "id": "sk_459aac608d47",
+  "zh": "用 Apollo Server 5 构建 GraphQL 服务端"
+ },
+ {
+  "id": "sk_cefebb115634",
+  "zh": "按最佳实践编写 GraphQL 查询、变更与订阅"
+ },
+ {
+  "id": "sk_2dcecf632948",
+  "zh": "设计简洁且可持续演进的 GraphQL schema 参考指南"
+ },
+ {
+  "id": "sk_a493e607838b",
+  "zh": "在 Apollo GraphOS 中管理 GraphQL schema 的命令行工具"
+ },
+ {
+  "id": "sk_075695177505",
+  "zh": "源自 Apollo GraphQL 内部手册的 Rust 编码规范"
+ },
+ {
+  "id": "sk_3e9c0c2250d3",
+  "zh": "围绕 Apollo GraphQL 创建并组织 agent skill"
+ },
+ {
+  "id": "sk_004b53aa8778",
+  "zh": "用 Auth0 SDK 为原生 Android 应用添加登录认证"
+ },
+ {
+  "id": "sk_92dbf1bd7fdf",
+  "zh": "用 @auth0/auth0-angular 为 Angular 应用添加登录认证"
+ },
+ {
+  "id": "sk_28496ea2bae8",
+  "zh": "为 ASP.NET Core 接口添加 JWT 访问令牌校验"
+ },
+ {
+  "id": "sk_a7ffc623cc8b",
+  "zh": "为 Express.js 应用添加基于会话的登录认证"
+ },
+ {
+  "id": "sk_cb303fc39ca3",
+  "zh": "为 Fastify 应用添加基于会话的登录认证"
+ },
+ {
+  "id": "sk_ef64f3f820f7",
+  "zh": "用 JWT Bearer 令牌校验保护 Fastify 接口"
+ },
+ {
+  "id": "sk_c8085cf43e5d",
+  "zh": "为接入 Auth0 的应用添加多因素认证"
+ },
+ {
+  "id": "sk_c6c86f4f61b3",
+  "zh": "把其他平台的用户与认证流程迁移到 Auth0"
+ },
+ {
+  "id": "sk_d9e818fd4858",
+  "zh": "为 Next.js 应用添加登录认证与受保护路由"
+ },
+ {
+  "id": "sk_3ab76a500050",
+  "zh": "为 Nuxt 3/4 应用接入 Auth0 认证并使用加密 cookie 会话"
+ },
+ {
+  "id": "sk_d9f74acb20c3",
+  "zh": "识别项目所用框架并自动生成 Auth0 接入代码"
+ },
+ {
+  "id": "sk_7c97a00f3f6d",
+  "zh": "用 @auth0/auth0-react 为 React 单页应用添加登录认证"
+ },
+ {
+  "id": "sk_50e0c5619228",
+  "zh": "为 React Native 与 Expo 移动应用添加登录认证"
+ },
+ {
+  "id": "sk_5e543d5e88d9",
+  "zh": "为 Vue.js 应用添加登录认证与会话管理"
+ },
+ {
+  "id": "sk_cb389cc11cbc",
+  "zh": "基于实时网页搜索结果给出 AI 生成的回答"
+ },
+ {
+  "id": "sk_15acde54bcea",
+  "zh": "为 AI agent 打造的命令行网页搜索工具"
+ },
+ {
+  "id": "sk_f62234490d06",
+  "zh": "用 Brave Search API 搜索图片"
+ },
+ {
+  "id": "sk_71dddef80095",
+  "zh": "从 Brave 搜索返回已抽取好的网页内容，含正文、表格与代码"
+ },
+ {
+  "id": "sk_db9f6fdcd38c",
+  "zh": "获取兴趣点由 AI 生成的文字介绍与看点说明"
+ },
+ {
+  "id": "sk_bc45069e6075",
+  "zh": "查询本地商家与兴趣点的详细信息与营业数据"
+ },
+ {
+  "id": "sk_9ff615721ac4",
+  "zh": "检索 Brave 新闻索引并获取文章元数据"
+ },
+ {
+  "id": "sk_9eeb543b090a",
+  "zh": "检查搜索词的拼写错误并给出纠正建议与备选词"
+ },
+ {
+  "id": "sk_87847c6c940f",
+  "zh": "通过 Brave Search API 获取搜索自动补全建议"
+ },
+ {
+  "id": "sk_517393d5e782",
+  "zh": "通过 Brave Search API 在全网搜索视频"
+ },
+ {
+  "id": "sk_a9bceea3aa32",
+  "zh": "通过 Brave Search API 做网页搜索并返回排序结果"
+ },
+ {
+  "id": "sk_06eefad72892",
+  "zh": "用自然语言命令行指令自动化网页浏览器操作"
+ },
+ {
+  "id": "sk_0913b9d13119",
+  "zh": "Browserbase 平台的命令行封装"
+ },
+ {
+  "id": "sk_736b3002fb97",
+  "zh": "把本地 Chrome 的 cookie 导入 Browserbase 持久化上下文"
+ },
+ {
+  "id": "sk_75db7dfc0386",
+  "zh": "通过 Browserbase API 抓取 HTML、JSON、响应头与状态码"
+ },
+ {
+  "id": "sk_b2c0a1bf6954",
+  "zh": "把浏览器自动化脚本部署为无服务器云函数运行"
+ },
+ {
+  "id": "sk_b7ec1c9f1141",
+  "zh": "通过 Browserbase API 搜索网络并返回结构化结果"
+ },
+ {
+  "id": "sk_d44e44c452f7",
+  "zh": "在真实浏览器中分析 git diff 并执行对抗式界面测试"
+ },
+ {
+  "id": "sk_2fd55ba9602b",
+  "zh": "拉取 GitHub PR 中未解决的 CodeRabbit 评审意见并逐条修复"
+ },
+ {
+  "id": "sk_a8f1412d9f14",
+  "zh": "通过 CodeRabbit CLI 执行 AI 代码评审"
+ }
+]

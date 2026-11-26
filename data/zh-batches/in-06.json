@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "sk_522729e41ee6",
+  "name": "MSG91/m91-skill",
+  "desc": "Ask a human for approval on their phone"
+ },
+ {
+  "id": "sk_99985380939f",
+  "name": "kklimuk/docx-cli",
+  "desc": "Work on .docx files at ~1/2 cost of other skills."
+ },
+ {
+  "id": "sk_e686c324aea5",
+  "name": "777genius/agent-notifications",
+  "desc": "Send desktop attention and progress alerts during agent tasks"
+ },
+ {
+  "id": "sk_08b989d2122d",
+  "name": "kochetkov-ma/brewpage-publish",
+  "desc": "Publish pages, files or folder sites to shareable brewpage.app links"
+ },
+ {
+  "id": "sk_667ab755fa1f",
+  "name": "MetcalfSolutions/Satori",
+  "desc": "Open-source wisdom companion skill (Apache 2.0) for coding agents and web chat, built to be outgrown: one lens per turn, a local SQLite memory vault, and trigger discipline that stays silent during pure coding work."
+ },
+ {
+  "id": "sk_117f6ba75fb3",
+  "name": "pachca/pachca",
+  "desc": "Connect agents to Pachca and troubleshoot MCP authentication and permissions"
+ },
+ {
+  "id": "sk_d89f8e54bff1",
+  "name": "QingYunA/answer-me-with-html",
+  "desc": "Answers hard questions as readable, self-contained HTML pages"
+ },
+ {
+  "id": "sk_cbdabc5c6547",
+  "name": "Koloyaaa/foreign-academic-translator",
+  "desc": "Translate foreign academic handouts into Chinese with subject glossaries"
+ },
+ {
+  "id": "sk_80eb9e47ff8d",
+  "name": "duyunzhoudyz/dyz-gongwen-skills",
+  "desc": "Chinese official document drafting, review and GB/T 9704 formatting"
+ },
+ {
+  "id": "sk_d4390bf4a9d2",
+  "name": "tw93/mole",
+  "desc": "Drive the Mole CLI to clean macOS and Windows"
+ },
+ {
+  "id": "sk_9cc7aea677ad",
+  "name": "busabase/busabase",
+  "desc": "Approval-first database workspace for AI agents"
+ },
+ {
+  "id": "sk_b6a66b86effb",
+  "name": "Frihet-io/frihet-mcp",
+  "desc": "AI-native ERP skills for invoicing, CRM, expenses, and tax compliance"
+ },
+ {
+  "id": "sk_f00a7db7531a",
+  "name": "VoDaiLocz/kilo-kit-mcp",
+  "desc": "Comprehensive library of 177 curated skills paired with an MCP runtime enforcing protocol-level C4 workflow gates, hard-gated command execution with security guardrails, and 5 cognitive reasoning engines (Tree of Thoughts DAG, Adversarial Grilling, 5-Whys Root Cause Tracer, Context Compactor, Self-Evolution) for Claude Code, Cursor, Antigravity, and Codex"
+ },
+ {
+  "id": "sk_8610d13cc27a",
+  "name": "hedralab/eskill",
+  "desc": "Meta-skill to build top-tier Agent Skills: spec-compliant SKILL.md, eval loop, validator, market research, numbered-file pipeline"
+ },
+ {
+  "id": "sk_cdc5d2b2d739",
+  "name": "robzolkos/skill-rails-upgrade",
+  "desc": "Analyze Rails apps and provide upgrade assessments"
+ },
+ {
+  "id": "sk_959cdb1c2081",
+  "name": "antonbabenko/terraform-skill",
+  "desc": "Terraform and OpenTofu patterns: testing, modules, state, CI/CD."
+ },
+ {
+  "id": "sk_bf2f979d95ca",
+  "name": "zxkane/aws-skills",
+  "desc": "AWS development with infrastructure automation and cloud architecture patterns"
+ },
+ {
+  "id": "sk_05f589c96c7e",
+  "name": "Rootly-AI-Labs/rootly-incident-responder",
+  "desc": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires Rootly MCP Server"
+ },
+ {
+  "id": "sk_9c51a1909a7e",
+  "name": "conorluddy/ios-simulator-skill",
+  "desc": "Control iOS Simulator"
+ },
+ {
+  "id": "sk_0238ecf635ef",
+  "name": "ramzesenok/iOS-Accessibility-Audit-Skill",
+  "desc": "Audit iOS App against Accessibility norms"
+ },
+ {
+  "id": "sk_d3625b15d73b",
+  "name": "truongduy2611/app-store-preflight-skills",
+  "desc": "Scan iOS/macOS projects to catch common mistakes that lead to App Store rejection before submission"
+ },
+ {
+  "id": "sk_2a7c63ee8179",
+  "name": "coderabbitai/skills",
+  "desc": "Code review and PR autofix workflows for coding agents"
+ },
+ {
+  "id": "sk_c128df6959a0",
+  "name": "salemalem/npmscan-mcp-plugin",
+  "desc": "Audit npm packages for malware and trust vulnerabilities"
+ },
+ {
+  "id": "sk_49fe7c501b56",
+  "name": "sanjay3290/postgres",
+  "desc": "Execute safe read-only SQL queries against PostgreSQL databases"
+ },
+ {
+  "id": "sk_474b93890091",
+  "name": "sanjay3290/deep-research",
+  "desc": "Autonomous multi-step research using Gemini Deep Research Agent"
+ },
+ {
+  "id": "sk_58ae80d339a6",
+  "name": "jthack/ffuf-claude-skill",
+  "desc": "Web fuzzing with ffuf"
+ },
+ {
+  "id": "sk_2792bff0798b",
+  "name": "lackeyjb/playwright-skill",
+  "desc": "Browser automation with Playwright"
+ },
+ {
+  "id": "sk_9a6d90f3d10c",
+  "name": "woniu9524/open-web-bridge",
+  "desc": "Drive your real, logged-in Chrome via CDP from Claude Code, Codex, or Gemini CLI: semantic snapshots, real mouse clicks, human handoff for captchas and logins, HAR capture and replay"
+ },
+ {
+  "id": "sk_49af0e0fe363",
+  "name": "ibelick/ui-skills",
+  "desc": "Opinionated, evolving constraints to guide agents when building interfaces"
+ },
+ {
+  "id": "sk_ad5574883e07",
+  "name": "muthuishere/hand-drawn-diagrams",
+  "desc": "Generate hand-drawn Excalidraw diagrams from a prompt — animated SVG, hosted edit link, and PNG export. Works with Claude Code, Codex, Gemini CLI, and any agent supporting standard skill paths"
+ },
+ {
+  "id": "sk_2b1cbef1a9de",
+  "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "desc": "UI/UX design patterns and best practices"
+ },
+ {
+  "id": "sk_894f084476e8",
+  "name": "ehmo/platform-design-skills",
+  "desc": "300+ design rules from Apple HIG, Material Design 3, and WCAG 2.2 for cross-platform apps"
+ },
+ {
+  "id": "sk_5e1fd16f9aba",
+  "name": "Kayforkind/reimagine-it",
+  "desc": "Redesign HTML pages using only their existing content"
+ },
+ {
+  "id": "sk_520911777de0",
+  "name": "scarletkc/vexor",
+  "desc": "Vector-powered CLI for semantic file search with a Claude/Codex skill"
+ },
+ {
+  "id": "sk_7caf8373be57",
+  "name": "obra/test-driven-development",
+  "desc": "Write tests before implementing code"
+ },
+ {
+  "id": "sk_7cb877ce8913",
+  "name": "obra/subagent-driven-development",
+  "desc": "Development using multiple sub-agents"
+ },
+ {
+  "id": "sk_dd02ad904963",
+  "name": "obra/systematic-debugging",
+  "desc": "Methodical problem-solving in code"
+ },
+ {
+  "id": "sk_02c95bfaf64c",
+  "name": "obra/finishing-a-development-branch",
+  "desc": "Complete Git code branches"
+ },
+ {
+  "id": "sk_302495d04f9e",
+  "name": "obra/requesting-code-review",
+  "desc": "Initiate code review processes"
+ },
+ {
+  "id": "sk_33353a267dcd",
+  "name": "obra/receiving-code-review",
+  "desc": "Process and incorporate code feedback"
+ },
+ {
+  "id": "sk_6206953f8604",
+  "name": "obra/using-git-worktrees",
+  "desc": "Manage multiple Git working trees"
+ },
+ {
+  "id": "sk_e292f9e824f1",
+  "name": "obra/verification-before-completion",
+  "desc": "Validate work before finalizing"
+ },
+ {
+  "id": "sk_7c0a5cd0cead",
+  "name": "obra/writing-skills",
+  "desc": "Develop and document capabilities"
+ },
+ {
+  "id": "sk_f2c662aca5a9",
+  "name": "fvadicamo/dev-agent-skills",
+  "desc": "Git and GitHub workflow skills for commits, PRs, and code reviews"
+ },
+ {
+  "id": "sk_7b27279420df",
+  "name": "omkamal/pypict-skill",
+  "desc": "Pairwise test generation"
+ },
+ {
+  "id": "sk_d7b77acc66de",
+  "name": "alinaqi/maggy",
+  "desc": "Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI tool orchestration (gh, vercel, supabase)"
+ },
+ {
+  "id": "sk_f823199aba8c",
+  "name": "ZhangHanDong/makepad-skills",
+  "desc": "Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting."
+ },
+ {
+  "id": "sk_3d7082e2204f",
+  "name": "massimodeluisa/recursive-decomposition-skill",
+  "desc": "Handle long-context tasks (100+ files, 50k+ tokens) through recursive decomposition strategies based on RLM research"
+ },
+ {
+  "id": "sk_360f219a6c96",
+  "name": "AvdLee/swiftui-expert-skill",
+  "desc": "Modern SwiftUI best practices and iOS 26+ Liquid Glass adoption"
+ },
+ {
+  "id": "sk_3ae0273a214b",
+  "name": "efremidze/swift-patterns-skill",
+  "desc": "Modern Swift/SwiftUI best practices"
+ },
+ {
+  "id": "sk_47c0b9d493dc",
+  "name": "wendylabsinc/claude-skills",
+  "desc": "Swift Server development guidance with linting tool for best practices"
+ },
+ {
+  "id": "sk_15c193f10340",
+  "name": "rorkai/app-store-connect-cli-skills",
+  "desc": "Automate App Store deployments and management using ASC CLI"
+ },
+ {
+  "id": "sk_7f3b82df7c0e",
+  "name": "rameerez/claude-code-startup-skills",
+  "desc": "Skills for building and running software startups, apps, and SaaS"
+ },
+ {
+  "id": "sk_a72763127b0f",
+  "name": "zscole/model-hierarchy-skill",
+  "desc": "Cost-optimized model routing based on task complexity"
+ },
+ {
+  "id": "sk_d6c2e75f6919",
+  "name": "CloudAI-X/threejs-skills",
+  "desc": "Three.js skills for creating 3D elements and interactive experiences"
+ },
+ {
+  "id": "sk_af12b0e4ffb5",
+  "name": "Leonxlnx/taste-skill",
+  "desc": "High-agency frontend skill that gives AI good taste with tunable design variance, motion intensity, and visual density to stop generic UI slop"
+ },
+ {
+  "id": "sk_b209600fc16c",
+  "name": "testdino-hq/playwright-skill",
+  "desc": "70+ production-tested Playwright automation testing patterns: E2E, POM, CI/CD, migrations, CLI"
+ },
+ {
+  "id": "sk_881abe697312",
+  "name": "NeoLabHQ/review",
+  "desc": "Comprehensive PR code review using specialized agents: bug-hunter, security-auditor, code-quality-reviewer, contracts-reviewer, historical-context-reviewer, test-coverage-reviewer"
+ },
+ {
+  "id": "sk_59b8347a3639",
+  "name": "NeoLabHQ/reflexion",
+  "desc": "Self-refinement loop that forces the LLM to reflect on previous output and correct itself."
+ },
+ {
+  "id": "sk_4925a5bd5490",
+  "name": "NeoLabHQ/sdd",
+  "desc": "Spec-driven development workflow that transforms prompts into production-ready implementations through structured planning, architecture design, and LLM-as-a-Judge based quality gates."
+ },
+ {
+  "id": "sk_5ffeaf087eff",
+  "name": "NeoLabHQ/ddd",
+  "desc": "Domain-driven development skills that also include Clean Architecture, SOLID principles, and design patterns."
+ },
+ {
+  "id": "sk_9dc76067173f",
+  "name": "NeoLabHQ/sadd",
+  "desc": "Dispatches independent subagents for individual tasks with code review checkpoints between iterations for rapid, controlled development."
+ },
+ {
+  "id": "sk_e26b4f5ef833",
+  "name": "NeoLabHQ/kaizen",
+  "desc": "Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology."
+ },
+ {
+  "id": "sk_fb7b3ab5a223",
+  "name": "uucz/moyu",
+  "desc": "Anti-over-engineering skill with 5 variants and 10 platforms"
+ },
+ {
+  "id": "sk_463abfd08f50",
+  "name": "mattpocock/skills",
+  "desc": "17 dev workflow skills: PRD writing, TDD, codebase architecture, git guardrails, issue triage, refactoring plans, and more"
+ },
+ {
+  "id": "sk_81838e41063a",
+  "name": "mukul975/Anthropic-Cybersecurity-Skills",
+  "desc": "753 cybersecurity skills across 38 domains: cloud security, pentesting, red teaming, DFIR, malware analysis, threat intel, and more (MITRE ATT&CK mapped)"
+ },
+ {
+  "id": "sk_489ab6330f20",
+  "name": "wrsmith108/varlock-claude-skill",
+  "desc": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits"
+ },
+ {
+  "id": "sk_09f9a3da8052",
+  "name": "SkillSeekers",
+  "desc": "Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes"
+ },
+ {
+  "id": "sk_c78240189290",
+  "name": "NoizAI/skills",
+  "desc": "Human-like TTS workflows with local/cloud APIs and app delivery"
+ },
+ {
+  "id": "sk_999641d00be6",
+  "name": "Kevin7Qi/codex-collab",
+  "desc": "Collaborate with Codex from Claude Code"
+ },
+ {
+  "id": "sk_b10d0c887593",
+  "name": "ethos-link/rails-conventions",
+  "desc": "Rails 8 conventions for consistent production code changes"
+ },
+ {
+  "id": "sk_ab2314d77f44",
+  "name": "mcollina/skills",
+  "desc": "11 skills by Matteo Collina: Node.js, Fastify, TypeScript, OAuth, Git/GitHub, ESLint neostandard, documentation (Diataxis), Node.js core internals, skill optimizer, and more"
+ },
+ {
+  "id": "sk_4d81102e7884",
+  "name": "Lum1104/understand-anything",
+  "desc": "Interactive codebase knowledge graphs via multi-agent LLM analysis"
+ },
+ {
+  "id": "sk_afcbd39d34c0",
+  "name": "hqhq1025/skill-optimizer",
+  "desc": "Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static analysis. Works with Claude Code, Codex, and any Agent Skills-compatible agent"
+ },
+ {
+  "id": "sk_1c01d25d6966",
+  "name": "LambdaTest/agent-skills",
+  "desc": "TestMu AI (Formerly LambdaTest) Skills is a curated collection of Agent Skills that teach AI coding assistants how to write production-grade test automation."
+ },
+ {
+  "id": "sk_bb3eba7d0a0e",
+  "name": "foryourhealth111-pixel/Vibe-Skills",
+  "desc": "A skills governed plug-and-play harness for staged, test-driven skill orchestration"
+ },
+ {
+  "id": "sk_7d4e6b0e1890",
+  "name": "metalbear-co/skills",
+  "desc": "Skills that let agents code and test against your Kubernetes cluster using mirrord"
+ },
+ {
+  "id": "sk_fd367f949108",
+  "name": "dembrandt/dembrandt-skills",
+  "desc": "UX and design system skills: hierarchy, typography, accessibility, interactions"
+ },
+ {
+  "id": "sk_acd45605e9f7",
+  "name": "GanyuanRan/Aegis",
+  "desc": "Evidence-driven method pack for AI coding agents"
+ },
+ {
+  "id": "sk_be1f360a28d0",
+  "name": "baskduf/codex-fable5",
+  "desc": "Evidence-based workflow gates for Codex"
+ },
+ {
+  "id": "sk_1f283efea1db",
+  "name": "csthink/dashmotion",
+  "desc": "Animated technical diagrams from plain English or Mermaid, self-contained HTML/SVG"
+ },
+ {
+  "id": "sk_f3516c4cfeda",
+  "name": "plasma-ai/fractal",
+  "desc": "Bounded hierarchical agent loops in isolated git worktrees"
+ },
+ {
+  "id": "sk_5784630e067f",
+  "name": "reliefeai/browser-relay",
+  "desc": "Control an existing logged-in Chrome without stealing focus"
+ },
+ {
+  "id": "sk_61571f6f5b86",
+  "name": "squirrelscan/squirrelscan",
+  "desc": "Audits websites for SEO, performance, security, accessibility and returns fixes"
+ },
+ {
+  "id": "sk_c7730e900209",
+  "name": "Simon-He95/markstream-install",
+  "desc": "Install streaming Markdown renderers across five frontend frameworks"
+ },
+ {
+  "id": "sk_5cb6036ac2bb",
+  "name": "eduardo-sl/go-agent-skills",
+  "desc": "Curated Go skills for code review, concurrency, testing, and architecture"
+ },
+ {
+  "id": "sk_748e7728cabc",
+  "name": "drogers0/github-image-upload",
+  "desc": "Attach screenshots, PDFs, logs, zips, and videos to GitHub PRs, issues, and comments, returning canonical user-attachments URLs. GitHub has no public attachment-upload API. Works with Claude Code, Codex, Cursor, and Gemini CLI"
+ },
+ {
+  "id": "sk_17c22b796fec",
+  "name": "browser-act/browser-act",
+  "desc": "Automate authenticated browsers with extraction and human handoff"
+ },
+ {
+  "id": "sk_dd1dbf5bc598",
+  "name": "agiwhitelist/auteur",
+  "desc": "Builds websites gated by an anti-slop linter and motion QA"
+ },
+ {
+  "id": "sk_84e1f6bb2577",
+  "name": "JasonColapietro/suede-creator-skills",
+  "desc": "Design, UI polish, code review grading, AI evals, SEO audits."
+ },
+ {
+  "id": "sk_45e2c6f5439e",
+  "name": "superdesigndev/superdesign-skill",
+  "desc": "Creates design systems from existing codebases and iterates UI drafts"
+ },
+ {
+  "id": "sk_183ed7548983",
+  "name": "krisyangdev/motionboard",
+  "desc": "Make product launch films from 38 Apple/Linear-style shot recipes."
+ },
+ {
+  "id": "sk_78c6aa1655b8",
+  "name": "Maksim-Burtsev/simple-man",
+  "desc": "Strips praise, recaps and filler from agent answers while keeping every fact you act on: findings carry location and fix, refusals carry the safe procedure, tutorials stay long-form. Benchmarked on 1,793 preregistered live calls with raw records committed. Works with Claude Code, Codex, Gemini CLI, Cursor"
+ },
+ {
+  "id": "sk_38a75044ac37",
+  "name": "aeonfun/aeon",
+  "desc": "70+ Claude Code skills + autonomous GitHub Actions agent framework"
+ },
+ {
+  "id": "sk_5425dd2b3b13",
+  "name": "KhazP/vibe-coding-prompt-template",
+  "desc": "Plan MVPs into PRD, tech design, and AGENTS.md"
+ },
+ {
+  "id": "sk_fb3496a9f6a4",
+  "name": "lindblomstefan/skills-library",
+  "desc": "Guided discovery skill for Claude Code: runs an interview to recommend from a catalog of 100+ AI skills; records session feedback that validates candidates over time"
+ },
+ {
+  "id": "sk_a456ab4eae88",
+  "name": "rainmanjam/poka-yoke",
+  "desc": "Make misuse unrepresentable: audit, design, and enforce mistake-proofing devices"
+ },
+ {
+  "id": "sk_6f0082ddd9e4",
+  "name": "scarletkc/agents",
+  "desc": "Reusable standards and workflow skills for AI coding agents"
+ },
+ {
+  "id": "sk_76d625427d7d",
+  "name": "dannwaneri/spec-writer",
+  "desc": "Turns vague requests into spec, plan, and tasks"
+ },
+ {
+  "id": "sk_9a41ca40a42c",
+  "name": "Continuum-AI-Corp/orca-replay",
+  "desc": "Answer questions about past agent runs from their recordings"
+ },
+ {
+  "id": "sk_8096db4a66f7",
+  "name": "tt-a1i/archify",
+  "desc": "Generate validated interactive architecture diagrams from codebases or system descriptions"
+ },
+ {
+  "id": "sk_ea02ca44e09e",
+  "name": "d1vai/d1v",
+  "desc": "Deploy web projects with verified previews and confirmed production releases"
+ },
+ {
+  "id": "sk_0f3aaddcabe2",
+  "name": "kensaurus/skills",
+  "desc": "Ready-made playbooks your coding agent auto-triggers"
+ },
+ {
+  "id": "sk_870d3be2a716",
+  "name": "saleh-alhaddad/itqan-engineering",
+  "desc": "Full software-engineering lifecycle in 12 skills: a resumable orchestrator plus spec, plan, TDD build, verify, five-axis review, security, and release — with approval gates before code and evidence before \"done\""
+ },
+ {
+  "id": "sk_4fc9c1e36d9e",
+  "name": "hermes-labs-ai/lintlang",
+  "desc": "Lint agent instructions for ambiguous tools and missing bounds"
+ },
+ {
+  "id": "sk_7bdd4a4000cf",
+  "name": "fishzjp/qa-skills",
+  "desc": "QA engineering for AI coding agents: full lifecycle, measured gains"
+ },
+ {
+  "id": "sk_3bcd69d4e155",
+  "name": "UiPath/check-skill",
+  "desc": "Measures whether a Claude Code skill triggers: precision and recall"
+ },
+ {
+  "id": "sk_cbcd2a424176",
+  "name": "lukstei/slop-grader",
+  "desc": "Rule-based CLI tool powered by TypeSafe Jev that evaluates documents against custom rulesets, producing document scores and line-by-line violation flags to guide auto-fixing with an AI agent"
+ },
+ {
+  "id": "sk_85f406d26503",
+  "name": "unbrowse-ai/unbrowse",
+  "desc": "Search, call, and read websites via hosted API or MCP"
+ },
+ {
+  "id": "sk_dd48fcaf5909",
+  "name": "fujibee/agmsg",
+  "desc": "Message passing between Claude Code, Codex and Gemini CLI sessions"
+ },
+ {
+  "id": "sk_15c9c2eee876",
+  "name": "exadel-inc/agentic-readiness-assessment",
+  "desc": "Assess repository readiness for AI coding agents and prioritize fixes."
+ },
+ {
+  "id": "sk_08ff2cdadb0c",
+  "name": "hasuwini77/3d-logo",
+  "desc": "Turn any logo into a 3D spinning coin React component"
+ },
+ {
+  "id": "sk_ad8c201065ae",
+  "name": "ollygarden/opentelemetry-agent-skills",
+  "desc": "Vendor-neutral OpenTelemetry skills: SDKs, Collector, OTTL, semantic conventions"
+ },
+ {
+  "id": "sk_b1fa3dd3f514",
+  "name": "szarkans/multi",
+  "desc": "several models review the same code, one merged report"
+ },
+ {
+  "id": "sk_76486fefc6f0",
+  "name": "gongdear/cline-pilot",
+  "desc": "Delegate coding tasks to Cline CLI with context management"
+ },
+ {
+  "id": "sk_ecb3ec2f0741",
+  "name": "hermes-labs-ai/little-canary",
+  "desc": "Screen inbound text with a sacrificial canary"
+ },
+ {
+  "id": "sk_fec20a019d93",
+  "name": "allxsmith/bestax",
+  "desc": "Build Bulma React pages, forms, and themes with Bestax"
+ },
+ {
+  "id": "sk_c44e0fdb022e",
+  "name": "marvkr/better-design",
+  "desc": "Build and review interfaces with Better Design design systems"
+ },
+ {
+  "id": "sk_c1817ca81f60",
+  "name": "UiPath/task",
+  "desc": "Turns plain English into validated eval tasks for coding agents"
+ },
+ {
+  "id": "sk_d8c9f5243328",
+  "name": "kulchankas/paranoid",
+  "desc": "Pentests your running app: find, prove, patch, re-verify"
+ },
+ {
+  "id": "sk_075bb1150db5",
+  "name": "gal-a/qikly",
+  "desc": "Writes pytest suites from criteria the coding agent never sees"
+ },
+ {
+  "id": "sk_f98b007abafe",
+  "name": "supercorp-ai/supercov",
+  "desc": "Measure test coverage and write tests for untested code"
+ },
+ {
+  "id": "sk_b52a4db199d1",
+  "name": "prisma/skills",
+  "desc": "Official Prisma skills: ORM, Postgres, Compute and migrations"
+ },
+ {
+  "id": "sk_09cc24c7bfdf",
+  "name": "edonadei/evaluate-skill",
+  "desc": "Measures skill reliability with repeated runs, with and without it"
+ },
+ {
+  "id": "sk_a91ba828a037",
+  "name": "tushaarmehtaa/tushar-skills",
+  "desc": "34 workflow skills for deploys, outreach, fundraising, specs, launches"
+ },
+ {
+  "id": "sk_25154b0f8aee",
+  "name": "oil-oil/oil-ui",
+  "desc": "Unlock AI design potential through UI exploration and visual review"
+ },
+ {
+  "id": "sk_5a408ab9cfbc",
+  "name": "skymanbp/cc-tree",
+  "desc": "Auditable radial-tree exploration for brainstorming, critique, design and code audit"
+ },
+ {
+  "id": "sk_ff9c6e1861c3",
+  "name": "moxno/privacyscrubber-guard",
+  "desc": "Sanitize PII and secrets in RAM before agent calls"
+ },
+ {
+  "id": "sk_6564da270dbb",
+  "name": "sno-ai/sno-station-skills",
+  "desc": "Claude Code and Codex skills: cross-vendor review, quota handoff"
+ },
+ {
+  "id": "sk_00849fe1a86a",
+  "name": "rlaope/oh-my-hermes",
+  "desc": "Workflow skills, project memory, and model routing for Hermes Agent"
+ },
+ {
+  "id": "sk_43defbc423fc",
+  "name": "fullselfbrowsing/fsb",
+  "desc": "Drive your signed-in Chromium browser through FSB's MCP tools"
+ },
+ {
+  "id": "sk_8df8eb3f4670",
+  "name": "first-fluke/oh-my-agent",
+  "desc": "Harness skills linked into Claude Code, Codex, Cursor and more"
+ },
+ {
+  "id": "sk_e9057690a9da",
+  "name": "aurite-ai/agent-verifier",
+  "desc": "Reviews AI agent code for secrets, unbounded loops, hallucinated tools"
+ },
+ {
+  "id": "sk_fcda8fce1656",
+  "name": "finom/vovk",
+  "desc": "Next.js API routes as MCP tools and typed clients"
+ },
+ {
+  "id": "sk_127ee55a25f8",
+  "name": "Cap-go/capgo-skills",
+  "desc": "Capacitor app upgrades, live updates, native builds and migrations"
+ },
+ {
+  "id": "sk_d3e104bbb7e0",
+  "name": "beastlabai/multi-llm",
+  "desc": "Reviews plans, code, and commits with multiple coding CLIs."
+ },
+ {
+  "id": "sk_6685447b2a98",
+  "name": "EricJujianZou/rederive",
+  "desc": "Understand any codebase by re-designing its decisions from first principles"
+ },
+ {
+  "id": "sk_c82bed919667",
+  "name": "laolaoshiren/zh-code-reviewer",
+  "desc": "Chinese-output code review skill with structured findings and fix suggestions"
+ },
+ {
+  "id": "sk_8816f87100be",
+  "name": "GAURAV-1313/codecall",
+  "desc": "Quizzes you on agent-written code, traces flows, runs debugging drills"
+ },
+ {
+  "id": "sk_69de32a48496",
+  "name": "9929y/mesh-gradient-generation",
+  "desc": "Create editable mesh gradients with Figma and SVG workflows"
+ },
+ {
+  "id": "sk_166f3b4855fa",
+  "name": "mobbin/redesign-screen",
+  "desc": "Redesign screens using patterns from real shipped apps"
+ },
+ {
+  "id": "sk_a5cf2c1b8f3c",
+  "name": "mobbin/search",
+  "desc": "Search 600k+ real app screens, flows and sections"
+ },
+ {
+  "id": "sk_207dce841077",
+  "name": "celo-org/celopedia",
+  "desc": "Verified Celo contracts, protocols, MiniPay, grants, and agent tooling"
+ },
+ {
+  "id": "sk_2448d7e48095",
+  "name": "ScrapingBee/scrapingbee-cli",
+  "desc": "Scrape any page, search the web, crawl sites, extract data"
+ },
+ {
+  "id": "sk_d26f4259197f",
+  "name": "0design/unslop-skill",
+  "desc": "Audit plugin for Claude Code and Codex"
+ },
+ {
+  "id": "sk_dcf513372edc",
+  "name": "swiftlysingh/excalidraw-cli",
+  "desc": "Turn text, JSON, or Graphviz DOT into editable Excalidraw diagrams"
+ },
+ {
+  "id": "sk_470d62ecf255",
+  "name": "kyy-logs/code-review-gate-skill",
+  "desc": "Evidence-backed static code review with a JSON-derived merge gate"
+ },
+ {
+  "id": "sk_1e49a171564f",
+  "name": "laulauraluo/ai-code-review-triage",
+  "desc": "Three-pass review workflow for AI-generated pull requests"
+ },
+ {
+  "id": "sk_f95451269663",
+  "name": "thedesignproject/agentic-design-systems",
+  "desc": "Scaffolds AI-readable design systems for agents"
+ },
+ {
+  "id": "sk_96e6541f41d8",
+  "name": "nodemaven/skills",
+  "desc": "Residential proxies, Google search scraping, proxy benchmarking and troubleshooting"
+ },
+ {
+  "id": "sk_da3f769ee861",
+  "name": "KyungHwanKim-devs/kubegap",
+  "desc": "Read-only Kubernetes operations gap audit with Markdown report"
+ },
+ {
+  "id": "sk_d257e21c1884",
+  "name": "soba-labs/langchain-agent-skills",
+  "desc": "LangChain, LangGraph, LangSmith and Deep Agents development skills"
+ },
+ {
+  "id": "sk_6de64cfe39e3",
+  "name": "izzzzzi/assh",
+  "desc": "SSH over persistent tmux sessions with paginated remote output"
+ },
+ {
+  "id": "sk_26c7dc2e8f00",
+  "name": "speakeasy-api/sdk-generation-skills",
+  "desc": "Generate SDKs, MCP servers, and Terraform providers from OpenAPI specs"
+ },
+ {
+  "id": "sk_d4640ee6820c",
+  "name": "buddy/buddy",
+  "desc": "Deploy apps, run pipelines and expose ports with Buddy"
+ },
+ {
+  "id": "sk_f51a08a13ec7",
+  "name": "orwa-mahmoud/nightshift",
+  "desc": "Punch list, clock-out gate and receipts for long agent runs"
+ },
+ {
+  "id": "sk_a379ac4a6574",
+  "name": "momentic-ai/skills",
+  "desc": "Write, run, and repair Momentic browser and mobile E2E tests"
+ },
+ {
+  "id": "sk_89d015f5e75b",
+  "name": "awss1i/checking-a-page",
+  "desc": "Check a web page by driving every control in Chromium"
+ },
+ {
+  "id": "sk_b82c055958e0",
+  "name": "muratcankoylan/context-fundamentals",
+  "desc": "Understand what context is, why it matters, and the anatomy of context in agent systems"
+ },
+ {
+  "id": "sk_930bca31a6cd",
+  "name": "muratcankoylan/context-degradation",
+  "desc": "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash"
+ },
+ {
+  "id": "sk_fdd71ec8a33c",
+  "name": "muratcankoylan/context-compression",
+  "desc": "Design and evaluate compression strategies for long-running sessions"
+ },
+ {
+  "id": "sk_afeb0c792ca0",
+  "name": "muratcankoylan/context-optimization",
+  "desc": "Apply compaction, masking, and caching strategies"
+ },
+ {
+  "id": "sk_2eb779325242",
+  "name": "muratcankoylan/multi-agent-patterns",
+  "desc": "Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures"
+ },
+ {
+  "id": "sk_e453706803fc",
+  "name": "muratcankoylan/memory-systems",
+  "desc": "Design short-term, long-term, and graph-based memory architectures"
+ },
+ {
+  "id": "sk_d7c14957128d",
+  "name": "muratcankoylan/tool-design",
+  "desc": "Build tools that agents can use effectively, including architectural reduction patterns"
+ },
+ {
+  "id": "sk_d2925814c31a",
+  "name": "muratcankoylan/evaluation",
+  "desc": "Build evaluation frameworks for agent systems"
+ },
+ {
+  "id": "sk_a95e98462eff",
+  "name": "k-kolomeitsev/data-structure-protocol",
+  "desc": "Graph-based long-term memory skill for AI (LLM) coding agents — faster context, fewer tokens, safer refactors"
+ },
+ {
+  "id": "sk_0b4ba8fcb5c0",
+  "name": "awrshift/agent-memory-kit",
+  "desc": "Persistent memory with hooks, wiki, and daily synthesis for multi-project workflows"
+ },
+ {
+  "id": "sk_119a8246f83a",
+  "name": "NeoLabHQ/prompt-engineering",
+  "desc": "Widely used prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles."
+ },
+ {
+  "id": "sk_5f2cd3a01b16",
+  "name": "sametbrr/llm-wiki-manager",
+  "desc": "Persistent LLM-managed personal wiki — the model writes, cross-references, and maintains the knowledge base while you curate sources. Implements Karpathy's LLM Wiki pattern with 8 operating modes."
+ },
+ {
+  "id": "sk_90f34d3985fc",
+  "name": "dankofly/perfectify",
+  "desc": "Self-improving control kernel (DAGx AGI Kernel): hard approval stops for irreversible actions, evidence-gated completion, and a self-learning playbook with drift governance. Behaviorally evaluated; works across Claude Code, Codex, Hermes, and OpenCode"
+ },
+ {
+  "id": "sk_27c5bd4e5637",
+  "name": "Panniantong/Agent-Reach",
+  "desc": "Multi-platform search CLI for 17 sites including Chinese platforms"
+ },
+ {
+  "id": "sk_f77dae59b3ab",
+  "name": "zilliztech/mfs",
+  "desc": "mfs-find / mfs-ingest skills that search, grep and read across your code, docs, chat (Slack/Gmail/Jira), databases and object stores as one file-like, searchable namespace; self-hosted with local ONNX embeddings"
+ },
+ {
+  "id": "sk_0cd7db2c6672",
+  "name": "ohad6k/emulo",
+  "desc": "Mines AI coding logs into personal agent profiles"
+ },
+ {
+  "id": "sk_d9a919218f84",
+  "name": "Tubo2333/obsidian-knowledge-brain",
+  "desc": "Cross-session knowledge memory and rule evolution for AI coding agents"
+ },
+ {
+  "id": "sk_ede47204a846",
+  "name": "stjbrown/agent-knowledge",
+  "desc": "Maintains portable, cited agent knowledge bases in plain Markdown"
+ },
+ {
+  "id": "sk_434d6063a428",
+  "name": "khendzel/skills-janitor",
+  "desc": "Token audit, usage tracking, and swipe-to-delete skill pruning."
+ },
+ {
+  "id": "sk_ff19590861e7",
+  "name": "oliver-zehentleitner/keep-the-why",
+  "desc": "Preserves the reasoning behind a codebase — decisions, workarounds, rejected alternatives"
+ },
+ {
+  "id": "sk_c2d047f8ccb2",
+  "name": "chrono-meta/context-doctor",
+  "desc": "Generates .claudeignore and flags context bloat before it costs tokens"
+ },
+ {
+  "id": "sk_16d8defb4499",
+  "name": "thousandflowers/skillreaper",
+  "desc": "Prunes unused skills, MCP servers, and subagents from transcript evidence"
+ },
+ {
+  "id": "sk_62074382ab33",
+  "name": "orziz/odai",
+  "desc": "Govern evidence, responsibility routing, safety boundaries, and verified delivery"
+ },
+ {
+  "id": "sk_43a1d524377b",
+  "name": "thedotmack/claude-mem",
+  "desc": "Compresses and persists agent memory across sessions"
+ },
+ {
+  "id": "sk_e8840f9cf170",
+  "name": "vshulcz/deja-history",
+  "desc": "Searches your own past sessions across 43 coding agents"
+ },
+ {
+  "id": "sk_9ee5294d5825",
+  "name": "vshulcz/deja-search",
+  "desc": "CLI session recall and blame across 43 coding agents"
+ },
+ {
+  "id": "sk_aff8a94ee249",
+  "name": "vshulcz/deja-reflect",
+  "desc": "Distill recurring agent fixes into project rules files"
+ },
+ {
+  "id": "sk_5d51e57330df",
+  "name": "ruslanlap/cavemenko",
+  "desc": "Ukrainian pro-drop reply style, measured -49% tokens"
+ },
+ {
+  "id": "sk_93ab9f406008",
+  "name": "RAKKUNN/vicem",
+  "desc": "Cross-agent context baton and 80-90% lossless code skeletonizer"
+ },
+ {
+  "id": "sk_5b6745367cb0",
+  "name": "amirkiarafiei/subagent-cli-skills",
+  "desc": "Delegate heavy work to 15 other agent CLIs as subagents"
+ },
+ {
+  "id": "sk_12d692f0510f",
+  "name": "rebelytics/task-observer",
+  "desc": "Meta-skill for continuous skill improvement & automatic skill creation."
+ },
+ {
+  "id": "sk_ddd6243fbf2a",
+  "name": "archcore-ai/archcore",
+  "desc": "Spec-driven development and context engineering for AI coding agents"
+ },
+ {
+  "id": "sk_17901b4b9c82",
+  "name": "Qiuner/birdview",
+  "desc": "Put architecture and constraints at the center of AI coding"
+ },
+ {
+  "id": "sk_c5ab6bbf8dc8",
+  "name": "JayPokale/chisle",
+  "desc": "Cuts agent tokens: terse prose, lean code, trimmed tool output"
+ },
+ {
+  "id": "sk_bdc5a7197ea7",
+  "name": "tinqiao-oss/engramory",
+  "desc": "Curated plain-Markdown long-term memory with a size-capped index"
+ },
+ {
+  "id": "sk_b98ed7d06552",
+  "name": "wrg32786/aigent-os",
+  "desc": "Claude Code auto-clear harness with capsule memory"
+ },
+ {
+  "id": "sk_e2365c27549e",
+  "name": "ZeKaiNie/universal-examprep-skill",
+  "desc": "Multimodal grounded active-learning tutor for college textbooks (PDF/PPTX/DOCX). Features native PDF vector diagram cropping (pypdfium2), real homework quiz banks, hard exit-code anti-hallucination, and persistent cross-session state. Tested on 1,000+ pages of real college courseware on small cheap models."
+ },
+ {
+  "id": "sk_369c393f8a92",
+  "name": "shouldnotappearcalm/a-share-skill",
+  "desc": "China A-share (Shanghai/Shenzhen) skills: real-time quotes, K-line history, technical indicators, events, capital flows, sector heatmaps, and paper trading. Works with Claude Code, Cursor, Codex, and Qoder"
+ },
+ {
+  "id": "sk_1e63b775995a",
+  "name": "transloadit/skills",
+  "desc": "Transloadit skill collection (6)"
+ },
+ {
+  "id": "sk_53169d8b62ce",
+  "name": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+  "desc": "11 skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery: model exploration, entity/relation/attribute/metric/context/domain creation, validation, query, filtering, and workspace branching"
+ },
+ {
+  "id": "sk_6e18f849fc00",
+  "name": "raintree-technology/hig-doctor",
+  "desc": "Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS"
+ },
+ {
+  "id": "sk_c74250176c72",
+  "name": "K-Dense-AI/scientific-agent-skills",
+  "desc": "Scientific research and analysis skills"
+ }
+]

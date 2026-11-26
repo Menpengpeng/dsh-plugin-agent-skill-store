@@ -1,0 +1,3 @@
+﻿- insert:
+    - id: agent-skill-store
+      name: '@local/dsh-plugin-agent-skill-store'

@@ -1,0 +1,810 @@
+﻿[
+ {
+  "id": "sk_f4ae1e5ac697",
+  "zh": "创建、编辑并分析 Word 文档，保持格式与版式不乱"
+ },
+ {
+  "id": "sk_9d17657b5548",
+  "zh": "多人协作撰写与共同编辑文档，含版本与意见往来"
+ },
+ {
+  "id": "sk_add47b8a8d79",
+  "zh": "创建、编辑并分析 PowerPoint 演示文稿"
+ },
+ {
+  "id": "sk_18d66e94ef2d",
+  "zh": "创建、编辑并分析 Excel 表格，可写公式与做数据透视"
+ },
+ {
+  "id": "sk_c5c9c0c3cd25",
+  "zh": "从 PDF 中提取文本、生成新文件并处理表单填写"
+ },
+ {
+  "id": "sk_67c13d243799",
+  "zh": "用 p5.js 与随机种子生成可复现的生成式艺术图"
+ },
+ {
+  "id": "sk_2d33edb4e242",
+  "zh": "设计并输出 PNG 与 PDF 格式的视觉艺术作品"
+ },
+ {
+  "id": "sk_cf588958f7ae",
+  "zh": "前端视觉设计与 UI/UX 开发相关工具集"
+ },
+ {
+  "id": "sk_6db887bd4bc5",
+  "zh": "制作符合 Slack 体积限制的动态 GIF"
+ },
+ {
+  "id": "sk_d43e05846b40",
+  "zh": "为成品套用专业主题样式，或生成自定义主题"
+ },
+ {
+  "id": "sk_40c2bccf797f",
+  "zh": "用 React 和 Tailwind 构建复杂的 claude.ai HTML 作品"
+ },
+ {
+  "id": "sk_039f2afc557e",
+  "zh": "创建 MCP 服务器以接入外部 API 与服务"
+ },
+ {
+  "id": "sk_f3b651f3188b",
+  "zh": "用 Playwright 测试本地 Web 应用"
+ },
+ {
+  "id": "sk_01f3b5cf2d00",
+  "zh": "把 Anthropic 的品牌配色与字体规范应用到作品上"
+ },
+ {
+  "id": "sk_d4a548efdaf7",
+  "zh": "撰写状态报告、内部通讯简报与常见问题说明"
+ },
+ {
+  "id": "sk_6a9af5677ec5",
+  "zh": "指导创建可扩展 Claude 能力的 skill"
+ },
+ {
+  "id": "sk_9ae4696045e2",
+  "zh": "用于新建 skill 的基础模板，可直接复制改名使用"
+ },
+ {
+  "id": "sk_29e8a171f732",
+  "zh": "VoltAgent 项目搭建指南，含 CLI 与手动步骤"
+ },
+ {
+  "id": "sk_bb2df49979d5",
+  "zh": "VoltAgent 在 agent、工作流、记忆与服务端的最佳实践与架构模式"
+ },
+ {
+  "id": "sk_18b97d91ce96",
+  "zh": "VoltAgent 核心类的配置项与生命周期方法参考"
+ },
+ {
+  "id": "sk_f5e525a58a64",
+  "zh": "按版本检索 @voltagent/core 内置文档，保证与依赖版本一致"
+ },
+ {
+  "id": "sk_309ed39a3743",
+  "zh": "通过 130 多个搜索引擎取结构化搜索数据，含选引擎、取字段与错误恢复"
+ },
+ {
+  "id": "sk_16864d46bc0c",
+  "zh": "测试 agent 能否发现并正确使用你的工具，考察对象是接口而非 agent"
+ },
+ {
+  "id": "sk_c8438845ea5b",
+  "zh": "面向 Python agent 的实时搜索工具，原生支持主流 agent SDK"
+ },
+ {
+  "id": "sk_89ee06047505",
+  "zh": "命令行版 SerpApi 客户端，覆盖全部 130 多个搜索引擎"
+ },
+ {
+  "id": "sk_016b30b4f8b4",
+  "zh": "抓取网址并返回原始 HTML，支持 JS 渲染、设备模拟与地域定向"
+ },
+ {
+  "id": "sk_d3b09e9e9202",
+  "zh": "从任意网址提取纯净的 Markdown，去掉广告与模板化内容可直接喂给模型"
+ },
+ {
+  "id": "sk_debdad76cc37",
+  "zh": "对任意网址截图，可选整页或视口，支持桌面与移动端"
+ },
+ {
+  "id": "sk_bf9827cb6e01",
+  "zh": "从 Crawlbase 云存储取回已保存的页面，输出 JSON、HTML 或 Markdown"
+ },
+ {
+  "id": "sk_89b961781888",
+  "zh": "列出云存储中的 rid，用滚动分页每次最多取 1000 条"
+ },
+ {
+  "id": "sk_1a3e3b1be053",
+  "zh": "一次调用批量取回最多 100 个已存页面，可选取后自动删除"
+ },
+ {
+  "id": "sk_54aeacbc5b6d",
+  "zh": "统计某个 token 在 Crawlbase 云存储中的文档数量"
+ },
+ {
+  "id": "sk_576aefbd0f0d",
+  "zh": "按 rid 从 Crawlbase 云存储删除单个已存页面"
+ },
+ {
+  "id": "sk_e126c21e143c",
+  "zh": "一次调用批量删除云存储中最多 100 个已存页面"
+ },
+ {
+  "id": "sk_bca036757bea",
+  "zh": "支撑以上功能的 MCP 服务器，内置 JS 渲染、代理轮换与反爬保护"
+ },
+ {
+  "id": "sk_fe4d00abeb85",
+  "zh": "基于 Crawling API 的 LangChain 文档加载器、工具与检索器"
+ },
+ {
+  "id": "sk_abdeecaea8d7",
+  "zh": "n8n 原生 Crawlbase 节点，内置凭据配置与 Crawling API 选项"
+ },
+ {
+  "id": "sk_bb71e71b3a36",
+  "zh": "覆盖 REST、GraphQL、gRPC 接口的设计、Mock、文档、安全与测试生成"
+ },
+ {
+  "id": "sk_b343ee0f034d",
+  "zh": "用 Java、Python 或 JS 生成 Android 与 iOS 的 Appium 移动端自动化脚本"
+ },
+ {
+  "id": "sk_800f5002a40b",
+  "zh": "用 Gherkin 与 Mink 为 PHP 生成 Behat 行为驱动测试"
+ },
+ {
+  "id": "sk_62359a6c4114",
+  "zh": "用 Gherkin 与步骤实现为 Python 生成 Behave 行为驱动测试"
+ },
+ {
+  "id": "sk_8b5e48cb393d",
+  "zh": "结合 RSpec 为 Ruby 生成 Capybara 端到端测试"
+ },
+ {
+  "id": "sk_5a8cf569839b",
+  "zh": "在 GitHub Actions、Jenkins、GitLab CI 与 Azure DevOps 上生成测试流水线"
+ },
+ {
+  "id": "sk_859fdd29e6ec",
+  "zh": "为 PHP 生成 Codeception 的验收、功能与单元测试"
+ },
+ {
+  "id": "sk_fdaaa3d989e5",
+  "zh": "用 Gherkin 与步骤定义为 Java、JS 或 Ruby 生成 Cucumber 测试"
+ },
+ {
+  "id": "sk_6428657e1d74",
+  "zh": "用 JavaScript 或 TypeScript 生成 Cypress 端到端与组件测试"
+ },
+ {
+  "id": "sk_0a658ecc1762",
+  "zh": "用 JavaScript 为 React Native 应用生成 Detox 灰盒端到端测试"
+ },
+ {
+  "id": "sk_689c35f6df4d",
+  "zh": "用 Kotlin 或 Java 生成 Android 应用的 Espresso 界面测试"
+ },
+ {
+  "id": "sk_eac00a8c7f2f",
+  "zh": "用 Dart 生成 Flutter 的 widget、集成与 golden 测试"
+ },
+ {
+  "id": "sk_1fd44ab9422a",
+  "zh": "编写 Markdown 格式的 Gauge 用例，并用 Java、Python、JS 或 Ruby 实现步骤"
+ },
+ {
+  "id": "sk_ad0d907f779c",
+  "zh": "用 Groovy 生成 Geb 浏览器自动化，结合 Spock 与页面对象模式"
+ },
+ {
+  "id": "sk_fa17f3807987",
+  "zh": "端到端使用 TestMu AI HyperExecute，含 YAML 配置、CLI 运行、调试与 CI 接入"
+ },
+ {
+  "id": "sk_eb3532c8ee85",
+  "zh": "用 JavaScript 生成 Jasmine 行为驱动测试，含 spy 与异步支持"
+ },
+ {
+  "id": "sk_3c1c99ceafce",
+  "zh": "用 JS/TS 生成 Jest 单元与集成测试，支持 mock 与快照"
+ },
+ {
+  "id": "sk_478a5d5d4091",
+  "zh": "结合 Mockito 用 Java 生成 JUnit 5 单元与集成测试"
+ },
+ {
+  "id": "sk_ff4fa7e66957",
+  "zh": "通过 kane-cli 把自然语言目标转成浏览器测试并执行"
+ },
+ {
+  "id": "sk_e24be62f8ddf",
+  "zh": "生成 Karma 测试运行器配置，用于浏览器端 JavaScript 测试"
+ },
+ {
+  "id": "sk_40153228e249",
+  "zh": "用 PHP 生成基于 Chrome 的 Laravel Dusk 浏览器测试"
+ },
+ {
+  "id": "sk_bcbe5b934437",
+  "zh": "为 Python 生成 Lettuce 行为驱动测试，属旧方案建议改用 Behave"
+ },
+ {
+  "id": "sk_82a494905237",
+  "zh": "用 JavaScript 生成 Mocha 测试，搭配 Chai 与 Sinon"
+ },
+ {
+  "id": "sk_0f4d3f2ae706",
+  "zh": "为 .NET 用 C# 生成 MSTest 测试"
+ },
+ {
+  "id": "sk_0374656d8a8c",
+  "zh": "为 Node.js 生成基于 Selenium 的 Nemo.js 测试"
+ },
+ {
+  "id": "sk_4a44ae303044",
+  "zh": "用 JavaScript 与 Selenium WebDriver 生成 NightwatchJS 端到端测试"
+ },
+ {
+  "id": "sk_540e51b2602f",
+  "zh": "用 C# 与约束模型及 Moq 生成 NUnit 3 测试"
+ },
+ {
+  "id": "sk_1ca5a9aed620",
+  "zh": "用 PHP 生成 PHPUnit 测试，含数据提供器与 mock"
+ },
+ {
+  "id": "sk_78f813e4d059",
+  "zh": "用 TS、JS、Python、Java 或 C# 生成 Playwright 端到端测试"
+ },
+ {
+  "id": "sk_6a09b29c43c1",
+  "zh": "为 Angular 用 JS/TS 生成 Protractor 端到端测试，已废弃建议改用 Playwright 或 Cypress"
+ },
+ {
+  "id": "sk_4ffef47c65ad",
+  "zh": "生成 Puppeteer 脚本，用于浏览器自动化、抓取与 PDF 导出"
+ },
+ {
+  "id": "sk_06972ba2359c",
+  "zh": "用 Python 生成 pytest 测试，含 fixture、参数化与 mock"
+ },
+ {
+  "id": "sk_568a6285a9e2",
+  "zh": "用 C# 为 Web 与移动端生成 Reqnroll 行为驱动测试"
+ },
+ {
+  "id": "sk_cec6acb63457",
+  "zh": "用 Python 生成 Robot Framework 关键字驱动测试"
+ },
+ {
+  "id": "sk_f7b200481246",
+  "zh": "用 Ruby 生成 RSpec 测试，含匹配器、钩子与 mock"
+ },
+ {
+  "id": "sk_4772f7cecd0b",
+  "zh": "用 Java 生成 Selenide 界面测试，自带自动等待与流式 API"
+ },
+ {
+  "id": "sk_94ffd9e42919",
+  "zh": "用 Java、Python、JS、C#、Ruby 或 PHP 生成 Selenium WebDriver 测试"
+ },
+ {
+  "id": "sk_7d5253c573ef",
+  "zh": "用 Java 按 Screenplay 模式生成 Serenity BDD 测试并输出报告"
+ },
+ {
+  "id": "sk_92de1634cafc",
+  "zh": "生成 SmartUI 视觉回归配置，用于截图比对"
+ },
+ {
+  "id": "sk_29466a9b75eb",
+  "zh": "用 Gherkin 与步骤绑定为 C#/.NET 生成 SpecFlow 行为驱动测试"
+ },
+ {
+  "id": "sk_be06cb5ced82",
+  "zh": "在 Selenium、Playwright、Puppeteer 与 Cypress 之间迁移测试代码"
+ },
+ {
+  "id": "sk_5af69e3578c8",
+  "zh": "用 JavaScript 或 TypeScript 生成 TestCafe 自动化测试"
+ },
+ {
+  "id": "sk_2a86e796f25d",
+  "zh": "用 Java 生成 TestNG 测试，含数据提供器与并行执行"
+ },
+ {
+  "id": "sk_8cfb8db3dc9c",
+  "zh": "用 Ruby 生成 Test::Unit 风格的 xUnit 测试"
+ },
+ {
+  "id": "sk_eb7c3f1a09d4",
+  "zh": "用 Python 生成 unittest 测试，含 TestCase 与 setUp/tearDown"
+ },
+ {
+  "id": "sk_666529dfb390",
+  "zh": "用 JS/TS 生成 Vitest 测试，兼容 Jest API 并支持 ESM"
+ },
+ {
+  "id": "sk_7e7aecf03847",
+  "zh": "用 JavaScript 或 TypeScript 生成 WebdriverIO 自动化测试"
+ },
+ {
+  "id": "sk_5298a6a20eb8",
+  "zh": "用 Swift 为 iOS/iPadOS 应用生成 XCUITest 界面测试"
+ },
+ {
+  "id": "sk_bb44ed9cd905",
+  "zh": "用 C# 生成 xUnit.net 测试，含 Fact/Theory 与 FluentAssertions"
+ },
+ {
+  "id": "sk_3e220416f875",
+  "zh": "Modem 提供的 agent skill 集合，首项为 write-discoverable-code"
+ },
+ {
+  "id": "sk_4aaa395ed6c5",
+  "zh": "为 Claude Code agent 发现并调用外部付费工具，免去注册账户或手工获取 API key"
+ },
+ {
+  "id": "sk_f96eccef1cb7",
+  "zh": "把 Zero 的工具发现与付费层封装成 Gemini CLI 扩展"
+ },
+ {
+  "id": "sk_2283eee853a6",
+  "zh": "为组件、服务与响应式逻辑生成 Angular 代码并给出架构建议"
+ },
+ {
+  "id": "sk_c7c7adcee239",
+  "zh": "为组件、服务与响应式逻辑生成 Angular 代码并给出架构建议"
+ },
+ {
+  "id": "sk_2283eee853a6",
+  "zh": "用 Angular CLI 与现代工程实践创建新应用"
+ },
+ {
+  "id": "sk_c7c7adcee239",
+  "zh": "用 Angular CLI 与现代工程实践创建新应用"
+ },
+ {
+  "id": "sk_1413b5b560f8",
+  "zh": "让 AI agent 接入 1000 多个外部应用，认证统一托管"
+ },
+ {
+  "id": "sk_6956436a57e6",
+  "zh": "Supabase 环境下的 PostgreSQL 使用最佳实践"
+ },
+ {
+  "id": "sk_54c9ff2573af",
+  "zh": "使用 Gemini API 开发 Gemini 应用的实践要点"
+ },
+ {
+  "id": "sk_4f4ac2c54405",
+  "zh": "用 Gen AI SDK 在 Google Cloud Vertex AI 上开发 Gemini 应用"
+ },
+ {
+  "id": "sk_25b80fe08b90",
+  "zh": "用 Gemini Live API 构建双向实时流式应用"
+ },
+ {
+  "id": "sk_943daac2bf7a",
+  "zh": "用 Gemini Interactions API 构建文本、对话、流式与图像生成应用"
+ },
+ {
+  "id": "sk_85aba800fd85",
+  "zh": "构建 Stripe 支付集成的最佳实践与常见坑"
+ },
+ {
+  "id": "sk_971b068247d6",
+  "zh": "升级 Stripe SDK 与 API 版本"
+ },
+ {
+  "id": "sk_f5c02e062783",
+  "zh": "通过邮件、短信、推送与聊天发送多渠道通知"
+ },
+ {
+  "id": "sk_13507a263a6a",
+  "zh": "Callstack 出品的 React Native 应用性能优化实践"
+ },
+ {
+  "id": "sk_db1ae257709e",
+  "zh": "围绕 PR、代码评审与分支管理的 GitHub 协作流程模式"
+ },
+ {
+  "id": "sk_3a6fefa3672c",
+  "zh": "React Native 升级流程，含模板、依赖处理与常见坑"
+ },
+ {
+  "id": "sk_f04bcc753387",
+  "zh": "集成 Better Auth 的最佳实践"
+ },
+ {
+  "id": "sk_ccf237050d81",
+  "zh": "解释 Better Auth 的报错信息"
+ },
+ {
+  "id": "sk_cc0405aceddc",
+  "zh": "Better Auth 支持的各种认证提供方"
+ },
+ {
+  "id": "sk_fd84a0cf937a",
+  "zh": "用 Better Auth 搭建认证体系"
+ },
+ {
+  "id": "sk_070b8c24335b",
+  "zh": "用 Better Auth 实现邮箱加密码登录"
+ },
+ {
+  "id": "sk_f35a75a16eb0",
+  "zh": "用 Better Auth 实现组织与成员管理"
+ },
+ {
+  "id": "sk_840244b6d745",
+  "zh": "用 Better Auth 实现双因素认证"
+ },
+ {
+  "id": "sk_1ccbaed1ee8f",
+  "zh": "Tinybird 项目的 datasource、pipe、endpoint 与 SQL 编写规范"
+ },
+ {
+  "id": "sk_f538012e3f5e",
+  "zh": "Tinybird CLI 的用法指引与常用命令"
+ },
+ {
+  "id": "sk_8e23859972d6",
+  "zh": "Tinybird Python SDK 的调用方式与项目约定"
+ },
+ {
+  "id": "sk_ac33cd4468af",
+  "zh": "Tinybird TypeScript SDK 的调用方式与项目约定"
+ },
+ {
+  "id": "sk_20da27c631b5",
+  "zh": "Terraform 模块需满足的 Azure Verified Modules 认证规范与检查项"
+ },
+ {
+  "id": "sk_42e17fde3e90",
+  "zh": "用 Plugin Framework 初始化新的 Terraform provider 项目"
+ },
+ {
+  "id": "sk_5f0a4e12fdc3",
+  "zh": "用 Plugin Framework 实现 Terraform provider 的 resource 与 data source"
+ },
+ {
+  "id": "sk_fa66c474ba0d",
+  "zh": "基于 terraform-plugin-testing 的 provider 验收测试写法"
+ },
+ {
+  "id": "sk_966d90b2e511",
+  "zh": "用 Plugin Framework 实现 Terraform provider 的 Action"
+ },
+ {
+  "id": "sk_fa1f0388020d",
+  "zh": "用 Go 测试运行器执行 Terraform provider 验收测试"
+ },
+ {
+  "id": "sk_0fcf11dff1be",
+  "zh": "把单体 Terraform 配置拆成可复用的模块"
+ },
+ {
+  "id": "sk_be958a0e3f05",
+  "zh": "发现云端已有资源并批量导入 Terraform state"
+ },
+ {
+  "id": "sk_90d5ca39bb07",
+  "zh": "按 HashiCorp 官方风格规范生成 Terraform HCL 代码"
+ },
+ {
+  "id": "sk_80ce77cd0534",
+  "zh": "用 Terraform Stacks 跨多环境、多地域与多云账号管理基础设施"
+ },
+ {
+  "id": "sk_e2bb2c5a867d",
+  "zh": "用 .tftest.hcl 文件对 Terraform 配置做内置测试"
+ },
+ {
+  "id": "sk_61245e99b9e2",
+  "zh": "Sanity Studio、GROQ 查询与内容工作流的最佳实践"
+ },
+ {
+  "id": "sk_3c559c7e0d35",
+  "zh": "在 Sanity 中设计可扩展内容模型的规范"
+ },
+ {
+  "id": "sk_60c139dfea08",
+  "zh": "面向内容站的 SEO 与答案引擎优化做法"
+ },
+ {
+  "id": "sk_64b8e8d2f1e1",
+  "zh": "内容 A/B 测试与实验工作流，含分组与效果评估"
+ },
+ {
+  "id": "sk_1066afc204a0",
+  "zh": "把 Firecrawl 接入应用代码，实现网页搜索、抓取、结构化提取与浏览器交互"
+ },
+ {
+  "id": "sk_c32044e8c77e",
+  "zh": "Firecrawl 多步浏览器流程，含点击、填表、翻页与需要登录的导航"
+ },
+ {
+  "id": "sk_918f8ef4534c",
+  "zh": "首次集成时在项目中配置 Firecrawl 凭据与 SDK"
+ },
+ {
+  "id": "sk_d2266e07d5df",
+  "zh": "在产品代码中接入 Firecrawl /scrape 完成单页内容提取"
+ },
+ {
+  "id": "sk_1ebf81d0c712",
+  "zh": "接入 Firecrawl /search 做查询优先的发现，可按需补全正文"
+ },
+ {
+  "id": "sk_fe18170f0bb6",
+  "zh": "查找并运行 Firecrawl Alexandria 工具以获取结构化数据"
+ },
+ {
+  "id": "sk_9288d351fcd3",
+  "zh": "Neon Serverless Postgres 的连接、扩缩容与使用实践"
+ },
+ {
+  "id": "sk_adea6f838055",
+  "zh": "用 Neon 申领并开通可直接使用的 Postgres 数据库"
+ },
+ {
+  "id": "sk_d696299a7084",
+  "zh": "优化 Neon Postgres 的出网流量与数据传输开销"
+ },
+ {
+  "id": "sk_0ba22b2af1ee",
+  "zh": "使用 ClickHouse 进行数据分析的最佳实践"
+ },
+ {
+  "id": "sk_2a5a2f3f964a",
+  "zh": "可直接替换 pandas 的数据层，具备 ClickHouse 性能并支持 16 种以上数据源"
+ },
+ {
+  "id": "sk_332b8cbb3387",
+  "zh": "进程内运行的 ClickHouse SQL 引擎，无需服务端即可查询文件、数据库与云存储"
+ },
+ {
+  "id": "sk_ffa1f33ed3e1",
+  "zh": "设计 ClickHouse 架构，把最佳实践落成贴合具体负载的决策"
+ },
+ {
+  "id": "sk_7e9e26d5bf4f",
+  "zh": "用 clickhousectl 部署到 ClickHouse Cloud 并从本地环境迁移"
+ },
+ {
+  "id": "sk_c7984ac5f925",
+  "zh": "用 clickhousectl 从零搭起本地 ClickHouse 开发环境"
+ },
+ {
+  "id": "sk_7a3b9863563c",
+  "zh": "用 React 以编程方式生成可编排的视频"
+ },
+ {
+  "id": "sk_911c2a16e181",
+  "zh": "通过 Replicate API 发现、对比并运行 AI 模型"
+ },
+ {
+  "id": "sk_1124caa8997e",
+  "zh": "在 X、LinkedIn、Threads、Bluesky 与 Mastodon 上创建、排期并发布内容"
+ },
+ {
+  "id": "sk_54ffa690e785",
+  "zh": "Venice API 的基础用法、认证方式、计费与版本策略概览"
+ },
+ {
+  "id": "sk_f575a2ca9330",
+  "zh": "基于 API key 与钱包的 Venice 认证方式"
+ },
+ {
+  "id": "sk_58165c76f24b",
+  "zh": "Venice 的对话补全、多模态输入、工具调用与流式输出"
+ },
+ {
+  "id": "sk_33a1e51faf87",
+  "zh": "兼容 OpenAI 的 Responses API，由 Venice 提供"
+ },
+ {
+  "id": "sk_4fc43191f5a9",
+  "zh": "嵌入模型、向量维度与编码格式的选用说明与参数建议"
+ },
+ {
+  "id": "sk_08147f4b3882",
+  "zh": "图像生成接口与可选风格，可指定尺寸与采样参数"
+ },
+ {
+  "id": "sk_d8691ea52b10",
+  "zh": "图像编辑、超分放大与背景移除三类处理能力"
+ },
+ {
+  "id": "sk_1bff038a6401",
+  "zh": "语音合成模型、音色、音频格式与流式输出选项"
+ },
+ {
+  "id": "sk_7445fb697baf",
+  "zh": "音乐生成的排队提交、进度查询与完成状态接口"
+ },
+ {
+  "id": "sk_f8b89fcdbc4c",
+  "zh": "音频转写模型与语音识别选项，可按场景切换"
+ },
+ {
+  "id": "sk_600f911e4f37",
+  "zh": "视频生成与视频转写两类工作流的调用方式与限制"
+ },
+ {
+  "id": "sk_9147cfd91dbd",
+  "zh": "模型目录、特性标注与兼容性映射的查询接口说明"
+ },
+ {
+  "id": "sk_e6b23eff3d55",
+  "zh": "角色接口与 characterslug 的用法"
+ },
+ {
+  "id": "sk_6e8a98dc9436",
+  "zh": "API key 的增删改查、频率限制与 Web3 密钥"
+ },
+ {
+  "id": "sk_269c1dcdc044",
+  "zh": "余额、用量与计费分析接口，可按时间段统计"
+ },
+ {
+  "id": "sk_53386ad3c3af",
+  "zh": "在 Base 链上使用钱包额度与 x402 支付"
+ },
+ {
+  "id": "sk_ea496ab5538c",
+  "zh": "为受支持的加密网络提供 JSON-RPC 代理"
+ },
+ {
+  "id": "sk_4dfbb9fec65c",
+  "zh": "搜索、抓取与文本解析接口，用于补全上下文"
+ },
+ {
+  "id": "sk_87020eb5ab7c",
+  "zh": "错误处理、重试策略与 API 状态码的对应说明"
+ },
+ {
+  "id": "sk_86d89222f2d9",
+  "zh": "Next.js 最佳实践与推荐的项目组织写法"
+ },
+ {
+  "id": "sk_e4b96cfd2058",
+  "zh": "Next.js 中的缓存策略与缓存感知组件"
+ },
+ {
+  "id": "sk_502b381bd94e",
+  "zh": "把 Next.js 项目升级到更新版本并处理破坏性变更"
+ },
+ {
+  "id": "sk_be11798ff2b8",
+  "zh": "可扩展的 React 组合模式，用于设计可复用组件 API"
+ },
+ {
+  "id": "sk_3ca5a8e5b66f",
+  "zh": "把应用与网站部署到 Vercel，含构建与域名配置"
+ },
+ {
+  "id": "sk_7b8495e6540a",
+  "zh": "React 与 Next.js 的性能优化准则"
+ },
+ {
+  "id": "sk_41bf7c0a0096",
+  "zh": "React Native 与 Expo 打造高性能应用的最佳实践"
+ },
+ {
+  "id": "sk_f65c3112ff77",
+  "zh": "用 React View Transitions 做接近原生的动画"
+ },
+ {
+  "id": "sk_9a91cc346aec",
+  "zh": "用 token 认证部署并管理 Vercel 项目"
+ },
+ {
+  "id": "sk_2ed51f6f5655",
+  "zh": "以实测指标为依据的 Vercel 成本与性能优化审计"
+ },
+ {
+  "id": "sk_69893590c62c",
+  "zh": "按 Web Interface Guidelines 审查界面代码"
+ },
+ {
+  "id": "sk_b0dcc7b20d94",
+  "zh": "按 Writing Guidelines 审查文档写法"
+ },
+ {
+  "id": "sk_4d531a7f6a02",
+  "zh": "构建带定时调度、RPC 与 MCP 服务的状态化 AI agent"
+ },
+ {
+  "id": "sk_5e94137ff5f1",
+  "zh": "覆盖 Workers、Pages、存储、AI、网络、安全与 IaC 的 Cloudflare 平台能力集"
+ },
+ {
+  "id": "sk_e243c806e169",
+  "zh": "用 Cloudflare Email Sending 发事务邮件，用 Email Routing 处理来信"
+ },
+ {
+  "id": "sk_382425d604ca",
+  "zh": "基于 RPC、SQLite 与 WebSocket 的状态化协同"
+ },
+ {
+  "id": "sk_fb917b1cc396",
+  "zh": "在 Workers 上构建安全隔离执行代码的沙箱应用"
+ },
+ {
+  "id": "sk_fb8b0a9728f9",
+  "zh": "审计 Core Web Vitals 与阻塞渲染的资源"
+ },
+ {
+  "id": "sk_007789fe1ef4",
+  "zh": "按生产环境最佳实践与 wrangler.jsonc 约定审查并编写 Workers 代码"
+ },
+ {
+  "id": "sk_a6affdcdf159",
+  "zh": "部署并管理 Workers、KV、R2、D1、Vectorize、Queues 与 Workflows"
+ },
+ {
+  "id": "sk_dfc792d3cec9",
+  "zh": "分阶段的安全审计，产出经独立复核的机器可读结论"
+ },
+ {
+  "id": "sk_ae5bb904dd1f",
+  "zh": "构建无服务器 API 端点与后台任务函数"
+ },
+ {
+  "id": "sk_1d47ef650c8c",
+  "zh": "低延迟的边缘中间件与基于地理位置的分支逻辑"
+ },
+ {
+  "id": "sk_f3c2d7270d30",
+  "zh": "用于文件与数据的键值对象存储，读写都很简单"
+ },
+ {
+  "id": "sk_b61f26b5800d",
+  "zh": "托管 Postgres，可随部署预览分支创建副本"
+ },
+ {
+  "id": "sk_075ac67821a5",
+  "zh": "通过 CDN 优化并实时转换图片尺寸与格式"
+ },
+ {
+  "id": "sk_c763facd39b3",
+  "zh": "处理 HTML 表单提交并内置垃圾内容过滤"
+ },
+ {
+  "id": "sk_c3bfd42eb407",
+  "zh": "部署支持服务端渲染的各类 Web 框架并配好构建参数"
+ },
+ {
+  "id": "sk_4d5df0a46e3f",
+  "zh": "配置 CDN 缓存策略、缓存规则与缓存清除操作"
+ },
+ {
+  "id": "sk_d7a7b91a2568",
+  "zh": "netlify.toml 站点配置项参考"
+ },
+ {
+  "id": "sk_4ac206d8478a",
+  "zh": "CLI 安装配置、本地开发与部署流程说明"
+ },
+ {
+  "id": "sk_1a891b5f67ee",
+  "zh": "Netlify 站点自动化部署流程与常见问题处理"
+ },
+ {
+  "id": "sk_6154dfd23d74",
+  "zh": "通过统一网关入口访问多家 AI 模型服务"
+ },
+ {
+  "id": "sk_0f5d4f0bf41c",
+  "zh": "创建与维护 DESIGN.md 设计说明文件"
+ }
+]

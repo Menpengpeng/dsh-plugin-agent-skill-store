@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "sk_360945877b67",
+  "name": "anthropics/docx",
+  "desc": "Create, edit, and analyze Word documents"
+ },
+ {
+  "id": "sk_84b6defa0b7a",
+  "name": "anthropics/doc-coauthoring",
+  "desc": "Collaborative document editing and co-authoring"
+ },
+ {
+  "id": "sk_e2e0837c7e42",
+  "name": "anthropics/pptx",
+  "desc": "Create, edit, and analyze PowerPoint presentations"
+ },
+ {
+  "id": "sk_0869c94a8ee7",
+  "name": "anthropics/xlsx",
+  "desc": "Create, edit, and analyze Excel spreadsheets"
+ },
+ {
+  "id": "sk_9b1d8ac7e04d",
+  "name": "anthropics/pdf",
+  "desc": "Extract text, create PDFs, and handle forms"
+ },
+ {
+  "id": "sk_ac5115a3a885",
+  "name": "anthropics/algorithmic-art",
+  "desc": "Create generative art using p5.js with seeded randomness"
+ },
+ {
+  "id": "sk_f94f7da77d28",
+  "name": "anthropics/canvas-design",
+  "desc": "Design visual art in PNG and PDF formats"
+ },
+ {
+  "id": "sk_79b872e31b3e",
+  "name": "anthropics/frontend-design",
+  "desc": "Frontend design and UI/UX development tools"
+ },
+ {
+  "id": "sk_15f6e1f9a36c",
+  "name": "anthropics/slack-gif-creator",
+  "desc": "Create animated GIFs optimized for Slack size constraints"
+ },
+ {
+  "id": "sk_60b217f62c9a",
+  "name": "anthropics/theme-factory",
+  "desc": "Style artifacts with professional themes or generate custom themes"
+ },
+ {
+  "id": "sk_d78e305dbb4d",
+  "name": "anthropics/web-artifacts-builder",
+  "desc": "Build complex claude.ai HTML artifacts with React and Tailwind"
+ },
+ {
+  "id": "sk_01debf09ead9",
+  "name": "anthropics/mcp-builder",
+  "desc": "Create MCP servers to integrate external APIs and services"
+ },
+ {
+  "id": "sk_3964feecf68c",
+  "name": "anthropics/webapp-testing",
+  "desc": "Test local web applications using Playwright"
+ },
+ {
+  "id": "sk_5dc6b378443c",
+  "name": "anthropics/brand-guidelines",
+  "desc": "Apply Anthropic's brand colors and typography to artifacts"
+ },
+ {
+  "id": "sk_339dc1be87c0",
+  "name": "anthropics/internal-comms",
+  "desc": "Write status reports, newsletters, and FAQs"
+ },
+ {
+  "id": "sk_a0eefc0f32f5",
+  "name": "anthropics/skill-creator",
+  "desc": "Guide for creating skills that extend Claude's capabilities"
+ },
+ {
+  "id": "sk_b72b977f8e5b",
+  "name": "anthropics/template",
+  "desc": "Basic template for creating new skills"
+ },
+ {
+  "id": "sk_b33baa5f477d",
+  "name": "voltagent/create-voltagent",
+  "desc": "Project setup guide with CLI and manual steps"
+ },
+ {
+  "id": "sk_ef48bbfc9a48",
+  "name": "voltagent/voltagent-best-practices",
+  "desc": "Architecture and usage patterns for agents, workflows, memory, and servers"
+ },
+ {
+  "id": "sk_02132fe63d71",
+  "name": "voltagent/voltagent-core-reference",
+  "desc": "Reference for the VoltAgent class options and lifecycle methods"
+ },
+ {
+  "id": "sk_8ba11707ffb0",
+  "name": "voltagent/voltagent-docs-bundle",
+  "desc": "Lookup embedded docs from @voltagent/core for version-matched documentation"
+ },
+ {
+  "id": "sk_d778a653fe37",
+  "name": "serpapi/serpapi-web-search",
+  "desc": "Structured search data via 130+ engines: pick the right engine, extract the right keys, recover from errors"
+ },
+ {
+  "id": "sk_5f2c3ef98943",
+  "name": "serpapi/agent-usability-test",
+  "desc": "Test whether agents can discover and use your tool — the subject under test is the interface, not the agent"
+ },
+ {
+  "id": "sk_19c76033d386",
+  "name": "serpapi/serpapi-search-tools-python",
+  "desc": "Real-time search tools for Python agents with native support for popular agent SDKs"
+ },
+ {
+  "id": "sk_691009d6cce2",
+  "name": "serpapi/serpapi-cli",
+  "desc": "SerpApi client for the command line, covering all 130+ engines"
+ },
+ {
+  "id": "sk_02e13a1dabb2",
+  "name": "crawlbase/crawl-html",
+  "desc": "Crawl a URL and return its raw HTML with JS rendering, device emulation, and geo-targeting"
+ },
+ {
+  "id": "sk_e1cfa36c049e",
+  "name": "crawlbase/crawl-markdown",
+  "desc": "Extract clean, LLM-ready Markdown from any URL, stripped of ads and boilerplate"
+ },
+ {
+  "id": "sk_a809257e70bd",
+  "name": "crawlbase/crawl-screenshot",
+  "desc": "Take full-page or viewport screenshots of any URL on desktop or mobile"
+ },
+ {
+  "id": "sk_0a7cab1013b4",
+  "name": "crawlbase/storage-get",
+  "desc": "Retrieve a stored page from Crawlbase Cloud Storage as JSON, HTML, or Markdown"
+ },
+ {
+  "id": "sk_1a4d87291219",
+  "name": "crawlbase/storage-list",
+  "desc": "List stored rids with scroll-based pagination, up to 1000 per call"
+ },
+ {
+  "id": "sk_1bb79580a076",
+  "name": "crawlbase/storage-bulk-get",
+  "desc": "Retrieve up to 100 stored pages in one call, with optional auto-delete"
+ },
+ {
+  "id": "sk_076cef1d7444",
+  "name": "crawlbase/storage-count",
+  "desc": "Count the documents held in Crawlbase Cloud Storage for a token"
+ },
+ {
+  "id": "sk_b3de1735ab05",
+  "name": "crawlbase/storage-delete",
+  "desc": "Delete a single stored page from Crawlbase Cloud Storage by rid"
+ },
+ {
+  "id": "sk_2d85e259748b",
+  "name": "crawlbase/storage-bulk-delete",
+  "desc": "Delete up to 100 stored pages from Crawlbase Cloud Storage in one call"
+ },
+ {
+  "id": "sk_b3a7d3b1a027",
+  "name": "crawlbase/crawlbase-mcp",
+  "desc": "The MCP server behind these skills (npm @crawlbase/mcp) with JS rendering, proxy rotation, and anti-bot protection"
+ },
+ {
+  "id": "sk_39caf2764f64",
+  "name": "crawlbase/langchain-crawlbase",
+  "desc": "LangChain document loader, tool, and retriever backed by the Crawling API"
+ },
+ {
+  "id": "sk_e218a07e384a",
+  "name": "crawlbase/n8n-nodes-crawlbase",
+  "desc": "Native Crawlbase node for n8n with credentials and Crawling API options"
+ },
+ {
+  "id": "sk_18ca0877c3f2",
+  "name": "testmu-ai/api-skill",
+  "desc": "Suite of API skills for designing, mocking, documenting, securing, and generating tests for REST/GraphQL/gRPC APIs"
+ },
+ {
+  "id": "sk_ac4556d2f6e9",
+  "name": "testmu-ai/appium-skill",
+  "desc": "Generate Appium mobile automation for Android and iOS in Java, Python, or JS"
+ },
+ {
+  "id": "sk_399a85198675",
+  "name": "testmu-ai/behat-skill",
+  "desc": "Generate Behat BDD tests for PHP with Gherkin and Mink"
+ },
+ {
+  "id": "sk_c5da8b631083",
+  "name": "testmu-ai/behave-skill",
+  "desc": "Generate Behave BDD tests for Python with Gherkin and step implementations"
+ },
+ {
+  "id": "sk_1280be31894b",
+  "name": "testmu-ai/capybara-skill",
+  "desc": "Generate Capybara E2E tests in Ruby with RSpec integration"
+ },
+ {
+  "id": "sk_df86fd3280ad",
+  "name": "testmu-ai/cicd-pipeline-skill",
+  "desc": "Generate CI/CD pipelines for tests on GitHub Actions, Jenkins, GitLab CI, and Azure DevOps"
+ },
+ {
+  "id": "sk_368911f3fc7a",
+  "name": "testmu-ai/codeception-skill",
+  "desc": "Generate Codeception acceptance, functional, and unit tests in PHP"
+ },
+ {
+  "id": "sk_28abb94d9503",
+  "name": "testmu-ai/cucumber-skill",
+  "desc": "Generate Cucumber BDD tests with Gherkin and step definitions in Java, JS, or Ruby"
+ },
+ {
+  "id": "sk_68f090083050",
+  "name": "testmu-ai/cypress-skill",
+  "desc": "Generate Cypress E2E and component tests in JavaScript or TypeScript"
+ },
+ {
+  "id": "sk_f4a367f8096e",
+  "name": "testmu-ai/detox-skill",
+  "desc": "Generate Detox gray-box E2E tests for React Native apps in JavaScript"
+ },
+ {
+  "id": "sk_a69d9294b9a6",
+  "name": "testmu-ai/espresso-skill",
+  "desc": "Generate Espresso UI tests for Android apps in Kotlin or Java"
+ },
+ {
+  "id": "sk_fa1dbc8d9f97",
+  "name": "testmu-ai/flutter-testing-skill",
+  "desc": "Generate Flutter widget, integration, and golden tests in Dart"
+ },
+ {
+  "id": "sk_9c66783d7454",
+  "name": "testmu-ai/gauge-skill",
+  "desc": "Generate Gauge specs in Markdown with steps in Java, Python, JS, or Ruby"
+ },
+ {
+  "id": "sk_eb70eff075a3",
+  "name": "testmu-ai/geb-skill",
+  "desc": "Generate Geb browser automation in Groovy with Spock and page objects"
+ },
+ {
+  "id": "sk_b5b9efecf67c",
+  "name": "testmu-ai/hyperexecute-skill",
+  "desc": "Operate TestMu AI HyperExecute end-to-end: YAML, CLI runs, debugging, and CI wiring"
+ },
+ {
+  "id": "sk_56f493c0ffd5",
+  "name": "testmu-ai/jasmine-skill",
+  "desc": "Generate Jasmine BDD tests in JavaScript with spies and async support"
+ },
+ {
+  "id": "sk_73114c447fbf",
+  "name": "testmu-ai/jest-skill",
+  "desc": "Generate Jest unit and integration tests in JS/TS with mocking and snapshots"
+ },
+ {
+  "id": "sk_cbb88ae6ee6e",
+  "name": "testmu-ai/junit-5-skill",
+  "desc": "Generate JUnit 5 unit and integration tests in Java with Mockito"
+ },
+ {
+  "id": "sk_30b79f72fa19",
+  "name": "testmu-ai/kanecli-skill",
+  "desc": "Generate and run browser tests from natural-language objectives via kane-cli"
+ },
+ {
+  "id": "sk_0e4e0d865538",
+  "name": "testmu-ai/karma-skill",
+  "desc": "Generate Karma test-runner configs for browser-based JS testing"
+ },
+ {
+  "id": "sk_6095eca62bab",
+  "name": "testmu-ai/laravel-dusk-skill",
+  "desc": "Generate Laravel Dusk Chrome-based browser tests in PHP"
+ },
+ {
+  "id": "sk_cd8926cf36a5",
+  "name": "testmu-ai/lettuce-skill",
+  "desc": "Generate Lettuce BDD tests for Python (legacy; prefer Behave)"
+ },
+ {
+  "id": "sk_026d4eb9e313",
+  "name": "testmu-ai/mocha-skill",
+  "desc": "Generate Mocha tests in JavaScript with Chai and Sinon"
+ },
+ {
+  "id": "sk_39f258f84b67",
+  "name": "testmu-ai/mstest-skill",
+  "desc": "Generate MSTest tests in C# for .NET"
+ },
+ {
+  "id": "sk_164b5c281ff7",
+  "name": "testmu-ai/nemojs-skill",
+  "desc": "Generate Nemo.js Selenium-based tests for Node.js"
+ },
+ {
+  "id": "sk_b878b620b749",
+  "name": "testmu-ai/nightwatchjs-skill",
+  "desc": "Generate NightwatchJS E2E tests in JavaScript with Selenium WebDriver"
+ },
+ {
+  "id": "sk_a73191d92311",
+  "name": "testmu-ai/nunit-skill",
+  "desc": "Generate NUnit 3 tests in C# with the constraint model and Moq"
+ },
+ {
+  "id": "sk_41671dce2f5c",
+  "name": "testmu-ai/phpunit-skill",
+  "desc": "Generate PHPUnit tests in PHP with data providers and mocking"
+ },
+ {
+  "id": "sk_3e5ca8330672",
+  "name": "testmu-ai/playwright-skill",
+  "desc": "Generate Playwright E2E tests in TS, JS, Python, Java, or C#"
+ },
+ {
+  "id": "sk_fbbbcceff9ea",
+  "name": "testmu-ai/protractor-skill",
+  "desc": "Generate Protractor E2E tests for Angular in JS/TS (deprecated; prefer Playwright/Cypress)"
+ },
+ {
+  "id": "sk_ca41983309d3",
+  "name": "testmu-ai/puppeteer-skill",
+  "desc": "Generate Puppeteer scripts for browser automation, scraping, and PDF generation"
+ },
+ {
+  "id": "sk_9e5b04b12c77",
+  "name": "testmu-ai/pytest-skill",
+  "desc": "Generate pytest tests in Python with fixtures, parametrize, and mocking"
+ },
+ {
+  "id": "sk_c2e4cbcab2fc",
+  "name": "testmu-ai/reqnroll-skill",
+  "desc": "Generate Reqnroll BDD tests for web and mobile in C#"
+ },
+ {
+  "id": "sk_9ea27f43b00b",
+  "name": "testmu-ai/robot-framework-skill",
+  "desc": "Generate Robot Framework keyword-driven tests in Python"
+ },
+ {
+  "id": "sk_edc3f3200b44",
+  "name": "testmu-ai/rspec-skill",
+  "desc": "Generate RSpec tests in Ruby with matchers, hooks, and mocking"
+ },
+ {
+  "id": "sk_72e51828cb39",
+  "name": "testmu-ai/selenide-skill",
+  "desc": "Generate Selenide UI tests in Java with auto-waits and a fluent API"
+ },
+ {
+  "id": "sk_6c13d19baef5",
+  "name": "testmu-ai/selenium-skill",
+  "desc": "Generate Selenium WebDriver tests in Java, Python, JS, C#, Ruby, or PHP"
+ },
+ {
+  "id": "sk_311e67c6d85d",
+  "name": "testmu-ai/serenity-bdd-skill",
+  "desc": "Generate Serenity BDD tests in Java with the Screenplay pattern and reporting"
+ },
+ {
+  "id": "sk_fb8c78ab01a3",
+  "name": "testmu-ai/smartui-skill",
+  "desc": "Generate SmartUI visual regression configs for screenshot comparison"
+ },
+ {
+  "id": "sk_956eb43a6730",
+  "name": "testmu-ai/specflow-skill",
+  "desc": "Generate SpecFlow BDD tests for C#/.NET with Gherkin and step bindings"
+ },
+ {
+  "id": "sk_3e84ba8e0294",
+  "name": "testmu-ai/test-framework-migration-skill",
+  "desc": "Migrate tests between Selenium, Playwright, Puppeteer, and Cypress"
+ },
+ {
+  "id": "sk_67786547ec7e",
+  "name": "testmu-ai/testcafe-skill",
+  "desc": "Generate TestCafe automation tests in JavaScript or TypeScript"
+ },
+ {
+  "id": "sk_cf8277c5c9e0",
+  "name": "testmu-ai/testng-skill",
+  "desc": "Generate TestNG tests in Java with data providers and parallel execution"
+ },
+ {
+  "id": "sk_1548fbe32422",
+  "name": "testmu-ai/testunit-skill",
+  "desc": "Generate Test::Unit xUnit-style tests in Ruby"
+ },
+ {
+  "id": "sk_af0dc95f23cb",
+  "name": "testmu-ai/unittest-skill",
+  "desc": "Generate Python unittest tests with TestCase and setUp/tearDown"
+ },
+ {
+  "id": "sk_891e11ee8f96",
+  "name": "testmu-ai/vitest-skill",
+  "desc": "Generate Vitest tests in JS/TS with a Jest-compatible API and ESM"
+ },
+ {
+  "id": "sk_6102dba2391c",
+  "name": "testmu-ai/webdriverio-skill",
+  "desc": "Generate WebdriverIO (WDIO) automation tests in JavaScript or TypeScript"
+ },
+ {
+  "id": "sk_0744d0bf5ac4",
+  "name": "testmu-ai/xcuitest-skill",
+  "desc": "Generate XCUITest UI tests for iOS/iPadOS apps in Swift"
+ },
+ {
+  "id": "sk_655500c6d848",
+  "name": "testmu-ai/xunit-skill",
+  "desc": "Generate xUnit.net tests in C# with Fact/Theory and FluentAssertions"
+ },
+ {
+  "id": "sk_1c0f122b1c7c",
+  "name": "modem-dev/skills",
+  "desc": "Agent skills from Modem, starting with write-discoverable-code"
+ },
+ {
+  "id": "sk_98a980584092",
+  "name": "zero/zero",
+  "desc": "Discover and call external paid tools for Claude Code agents instead of stopping to ask the user to sign up or fetch an API key"
+ },
+ {
+  "id": "sk_fd026bb0c39c",
+  "name": "zero/zero-gemini",
+  "desc": "Same Zero tool-discovery and payment layer packaged as a Gemini CLI extension"
+ },
+ {
+  "id": "sk_e0e0dc1cd2aa",
+  "name": "angular/angular-developer",
+  "desc": "Generate Angular code and architectural guidance for components, services, reactivity"
+ },
+ {
+  "id": "sk_e0e0dc1cd2aa",
+  "name": "angular/angular-new-app",
+  "desc": "Create new Angular apps using CLI with modern best practices"
+ },
+ {
+  "id": "sk_9330be67a3f4",
+  "name": "composiohq/composio",
+  "desc": "Connect AI agents to 1000+ external apps with managed authentication"
+ },
+ {
+  "id": "sk_4def32abcdcb",
+  "name": "supabase/postgres-best-practices",
+  "desc": "PostgreSQL best practices for Supabase"
+ },
+ {
+  "id": "sk_4e274ddb543b",
+  "name": "google-gemini/gemini-api-dev",
+  "desc": "Best practices for developing Gemini-powered apps using the Gemini API"
+ },
+ {
+  "id": "sk_0c873f5b65c8",
+  "name": "google-gemini/vertex-ai-api-dev",
+  "desc": "Developing Gemini-powered apps on Google Cloud Vertex AI using the Gen AI SDK"
+ },
+ {
+  "id": "sk_39af60efcaf5",
+  "name": "google-gemini/gemini-live-api-dev",
+  "desc": "Building real-time bidirectional streaming apps with the Gemini Live API"
+ },
+ {
+  "id": "sk_ced78bf38e10",
+  "name": "google-gemini/gemini-interactions-api",
+  "desc": "Building apps with the Gemini Interactions API for text, chat, streaming, and image generation"
+ },
+ {
+  "id": "sk_f3d1767d13fb",
+  "name": "stripe/stripe-best-practices",
+  "desc": "Best practices for building Stripe integrations"
+ },
+ {
+  "id": "sk_e387ab0ee5fb",
+  "name": "stripe/upgrade-stripe",
+  "desc": "Upgrade Stripe SDK and API versions"
+ },
+ {
+  "id": "sk_b9f45d0b0fb0",
+  "name": "trycourier/courier-skills",
+  "desc": "Multi-channel notifications via email, SMS, push, and chat"
+ },
+ {
+  "id": "sk_8d5b7342ff98",
+  "name": "callstackincubator/react-native-best-practices",
+  "desc": "Performance optimization for React Native apps from Callstack"
+ },
+ {
+  "id": "sk_a1e601d296bd",
+  "name": "callstackincubator/github",
+  "desc": "GitHub workflow patterns for PRs, code review, branching"
+ },
+ {
+  "id": "sk_a9ffa108efff",
+  "name": "callstackincubator/upgrading-react-native",
+  "desc": "React Native upgrade workflow: templates, dependencies, and common pitfalls"
+ },
+ {
+  "id": "sk_28ced2603d58",
+  "name": "better-auth/best-practices",
+  "desc": "Best practices for Better Auth integration"
+ },
+ {
+  "id": "sk_a7faf7e08374",
+  "name": "better-auth/explain-error",
+  "desc": "Explain Better Auth error messages"
+ },
+ {
+  "id": "sk_d2f418238995",
+  "name": "better-auth/providers",
+  "desc": "Better Auth authentication providers"
+ },
+ {
+  "id": "sk_0b19b0a6ef01",
+  "name": "better-auth/create-auth",
+  "desc": "Create authentication setup with Better Auth"
+ },
+ {
+  "id": "sk_6cf2346a0f41",
+  "name": "better-auth/emailAndPassword",
+  "desc": "Email and password authentication with Better Auth"
+ },
+ {
+  "id": "sk_45af19dcdc62",
+  "name": "better-auth/organization",
+  "desc": "Organization management with Better Auth"
+ },
+ {
+  "id": "sk_4d432120d6f7",
+  "name": "better-auth/twoFactor",
+  "desc": "Two-factor authentication with Better Auth"
+ },
+ {
+  "id": "sk_0dfa312c8a69",
+  "name": "tinybirdco/tinybird-best-practices",
+  "desc": "Tinybird project guidelines for datasources, pipes, endpoints, and SQL"
+ },
+ {
+  "id": "sk_da9e238edb8b",
+  "name": "tinybirdco/tinybird-cli-guidelines",
+  "desc": "Tinybird CLI usage guidelines and commands"
+ },
+ {
+  "id": "sk_17b87de64e1b",
+  "name": "tinybirdco/tinybird-python-sdk-guidelines",
+  "desc": "Tinybird Python SDK usage guidelines"
+ },
+ {
+  "id": "sk_58ec85ceb0b6",
+  "name": "tinybirdco/tinybird-typescript-sdk-guidelines",
+  "desc": "Tinybird TypeScript SDK usage guidelines"
+ },
+ {
+  "id": "sk_82f095b08b37",
+  "name": "hashicorp/azure-verified-modules",
+  "desc": "Azure Verified Modules (AVM) certification standards for Terraform modules"
+ },
+ {
+  "id": "sk_21b6b395c812",
+  "name": "hashicorp/new-terraform-provider",
+  "desc": "Scaffold a new Terraform provider project using the Plugin Framework"
+ },
+ {
+  "id": "sk_ef6ebc3569d3",
+  "name": "hashicorp/provider-resources",
+  "desc": "Implement Terraform Provider resources and data sources using the Plugin Framework"
+ },
+ {
+  "id": "sk_822d21d351f4",
+  "name": "hashicorp/provider-test-patterns",
+  "desc": "Acceptance test patterns for Terraform providers using terraform-plugin-testing"
+ },
+ {
+  "id": "sk_5ae26200ea08",
+  "name": "hashicorp/provider-actions",
+  "desc": "Implement Terraform Provider Actions using the Plugin Framework"
+ },
+ {
+  "id": "sk_1afd1252b034",
+  "name": "hashicorp/run-acceptance-tests",
+  "desc": "Run acceptance tests for Terraform providers using Go's test runner"
+ },
+ {
+  "id": "sk_98fb534ce5f3",
+  "name": "hashicorp/refactor-module",
+  "desc": "Transform monolithic Terraform configurations into reusable modules"
+ },
+ {
+  "id": "sk_cf5a80eae9d2",
+  "name": "hashicorp/terraform-search-import",
+  "desc": "Discover existing cloud resources and bulk import them into Terraform state"
+ },
+ {
+  "id": "sk_e9ba419966ea",
+  "name": "hashicorp/terraform-style-guide",
+  "desc": "Generate Terraform HCL code following HashiCorp's official style conventions"
+ },
+ {
+  "id": "sk_aa00ba26b5e6",
+  "name": "hashicorp/terraform-stacks",
+  "desc": "Manage infrastructure across multiple environments, regions, and cloud accounts"
+ },
+ {
+  "id": "sk_0057f4e1a571",
+  "name": "hashicorp/terraform-test",
+  "desc": "Built-in testing framework for Terraform configurations with .tftest.hcl files"
+ },
+ {
+  "id": "sk_84d153b21eff",
+  "name": "sanity-io/sanity-best-practices",
+  "desc": "Best practices for Sanity Studio, GROQ queries, and content workflows"
+ },
+ {
+  "id": "sk_fb33f0feba19",
+  "name": "sanity-io/content-modeling-best-practices",
+  "desc": "Guidelines for designing scalable content models in Sanity"
+ },
+ {
+  "id": "sk_c3def3f1c840",
+  "name": "sanity-io/seo-aeo-best-practices",
+  "desc": "SEO and answer engine optimization patterns for content sites"
+ },
+ {
+  "id": "sk_fabbd245df0c",
+  "name": "sanity-io/content-experimentation-best-practices",
+  "desc": "Content A/B testing and experimentation workflows"
+ },
+ {
+  "id": "sk_754659440d27",
+  "name": "firecrawl/firecrawl-build",
+  "desc": "Integrate Firecrawl into application code for web search, scraping, extraction, and browser interaction"
+ },
+ {
+  "id": "sk_cd449a5074ed",
+  "name": "firecrawl/firecrawl-build-interact",
+  "desc": "Multi-step Firecrawl browser flows: clicks, form fills, pagination, and auth-aware navigation"
+ },
+ {
+  "id": "sk_84f98909ea63",
+  "name": "firecrawl/firecrawl-build-onboarding",
+  "desc": "Set up Firecrawl credentials and SDK in a project for the first integration"
+ },
+ {
+  "id": "sk_ef45bbb30027",
+  "name": "firecrawl/firecrawl-build-scrape",
+  "desc": "Integrate Firecrawl /scrape for single-page extraction from product code"
+ },
+ {
+  "id": "sk_365b38fe680b",
+  "name": "firecrawl/firecrawl-build-search",
+  "desc": "Integrate Firecrawl /search for query-first discovery with optional content hydration"
+ },
+ {
+  "id": "sk_11819b5dca01",
+  "name": "firecrawl/firecrawl-alexandria",
+  "desc": "Find and run Firecrawl Alexandria tools for structured data"
+ },
+ {
+  "id": "sk_4538c54da4ab",
+  "name": "neondatabase/neon-postgres",
+  "desc": "Best practices for Neon Serverless Postgres"
+ },
+ {
+  "id": "sk_01349d5af95b",
+  "name": "neondatabase/claimable-postgres",
+  "desc": "Claimable Postgres database provisioning with Neon"
+ },
+ {
+  "id": "sk_77407c1ae1f2",
+  "name": "neondatabase/neon-postgres-egress-optimizer",
+  "desc": "Optimize Neon Postgres egress and data transfer"
+ },
+ {
+  "id": "sk_e5b44237832e",
+  "name": "clickhouse/clickhouse-best-practices",
+  "desc": "Best practices for working with ClickHouse"
+ },
+ {
+  "id": "sk_25e9f3bccccf",
+  "name": "clickhouse/chdb-datastore",
+  "desc": "Drop-in pandas replacement with ClickHouse performance across 16+ data sources"
+ },
+ {
+  "id": "sk_a6f1a72972b9",
+  "name": "clickhouse/chdb-sql",
+  "desc": "In-process ClickHouse SQL engine for Python — query files, databases, and cloud storage without a server"
+ },
+ {
+  "id": "sk_da979750f748",
+  "name": "clickhouse/clickhouse-architecture-advisor",
+  "desc": "Design ClickHouse architectures and translate best practices into workload-specific decisions"
+ },
+ {
+  "id": "sk_91a5d0853a50",
+  "name": "clickhouse/clickhousectl-cloud-deploy",
+  "desc": "Deploy to ClickHouse Cloud and migrate from local setups with clickhousectl"
+ },
+ {
+  "id": "sk_41d58cff2eff",
+  "name": "clickhouse/clickhousectl-local-dev",
+  "desc": "Spin up a local ClickHouse development environment from zero with clickhousectl"
+ },
+ {
+  "id": "sk_799f8ab29eed",
+  "name": "remotion-dev/remotion",
+  "desc": "Programmatic video creation with React"
+ },
+ {
+  "id": "sk_a2648937abdf",
+  "name": "replicate/replicate",
+  "desc": "Discover, compare, and run AI models using Replicate's API"
+ },
+ {
+  "id": "sk_1f13149e64f5",
+  "name": "typefully/typefully",
+  "desc": "Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon"
+ },
+ {
+  "id": "sk_9ae12b797223",
+  "name": "veniceai/venice-api-overview",
+  "desc": "API basics, auth modes, pricing, and versioning"
+ },
+ {
+  "id": "sk_5ac95c8044fc",
+  "name": "veniceai/venice-auth",
+  "desc": "API keys and wallet-based Venice authentication"
+ },
+ {
+  "id": "sk_d9c5cce10fe6",
+  "name": "veniceai/venice-chat",
+  "desc": "Chat completions, multimodal inputs, tools, and streaming"
+ },
+ {
+  "id": "sk_d2d0bde6735c",
+  "name": "veniceai/venice-responses",
+  "desc": "OpenAI-compatible Responses API for Venice"
+ },
+ {
+  "id": "sk_c171ac9c43f9",
+  "name": "veniceai/venice-embeddings",
+  "desc": "Embeddings models, dimensions, and encoding formats"
+ },
+ {
+  "id": "sk_b803fe0c1603",
+  "name": "veniceai/venice-image-generate",
+  "desc": "Image generation endpoints and available styles"
+ },
+ {
+  "id": "sk_6be2e9e69d11",
+  "name": "veniceai/venice-image-edit",
+  "desc": "Image edits, upscaling, and background removal"
+ },
+ {
+  "id": "sk_0f35dc8c2548",
+  "name": "veniceai/venice-audio-speech",
+  "desc": "Text-to-speech models, voices, formats, and streaming"
+ },
+ {
+  "id": "sk_d26540f91bd2",
+  "name": "veniceai/venice-audio-music",
+  "desc": "Music generation queueing, retrieval, and completion endpoints"
+ },
+ {
+  "id": "sk_23b428d8dcd5",
+  "name": "veniceai/venice-audio-transcription",
+  "desc": "Audio transcription models and speech-to-text options"
+ },
+ {
+  "id": "sk_c37a54d79de7",
+  "name": "veniceai/venice-video",
+  "desc": "Video generation and transcription workflows"
+ },
+ {
+  "id": "sk_0302eddeb39c",
+  "name": "veniceai/venice-models",
+  "desc": "Model catalog, traits, and compatibility mappings"
+ },
+ {
+  "id": "sk_74dc5a9f48c2",
+  "name": "veniceai/venice-characters",
+  "desc": "Character endpoints and characterslug usage"
+ },
+ {
+  "id": "sk_ae74c52c01f9",
+  "name": "veniceai/venice-api-keys",
+  "desc": "API key CRUD, rate limits, and Web3 keys"
+ },
+ {
+  "id": "sk_25d790998340",
+  "name": "veniceai/venice-billing",
+  "desc": "Balance, usage, and billing analytics endpoints"
+ },
+ {
+  "id": "sk_61c9fbddc265",
+  "name": "veniceai/venice-x402",
+  "desc": "Wallet credits and x402 payments on Base"
+ },
+ {
+  "id": "sk_70ef2f68e6c8",
+  "name": "veniceai/venice-crypto-rpc",
+  "desc": "JSON-RPC proxying for supported crypto networks"
+ },
+ {
+  "id": "sk_e9dac83ad5f7",
+  "name": "veniceai/venice-augment",
+  "desc": "Search, scraping, and text parsing endpoints"
+ },
+ {
+  "id": "sk_22ed3f895725",
+  "name": "veniceai/venice-errors",
+  "desc": "Error handling, retries, and API status codes"
+ },
+ {
+  "id": "sk_14db4d280a45",
+  "name": "vercel-labs/next-best-practices",
+  "desc": "Next.js best practices and recommended patterns"
+ },
+ {
+  "id": "sk_0fa0a356538a",
+  "name": "vercel-labs/next-cache-components",
+  "desc": "Caching strategies and cache-aware components in Next.js"
+ },
+ {
+  "id": "sk_44b7dde60f47",
+  "name": "vercel-labs/next-upgrade",
+  "desc": "Upgrade Next.js projects to newer versions"
+ },
+ {
+  "id": "sk_5b337e34b506",
+  "name": "vercel-labs/composition-patterns",
+  "desc": "Scalable React composition patterns for reusable component APIs"
+ },
+ {
+  "id": "sk_d292b013d4db",
+  "name": "vercel-labs/deploy-to-vercel",
+  "desc": "Deploy applications and websites to Vercel"
+ },
+ {
+  "id": "sk_4fb1912c6ec2",
+  "name": "vercel-labs/react-best-practices",
+  "desc": "React and Next.js performance optimization guidelines"
+ },
+ {
+  "id": "sk_8bcb9bbf258f",
+  "name": "vercel-labs/react-native-skills",
+  "desc": "React Native and Expo best practices for performant apps"
+ },
+ {
+  "id": "sk_e68e8c0bcabc",
+  "name": "vercel-labs/react-view-transitions",
+  "desc": "Native-feeling animations with React View Transitions"
+ },
+ {
+  "id": "sk_f4c57d252d27",
+  "name": "vercel-labs/vercel-cli-with-tokens",
+  "desc": "Deploy and manage Vercel projects with token authentication"
+ },
+ {
+  "id": "sk_f4a5e233960e",
+  "name": "vercel-labs/vercel-optimize",
+  "desc": "Metric-backed Vercel cost and performance optimization audits"
+ },
+ {
+  "id": "sk_eb130eb527e4",
+  "name": "vercel-labs/web-design-guidelines",
+  "desc": "Review UI code against Web Interface Guidelines"
+ },
+ {
+  "id": "sk_909f99c9d5b9",
+  "name": "vercel-labs/writing-guidelines",
+  "desc": "Review documentation against Writing Guidelines"
+ },
+ {
+  "id": "sk_02c7d08a8c16",
+  "name": "cloudflare/agents-sdk",
+  "desc": "Build stateful AI agents with scheduling, RPC, and MCP servers"
+ },
+ {
+  "id": "sk_1c8bebe23c76",
+  "name": "cloudflare/cloudflare",
+  "desc": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage, AI, networking, security, and IaC"
+ },
+ {
+  "id": "sk_d0f28e8b9224",
+  "name": "cloudflare/cloudflare-email-service",
+  "desc": "Send transactional email and route inbound mail with Cloudflare Email Sending and Email Routing"
+ },
+ {
+  "id": "sk_4bab60763276",
+  "name": "cloudflare/durable-objects",
+  "desc": "Stateful coordination with RPC, SQLite, and WebSockets"
+ },
+ {
+  "id": "sk_3761c2324878",
+  "name": "cloudflare/sandbox-sdk",
+  "desc": "Build sandboxed applications for secure, isolated code execution on Workers"
+ },
+ {
+  "id": "sk_8e7316e9741b",
+  "name": "cloudflare/web-perf",
+  "desc": "Audit Core Web Vitals and render-blocking resources"
+ },
+ {
+  "id": "sk_84133e63cd17",
+  "name": "cloudflare/workers-best-practices",
+  "desc": "Review and author Workers code against production best practices and wrangler.jsonc conventions"
+ },
+ {
+  "id": "sk_3e38f879c3b2",
+  "name": "cloudflare/wrangler",
+  "desc": "Deploy and manage Workers, KV, R2, D1, Vectorize, Queues, Workflows"
+ },
+ {
+  "id": "sk_8b120a923a1b",
+  "name": "cloudflare/security-audit-skill",
+  "desc": "Multi-phase security audits with independently verified, machine-readable findings"
+ },
+ {
+  "id": "sk_73f93bb01df1",
+  "name": "netlify/netlify-functions",
+  "desc": "Build serverless API endpoints and background tasks"
+ },
+ {
+  "id": "sk_f15e21657583",
+  "name": "netlify/netlify-edge-functions",
+  "desc": "Low-latency edge middleware and geolocation logic"
+ },
+ {
+  "id": "sk_c6391eb8e715",
+  "name": "netlify/netlify-blobs",
+  "desc": "Key-value object storage for files and data"
+ },
+ {
+  "id": "sk_e366e8c29ebd",
+  "name": "netlify/netlify-db",
+  "desc": "Managed Postgres with deploy preview branching"
+ },
+ {
+  "id": "sk_744d70d5526f",
+  "name": "netlify/netlify-image-cdn",
+  "desc": "Optimize and transform images via CDN"
+ },
+ {
+  "id": "sk_1ea0aee40552",
+  "name": "netlify/netlify-forms",
+  "desc": "HTML form handling with spam filtering"
+ },
+ {
+  "id": "sk_93a95bcc3700",
+  "name": "netlify/netlify-frameworks",
+  "desc": "Deploy web frameworks with SSR support"
+ },
+ {
+  "id": "sk_a5f6aeca0d39",
+  "name": "netlify/netlify-caching",
+  "desc": "Configure CDN caching and cache purging"
+ },
+ {
+  "id": "sk_3e220c8ce627",
+  "name": "netlify/netlify-config",
+  "desc": "Reference for netlify.toml site configuration"
+ },
+ {
+  "id": "sk_4bc34ef5f727",
+  "name": "netlify/netlify-cli-and-deploy",
+  "desc": "CLI setup, local dev, and deployment workflows"
+ },
+ {
+  "id": "sk_d69405b1b181",
+  "name": "netlify/netlify-deploy",
+  "desc": "Automated deployment workflow for Netlify sites"
+ },
+ {
+  "id": "sk_94a46f1f5a23",
+  "name": "netlify/netlify-ai-gateway",
+  "desc": "Access AI models via unified gateway endpoint"
+ },
+ {
+  "id": "sk_8cae39c7fbb8",
+  "name": "google-labs-code/design-md",
+  "desc": "Create and manage DESIGN.md files"
+ }
+]

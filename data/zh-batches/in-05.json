@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "sk_37063415b11d",
+  "name": "garrytan/canary",
+  "desc": "SRE post-deploy monitoring: watches for console errors, performance regressions, and page failures"
+ },
+ {
+  "id": "sk_e565b30f32ff",
+  "name": "garrytan/benchmark",
+  "desc": "Performance Engineer: baseline page load times, Core Web Vitals, and resource sizes"
+ },
+ {
+  "id": "sk_11d429c7bde4",
+  "name": "garrytan/document-release",
+  "desc": "Technical Writer: update all project docs to match what you just shipped"
+ },
+ {
+  "id": "sk_203c160d510a",
+  "name": "garrytan/retro",
+  "desc": "Eng Manager weekly retro with per-person breakdowns and shipping streaks"
+ },
+ {
+  "id": "sk_cdd536d321ba",
+  "name": "garrytan/browse",
+  "desc": "Real Chromium browser for QA: real clicks, real screenshots, ~100ms per command"
+ },
+ {
+  "id": "sk_6d41875281c0",
+  "name": "garrytan/setup-browser-cookies",
+  "desc": "Import cookies from your real browser into the headless session"
+ },
+ {
+  "id": "sk_22769cdfbece",
+  "name": "garrytan/autoplan",
+  "desc": "One command, fully reviewed plan: runs CEO → design → eng review automatically"
+ },
+ {
+  "id": "sk_c461e617d1a8",
+  "name": "garrytan/codex",
+  "desc": "Second Opinion via OpenAI Codex CLI: review, adversarial challenge, and open consultation"
+ },
+ {
+  "id": "sk_41f1ad62ace1",
+  "name": "garrytan/careful",
+  "desc": "Safety Guardrails: warns before destructive commands (rm -rf, DROP TABLE, force-push)"
+ },
+ {
+  "id": "sk_00562d11a331",
+  "name": "garrytan/freeze",
+  "desc": "Edit Lock: restrict file edits to one directory while debugging"
+ },
+ {
+  "id": "sk_abb59d8e6105",
+  "name": "garrytan/guard",
+  "desc": "Full Safety: /careful + /freeze in one command for maximum safety"
+ },
+ {
+  "id": "sk_b9700ab478af",
+  "name": "garrytan/unfreeze",
+  "desc": "Unlock: remove the /freeze boundary"
+ },
+ {
+  "id": "sk_20c5cef345c1",
+  "name": "garrytan/setup-deploy",
+  "desc": "Deploy Configurator: one-time setup for /land-and-deploy"
+ },
+ {
+  "id": "sk_cf0a130f5e8a",
+  "name": "garrytan/gstack-upgrade",
+  "desc": "Self-Updater: upgrade gstack to latest version"
+ },
+ {
+  "id": "sk_39113259f044",
+  "name": "makenotion/knowledge-capture",
+  "desc": "Transform conversations into structured Notion documentation pages with proper organization and linking"
+ },
+ {
+  "id": "sk_5f23e3c13048",
+  "name": "makenotion/meeting-intelligence",
+  "desc": "Prepare meeting materials by gathering Notion context and creating pre-reads and agendas"
+ },
+ {
+  "id": "sk_0a5b928c5af7",
+  "name": "makenotion/research-documentation",
+  "desc": "Search Notion workspace, synthesize findings, and create comprehensive research reports"
+ },
+ {
+  "id": "sk_18fdf6f8ad8f",
+  "name": "makenotion/spec-to-implementation",
+  "desc": "Turn product/tech specs into concrete Notion tasks with acceptance criteria and progress tracking"
+ },
+ {
+  "id": "sk_1d02b61269ea",
+  "name": "resend/resend",
+  "desc": "Send and manage emails via the Resend API"
+ },
+ {
+  "id": "sk_4f8cd29cb025",
+  "name": "resend/react-email",
+  "desc": "Build emails with React Email components"
+ },
+ {
+  "id": "sk_d83dc71f712b",
+  "name": "resend/email-best-practices",
+  "desc": "Email deliverability and design best practices"
+ },
+ {
+  "id": "sk_11df90cd0ebf",
+  "name": "resend/agent-email-inbox",
+  "desc": "AI agent email inbox management"
+ },
+ {
+  "id": "sk_32336619a6ab",
+  "name": "resend/resend-cli",
+  "desc": "Resend CLI commands and workflows"
+ },
+ {
+  "id": "sk_e95faadfe2ac",
+  "name": "addyosmani/web-quality-audit",
+  "desc": "Comprehensive quality review across performance, accessibility, SEO, and best practices categories"
+ },
+ {
+  "id": "sk_32111ac06d81",
+  "name": "addyosmani/performance",
+  "desc": "Loading speed, runtime efficiency, and resource optimization"
+ },
+ {
+  "id": "sk_2320c538ee77",
+  "name": "addyosmani/core-web-vitals",
+  "desc": "LCP, INP, and CLS-specific optimizations"
+ },
+ {
+  "id": "sk_be46930a1109",
+  "name": "addyosmani/accessibility",
+  "desc": "WCAG compliance, screen reader support, and keyboard navigation"
+ },
+ {
+  "id": "sk_9f7aca3b32ae",
+  "name": "addyosmani/seo",
+  "desc": "Search engine optimization, crawlability, and structured data"
+ },
+ {
+  "id": "sk_3584774a36cb",
+  "name": "addyosmani/best-practices",
+  "desc": "Security, modern web APIs, and code quality patterns"
+ },
+ {
+  "id": "sk_2dc824628ac4",
+  "name": "mongodb/mongodb-mcp-setup",
+  "desc": "Set up the MongoDB MCP server with authentication and connection configuration"
+ },
+ {
+  "id": "sk_d06673627d5b",
+  "name": "mongodb/mongodb-connection",
+  "desc": "Optimize MongoDB client connection pools, timeouts, and serverless patterns"
+ },
+ {
+  "id": "sk_4e5ecd383c35",
+  "name": "mongodb/mongodb-schema-design",
+  "desc": "Design efficient document schemas with validation and indexing patterns"
+ },
+ {
+  "id": "sk_6a1cd8dc798e",
+  "name": "mongodb/atlas-stream-processing",
+  "desc": "Build, operate, and debug Atlas Stream Processing pipelines with Kafka, S3, and Lambda integrations"
+ },
+ {
+  "id": "sk_ca0400f462ab",
+  "name": "mongodb/mongodb-natural-language-querying",
+  "desc": "Translate natural language into MongoDB queries and aggregation pipelines"
+ },
+ {
+  "id": "sk_4d4fffbd1b08",
+  "name": "mongodb/mongodb-query-optimizer",
+  "desc": "Analyze and optimize query performance using Atlas Performance Advisor"
+ },
+ {
+  "id": "sk_eee71fcd2a23",
+  "name": "mongodb/mongodb-search-and-ai",
+  "desc": "Implement Atlas Search and AI-powered recommendations with vector search"
+ },
+ {
+  "id": "sk_c98eea2a1693",
+  "name": "redis/redis-core",
+  "desc": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization."
+ },
+ {
+  "id": "sk_9f361ad845e6",
+  "name": "Browse NVIDIA's official Agent Skills catalog",
+  "desc": "View the current collection directly in NVIDIA's repository."
+ },
+ {
+  "id": "sk_41c615260afc",
+  "name": "google/cloud/agent-platform-skill-registry",
+  "desc": "Interact with the Gemini Enterprise Agent Platform Skill Registry to create and search for available skills."
+ },
+ {
+  "id": "sk_63624788e8f0",
+  "name": "google/cloud/alloydb-basics",
+  "desc": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations."
+ },
+ {
+  "id": "sk_81359f667dc1",
+  "name": "google/cloud/bigquery-basics",
+  "desc": "Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery ML and Gemini for advanced data analytics and AI-driven insights."
+ },
+ {
+  "id": "sk_37a336400bed",
+  "name": "google/cloud/cloud-run-basics",
+  "desc": "Manages Cloud Run services, jobs, and worker pools."
+ },
+ {
+  "id": "sk_b02100cc8184",
+  "name": "google/cloud/cloud-sql-basics",
+  "desc": "This file generates or explains Cloud SQL resources."
+ },
+ {
+  "id": "sk_d548a95877ed",
+  "name": "google/cloud/firebase-basics",
+  "desc": "Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps."
+ },
+ {
+  "id": "sk_9ce13350135f",
+  "name": "google/cloud/gemini-agents-api",
+  "desc": "Manages custom Agent resources on Gemini Enterprise Agent Platform."
+ },
+ {
+  "id": "sk_54ffe0d994d9",
+  "name": "google/cloud/gemini-api",
+  "desc": "Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK."
+ },
+ {
+  "id": "sk_be594414c70f",
+  "name": "google/cloud/gemini-interactions-api",
+  "desc": "Guides the usage of Gemini Interactions API on Gemini Enterprise Agent Platform."
+ },
+ {
+  "id": "sk_a8b176f90a92",
+  "name": "google/cloud/gke-basics",
+  "desc": "Plan, create, and configure production-ready Google Kubernetes Engine (GKE) clusters using the golden path Autopilot configuration."
+ },
+ {
+  "id": "sk_1044f4a37225",
+  "name": "google/cloud/google-cloud-networking-observability",
+  "desc": "Investigates Google Cloud networking issues by analyzing logs, metrics, and diagnostics."
+ },
+ {
+  "id": "sk_77ab43b85e02",
+  "name": "google/cloud/google-cloud-recipe-auth",
+  "desc": "Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, covering human users, service identities, Application Default Credentials (ADC), and b..."
+ },
+ {
+  "id": "sk_ddc3f1868680",
+  "name": "google/cloud/google-cloud-recipe-onboarding",
+  "desc": "Guidance for a developer's first steps on Google Cloud, covering account creation, billing setup, project management, and deploying a first resource."
+ },
+ {
+  "id": "sk_7d61b136db65",
+  "name": "google/cloud/google-cloud-waf-cost-optimization",
+  "desc": "Generates cost optimization guidance for Google Cloud workloads based on the Google Cloud Well-Architected Framework (WAF)."
+ },
+ {
+  "id": "sk_db82510c42c4",
+  "name": "google/cloud/google-cloud-waf-operational-excellence",
+  "desc": "Generates operations-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Operational Excellence pillar of the Google Cloud Well-Ar..."
+ },
+ {
+  "id": "sk_902a87c81890",
+  "name": "google/cloud/google-cloud-waf-performance-optimization",
+  "desc": "Generates performance-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Performance Optimization pillar of the Google Cloud Well..."
+ },
+ {
+  "id": "sk_814dd2b3e9e2",
+  "name": "google/cloud/google-cloud-waf-reliability",
+  "desc": "Generates reliability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework."
+ },
+ {
+  "id": "sk_cf46ac872f9a",
+  "name": "google/cloud/google-cloud-waf-security",
+  "desc": "Generates security-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF)."
+ },
+ {
+  "id": "sk_097dd4992e94",
+  "name": "google/cloud/google-cloud-waf-sustainability",
+  "desc": "Generates sustainability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF)."
+ },
+ {
+  "id": "sk_e36af6d72479",
+  "name": "redhat/cve-skillpack",
+  "desc": "Understand CVEs, check product lifecycle status, gather diagnostics, and file support cases at the right severity — essential Red Hat skills for everyday operations."
+ },
+ {
+  "id": "sk_b7183695b6f1",
+  "name": "redhat/sre-skillpack",
+  "desc": "Discover, remediate, and verify CVEs across your RHEL fleet — orchestrating Red Hat Lightspeed and Ansible Automation Platform through a single workflow."
+ },
+ {
+  "id": "sk_009baa8c4d34",
+  "name": "redhat/openshift-skillpack",
+  "desc": "Provision, inventory, and report on OpenShift clusters — spanning Assisted Installer, OCM, ROSA, ARO, and kubeconfig fleets — through a single conversational workflow."
+ },
+ {
+  "id": "sk_c8198f7ebaa2",
+  "name": "redhat/openshift-virtualization",
+  "desc": "Manage the full VM lifecycle on OpenShift Virtualization — create, clone, snapshot, restore, rebalance, and report — through a single conversational workflow."
+ },
+ {
+  "id": "sk_519d3244f567",
+  "name": "cypress-io/cypress-author",
+  "desc": "Creates, updates, and fixes Cypress E2E and component tests."
+ },
+ {
+  "id": "sk_01492e3b969a",
+  "name": "cypress-io/cypress-explain",
+  "desc": "Explains Cypress E2E and component tests, and answers questions about Cypress use and behavior."
+ },
+ {
+  "id": "sk_c08dba59aa73",
+  "name": "cypress-io/cypress-docs",
+  "desc": "Search and extract Cypress information from official documentation."
+ },
+ {
+  "id": "sk_0fe6c326a980",
+  "name": "qdrant/skills",
+  "desc": "Agent skills for Qdrant vector search, covering scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, and Java"
+ },
+ {
+  "id": "sk_610a39600f92",
+  "name": "zilliztech/milvus-skill",
+  "desc": "Manage Milvus collections, indexes, vector searches, and RAG workflows"
+ },
+ {
+  "id": "sk_71bdc4e4c391",
+  "name": "BrianRWagner/ai-marketing-claude-code-skills",
+  "desc": "17 marketing frameworks for cold outreach, homepage audit, social cards, and more"
+ },
+ {
+  "id": "sk_1199182dcdd4",
+  "name": "AgriciDaniel/claude-seo",
+  "desc": "Universal SEO skill for comprehensive website analysis and optimization"
+ },
+ {
+  "id": "sk_02b76aa6d24a",
+  "name": "wshuyi/x-article-publisher-skill",
+  "desc": "Publish articles to X/Twitter"
+ },
+ {
+  "id": "sk_4845463c3e3b",
+  "name": "CosmoBlk/email-marketing-bible",
+  "desc": "55K-word email marketing guide as an AI skill"
+ },
+ {
+  "id": "sk_ec9f4dfa16fd",
+  "name": "smixs/creative-director-skill",
+  "desc": "AI creative director with recursive self-assessment: 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD/HumanKind, 5-phase process from brief to presentation"
+ },
+ {
+  "id": "sk_8ab6b0140067",
+  "name": "Xquik-dev/x-twitter-scraper",
+  "desc": "Tweet search, profile tweets, follower export, media, posting, replies, MCP"
+ },
+ {
+  "id": "sk_604ac3397d64",
+  "name": "Xquik-dev/tweetclaw",
+  "desc": "Post tweets, replies, DMs; search, monitor, run giveaways"
+ },
+ {
+  "id": "sk_fee7eadbc5ea",
+  "name": "SHADOWPR0/beautifulprose",
+  "desc": "Hard-edged writing style contract for timeless, forceful English prose without AI tics"
+ },
+ {
+  "id": "sk_043fd9141db9",
+  "name": "blader/humanizer",
+  "desc": "Remove signs of AI-generated writing from text, making it sound more natural and human"
+ },
+ {
+  "id": "sk_bc9ba1d5db1d",
+  "name": "MohamedAbdallah-14/unslop",
+  "desc": "Removes named AI writing tells (tricolons, em-dash pileups, hedging stacks, sycophancy openers, stock vocab like \"delve\"/\"crucial\"). Split lint/rewrite modes for auditing your own text without auto-rewriting. Five intensity levels, MIT"
+ },
+ {
+  "id": "sk_46b88e189f63",
+  "name": "appeeky/aso-skills",
+  "desc": "30+ App Store Optimization skills for keyword research, metadata optimization, competitor analysis, creative optimization, and mobile growth strategies via Appeeky API"
+ },
+ {
+  "id": "sk_e47d12b1d1ba",
+  "name": "degausai/wonda",
+  "desc": "AI content creation: images, video, music, audio, editing, publishing"
+ },
+ {
+  "id": "sk_a915103cb625",
+  "name": "gitroomhq/postiz-agent",
+  "desc": "Schedule social media posts across 28+ platforms programmatically"
+ },
+ {
+  "id": "sk_6a7a47efef3d",
+  "name": "heygen-com/hyperframes",
+  "desc": "Write videos as HTML and render them to MP4: launch films, explainers, captions, charts and 450+ ready-made blocks, by HeyGen"
+ },
+ {
+  "id": "sk_a02107031d29",
+  "name": "taisly/agent",
+  "desc": "Codex plugin, Agent Skill, CLI, and MCP server for publishing approved short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook through Taisly"
+ },
+ {
+  "id": "sk_37b9c3289e4a",
+  "name": "indranilbanerjee/digital-marketing-pro",
+  "desc": "150-skill engagement methodology — 12-Part Strategy Flow, 25 specialist agents, EU AI Act Article 50 ready (C2PA signing), 6-platform AEO/GEO incl. Google AI Mode"
+ },
+ {
+  "id": "sk_45e95245f206",
+  "name": "nowork-studio/notfair-plugin",
+  "desc": "SEO, GEO, Google Ads, and Meta Ads skills with live data"
+ },
+ {
+  "id": "sk_5a947fb59b68",
+  "name": "aaron-he-zhu/aaron-marketing-skills",
+  "desc": "69 marketing skills across SEO/GEO, influencer, paid ads, and email on one shared contract, with 5 benchmark-driven auditor gates (CORE-EEAT, CITE, C³, ROAS, SEND) and keyless data connectors"
+ },
+ {
+  "id": "sk_e50d48ff9a82",
+  "name": "gooseworks-ai/goose-skills",
+  "desc": "125 growth and GTM skills: ads, content, lead gen, SEO"
+ },
+ {
+  "id": "sk_023a014152ea",
+  "name": "sergebulaev/linkedin-skills",
+  "desc": "LinkedIn marketing skills: viral hooks, comment drafting, algorithm audit, humanizer"
+ },
+ {
+  "id": "sk_94b7dca591df",
+  "name": "Vladimir-Human/humanizer-ru",
+  "desc": "Rewrites AI-written Russian text while preserving numbers, dates, and names"
+ },
+ {
+  "id": "sk_7a15d2c06f7c",
+  "name": "Bomx/distribb-skill",
+  "desc": "SEO articles, keyword research, CMS publishing, high-DR backlink exchange"
+ },
+ {
+  "id": "sk_ddd39f717359",
+  "name": "Citlyze/citlyze-skills",
+  "desc": "AI search visibility skills from the Citlyze team: window-over-window visibility reports, citation gap analysis, prompt audits, and action plans via the Citlyze MCP server, plus a standalone AEO page audit that grades any URL without an account"
+ },
+ {
+  "id": "sk_1b8407782e16",
+  "name": "AIDevGTM/gtm-cofounder",
+  "desc": "18 go-to-market skills for solo technical founders: positioning, first users, launch, pricing, and founder-led sales; grounded in Adam Frankl and Jakub Czakon"
+ },
+ {
+  "id": "sk_c9e3ab037d4e",
+  "name": "mailtrap/mailtrap-skills",
+  "desc": "Send emails via API/SMTP with sandbox testing"
+ },
+ {
+  "id": "sk_c679e39f79aa",
+  "name": "YannisKiefer/dark-psychology-skills",
+  "desc": "13 sales and negotiation skills for agents distilled from 36 books (CIA psyop manuals, FBI behavioral research, propaganda science, persuasion classics); every tactic passes an honest-influence filter: it must still work when fully disclosed"
+ },
+ {
+  "id": "sk_026bae4fd8dc",
+  "name": "SupercmoHQ/superCMO-skills",
+  "desc": "Open-source skills + local MCP server for marketing video & image production: UGC videos, ad videos, product photography, and image ads from a product photo and a brief; casts AI actors, picks the best image/video models, edits any-length clips with consistent actor and product, and researches competitor ads. BYO or managed keys, Apache-2.0"
+ },
+ {
+  "id": "sk_1c0c94d0eaac",
+  "name": "sandbaseai/sandbase-skills/multi-source-search",
+  "desc": "Evidence-led multi-source research with offline validation"
+ },
+ {
+  "id": "sk_8ff6fba1c5f9",
+  "name": "Nanako0129/sepia",
+  "desc": "De-AI writing skill fixing narrative structure before word choice"
+ },
+ {
+  "id": "sk_c8e9d5f166b6",
+  "name": "ScrapeCreators/social-media-research-skills",
+  "desc": "Research social outliers, comments, competitors, ads, and trends"
+ },
+ {
+  "id": "sk_6168f6021569",
+  "name": "ilyautov/humanizer-ru",
+  "desc": "Removes 64 AI-writing markers from Russian text, with scanner"
+ },
+ {
+  "id": "sk_405b2aa7e58e",
+  "name": "vanshyadav1408/linkedin-outreach",
+  "desc": "LinkedIn prospecting, scoring, and outreach drafts through Omentir MCP"
+ },
+ {
+  "id": "sk_e24e5c3cd3e2",
+  "name": "socai-io/jev-social",
+  "desc": "Route local social research through Jev and socai CLI"
+ },
+ {
+  "id": "sk_64be12df897f",
+  "name": "explorium-ai/vibe-prospecting",
+  "desc": "B2B prospecting enrichment and GTM data workflows"
+ },
+ {
+  "id": "sk_155c7b66751a",
+  "name": "nagameTW/formosa-humanizer",
+  "desc": "Removes AI-writing markers from Taiwan Traditional Chinese text"
+ },
+ {
+  "id": "sk_4690051f218a",
+  "name": "Upload-Post/upload-post-skill",
+  "desc": "Publish and schedule social media posts through one API"
+ },
+ {
+  "id": "sk_bd42d6faf66a",
+  "name": "AbubakrChan/product-launch-motion",
+  "desc": "Website URL to 60 fps launch video with music."
+ },
+ {
+  "id": "sk_f596a3c60a2e",
+  "name": "yuwen-cool/yuwen-publish-precheck",
+  "desc": "Review Chinese social content before publishing, with source-backed corrections"
+ },
+ {
+  "id": "sk_2b93e40e4e09",
+  "name": "publora/skills",
+  "desc": "Draft, schedule and publish posts to ten social networks"
+ },
+ {
+  "id": "sk_c7a020e15f81",
+  "name": "posteyai/skills",
+  "desc": "Draft, schedule and publish social posts to nine networks"
+ },
+ {
+  "id": "sk_9d93337ded2c",
+  "name": "Hyacehila/humanizer-zh-next",
+  "desc": "Chinese writing editor with academic and grant proposal modes"
+ },
+ {
+  "id": "sk_b29dc730e1e0",
+  "name": "open-salesblink/cold-email-salesblink",
+  "desc": "Run cold email sequences and outreach campaigns via SalesBlink"
+ },
+ {
+  "id": "sk_9ff9df2f26b9",
+  "name": "dreammis/social-auto-upload",
+  "desc": "Cross-platform publishing CLI and skills for 17 social platforms"
+ },
+ {
+  "id": "sk_8ab35fee1243",
+  "name": "dreammis/alipay-upload",
+  "desc": "Publish video posts to Alipay Life Services"
+ },
+ {
+  "id": "sk_a8e540cad66f",
+  "name": "dreammis/baijiahao-upload",
+  "desc": "Publish videos to Baijiahao"
+ },
+ {
+  "id": "sk_4d39f5b474f3",
+  "name": "dreammis/bilibili-upload",
+  "desc": "Upload videos to Bilibili with category selection"
+ },
+ {
+  "id": "sk_843ef82b9a97",
+  "name": "dreammis/dayu-upload",
+  "desc": "Publish videos and articles to Dayuhao"
+ },
+ {
+  "id": "sk_bf08a0f694ef",
+  "name": "dreammis/douyin-upload",
+  "desc": "Publish videos and image-text posts to Douyin"
+ },
+ {
+  "id": "sk_24d6e0a9a199",
+  "name": "dreammis/facebook-upload",
+  "desc": "Publish video and image posts to Facebook profiles"
+ },
+ {
+  "id": "sk_64f2808e870b",
+  "name": "dreammis/hupu-upload",
+  "desc": "Publish video posts to Hupu"
+ },
+ {
+  "id": "sk_ce7d5312cb75",
+  "name": "dreammis/instagram-upload",
+  "desc": "Publish Reels, images, and carousels to Instagram"
+ },
+ {
+  "id": "sk_920bfed64ae3",
+  "name": "dreammis/kuaishou-upload",
+  "desc": "Publish videos and image-text posts to Kuaishou"
+ },
+ {
+  "id": "sk_8c0587ee6583",
+  "name": "dreammis/meta-upload",
+  "desc": "Schedule videos and image posts to Facebook Pages"
+ },
+ {
+  "id": "sk_58b687d07901",
+  "name": "dreammis/tencent-upload",
+  "desc": "Publish and schedule videos on WeChat Channels"
+ },
+ {
+  "id": "sk_dcdfc7d2b55e",
+  "name": "dreammis/tiktok-upload",
+  "desc": "Upload TikTok videos with the repository's Chrome uploader"
+ },
+ {
+  "id": "sk_27ea0b3432cc",
+  "name": "dreammis/weibo-upload",
+  "desc": "Publish videos to Weibo"
+ },
+ {
+  "id": "sk_4413e3cfd844",
+  "name": "dreammis/xiaohongshu-upload",
+  "desc": "Publish videos and image-text posts to Xiaohongshu"
+ },
+ {
+  "id": "sk_7d521594278d",
+  "name": "dreammis/xueqiu-upload",
+  "desc": "Publish long-form articles to Xueqiu"
+ },
+ {
+  "id": "sk_51a60d830f2e",
+  "name": "dreammis/youtube-upload",
+  "desc": "Upload and schedule YouTube videos"
+ },
+ {
+  "id": "sk_6d25dce9c186",
+  "name": "dreammis/zhihu-upload",
+  "desc": "Publish articles and videos to Zhihu"
+ },
+ {
+  "id": "sk_f70bb5633056",
+  "name": "checkout-page/ecommerce-skills",
+  "desc": "19 research-based skills for ecommerce pricing, discounts, and checkout"
+ },
+ {
+  "id": "sk_635499a1bbd6",
+  "name": "shalintripathi/saas-marketing-agents",
+  "desc": "B2B SaaS marketing team: 90 agents, one orchestrator"
+ },
+ {
+  "id": "sk_b322f8b4463e",
+  "name": "emotixco/claude-skills-founder",
+  "desc": "Validate ideas, research competitors, price, pitch, and plan launches."
+ },
+ {
+  "id": "sk_864687d534fe",
+  "name": "karero/croftweaver",
+  "desc": "Builds small-business websites, then keeps improving their SEO and GEO"
+ },
+ {
+  "id": "sk_66ea8493c8ef",
+  "name": "harshmaur/apify-reddit-scraper",
+  "desc": "Scrape Reddit posts, comments and subreddits without an API key"
+ },
+ {
+  "id": "sk_e1567a907245",
+  "name": "coupler-io/skills",
+  "desc": "Marketing, sales and finance analytics with live business data"
+ },
+ {
+  "id": "sk_7a97a4eafbab",
+  "name": "arcmira/find-quotes",
+  "desc": "Find timestamped quotes and clips in YouTube and podcast transcripts"
+ },
+ {
+  "id": "sk_6e3660f81f41",
+  "name": "Aboudjem/humanizer-skill",
+  "desc": "Rewrites AI-sounding text, flagging 55 writing patterns"
+ },
+ {
+  "id": "sk_26a5aef38892",
+  "name": "zhuyansen/new-term-radar",
+  "desc": "Daily radar of new AI names and their search demand"
+ },
+ {
+  "id": "sk_2687305c77a1",
+  "name": "Illyism/seo-skills",
+  "desc": "17 SEO skills for audits, titles, content, and GEO"
+ },
+ {
+  "id": "sk_8c5c7bd20219",
+  "name": "adkit/ads-skills",
+  "desc": "Create, edit and report on campaigns across eight ad platforms"
+ },
+ {
+  "id": "sk_7bc840c277e9",
+  "name": "everyinfra/seo-skills",
+  "desc": "Open-source SEO and GEO audits, keyword and SERP research"
+ },
+ {
+  "id": "sk_008cbca7e612",
+  "name": "akii-technologies-ltd/schema-markup",
+  "desc": "Write and check JSON-LD markup for a web page"
+ },
+ {
+  "id": "sk_8f5f484d45cc",
+  "name": "PSPDFKit-labs/nutrient-agent-skill",
+  "desc": "Document processing with Nutrient DWS API: convert (PDF/DOCX/XLSX/PPTX/HTML/images), extract text/tables, OCR (20+ languages), redact PII (pattern + AI), watermark, digital signatures, form filling. MCP server also available."
+ },
+ {
+  "id": "sk_04594a471b7d",
+  "name": "notiondevs/Notion Skills for Claude",
+  "desc": "Skills for working with Notion"
+ },
+ {
+  "id": "sk_c52cd0bcfe11",
+  "name": "op7418/NanoBanana-PPT-Skills",
+  "desc": "AI-powered PPT generation with document analysis and styled images"
+ },
+ {
+  "id": "sk_58c137c3d378",
+  "name": "zarazhangrui/frontend-slides",
+  "desc": "Generate animation-rich HTML presentations with visual style previews"
+ },
+ {
+  "id": "sk_70b07f4831ab",
+  "name": "sujunmin/agy-ppt",
+  "desc": "Generate PowerPoint decks without the AI-slop look, purpose-built for the Antigravity+Kiro+Codex pipeline; GPT image rendering handles dense Traditional Chinese slide text far better than Gemini"
+ },
+ {
+  "id": "sk_19dc15fdf318",
+  "name": "gokapso/integrate-whatsapp",
+  "desc": "Connect WhatsApp, set up webhooks, and send messages"
+ },
+ {
+  "id": "sk_a4d4f4af4a1a",
+  "name": "gokapso/automate-whatsapp",
+  "desc": "Build WhatsApp automations with workflows and agents"
+ },
+ {
+  "id": "sk_a1e0e5af582b",
+  "name": "gokapso/observe-whatsapp",
+  "desc": "Debug WhatsApp delivery issues and run health checks"
+ },
+ {
+  "id": "sk_81fa71be3e1e",
+  "name": "PleasePrompto/notebooklm-skill",
+  "desc": "Interact with NotebookLM for document-based conversations"
+ },
+ {
+  "id": "sk_94d2b21ca73f",
+  "name": "obra/superpowers-lab",
+  "desc": "Lab environment for Claude superpowers"
+ },
+ {
+  "id": "sk_5c920adcbb7e",
+  "name": "obra/brainstorming",
+  "desc": "Generate and explore ideas"
+ },
+ {
+  "id": "sk_f4c18cb5ff94",
+  "name": "obra/writing-plans",
+  "desc": "Create strategic documentation"
+ },
+ {
+  "id": "sk_a8dbbae885a0",
+  "name": "obra/executing-plans",
+  "desc": "Implement and run strategic plans"
+ },
+ {
+  "id": "sk_3dd835602963",
+  "name": "obra/dispatching-parallel-agents",
+  "desc": "Coordinate multiple simultaneous agents"
+ },
+ {
+  "id": "sk_be04db607173",
+  "name": "obra/using-superpowers",
+  "desc": "Leverage core platform capabilities"
+ },
+ {
+  "id": "sk_69d401caa8da",
+  "name": "op7418/Youtube-clipper-skill",
+  "desc": "YouTube clip generation and editing with automated workflows"
+ },
+ {
+  "id": "sk_55f4f3934240",
+  "name": "ognjengt/founder-skills",
+  "desc": "Claude skills for founders with packaged startup workflows"
+ },
+ {
+  "id": "sk_5d4ddd067872",
+  "name": "EveryInc/charlie-cfo-skill",
+  "desc": "Bootstrapped CFO financial management inspired by Charlie Munger"
+ },
+ {
+  "id": "sk_e9d8ed8bf7ab",
+  "name": "openaccountants/openaccountants",
+  "desc": "371 tax classification skills across 134 countries"
+ },
+ {
+  "id": "sk_1e27ea47bcc2",
+  "name": "wrsmith108/linear-claude-skill",
+  "desc": "Manage Linear issues, projects, and teams"
+ },
+ {
+  "id": "sk_b087261e9df4",
+  "name": "hanfang/claude-memory-skill",
+  "desc": "Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence"
+ },
+ {
+  "id": "sk_1deb5c6ae881",
+  "name": "xberg-io/xberg",
+  "desc": "Extract text, tables, and metadata from 101+ document formats"
+ },
+ {
+  "id": "sk_1093e143ef4e",
+  "name": "Paramchoudhary/ResumeSkills",
+  "desc": "20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions"
+ },
+ {
+  "id": "sk_a7850a38e332",
+  "name": "bevibing/tutor-skills",
+  "desc": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes"
+ },
+ {
+  "id": "sk_097e430e25f3",
+  "name": "NeoLabHQ/write-concisely",
+  "desc": "Applies the famous The Elements of Style book principles to make documentation and writing clearer and more professional by eliminating wordiness and improving structure."
+ },
+ {
+  "id": "sk_3b61dc1f857a",
+  "name": "ReScienceLab/opc-skills",
+  "desc": "Agent skills for solopreneurs with SEO, geo, and LLM tools"
+ },
+ {
+  "id": "sk_8891798082c7",
+  "name": "SeanZoR/claude-speed-reader",
+  "desc": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting"
+ },
+ {
+  "id": "sk_e75995533eff",
+  "name": "Charlie85270/Dorothy",
+  "desc": "Orchestrate multiple AI CLI agents with automations and MCP servers"
+ },
+ {
+  "id": "sk_f49b5aa1d38f",
+  "name": "Digidai/product-manager-skills",
+  "desc": "Senior PM agent with 30+ frameworks and SaaS metrics"
+ },
+ {
+  "id": "sk_055f38aa945e",
+  "name": "deusyu/translate-book",
+  "desc": "Translate books (PDF/DOCX/EPUB) via parallel sub-agents with resume"
+ },
+ {
+  "id": "sk_fa755604a5d1",
+  "name": "mvanhorn/last30days-skill",
+  "desc": "Research any topic across Reddit, X, YouTube, HN, Polymarket, and the web, ranked by upvotes, likes, and real money instead of editors"
+ },
+ {
+  "id": "sk_9bd429881204",
+  "name": "career-ops-hq/career-ops",
+  "desc": "Scores jobs against your CV, tailors resumes, tracks applications"
+ },
+ {
+  "id": "sk_920c6ebfe536",
+  "name": "Linked-API/linkedin",
+  "desc": "Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf."
+ },
+ {
+  "id": "sk_774d9e142a83",
+  "name": "pattern-ai-labs/agentcall",
+  "desc": "Let your AI agents join Google Meet, Zoom, Teams calls and collaborate like a real team-mate."
+ },
+ {
+  "id": "sk_620f1086383a",
+  "name": "Sendmux/skills",
+  "desc": "Sendmux email and mailbox workflows for agents"
+ },
+ {
+  "id": "sk_7d0ecb1cd1b1",
+  "name": "tjboudreaux/cc-thinking-skills",
+  "desc": "28 eval-informed mental models for decisions, debugging, systems, and strategy"
+ },
+ {
+  "id": "sk_f9d3a79c9b30",
+  "name": "JimmySadek/video-fetcher-to-markdown",
+  "desc": "Create Obsidian-ready Markdown notes from YouTube videos"
+ },
+ {
+  "id": "sk_e8249d53e3dc",
+  "name": "zapier/zapier-mcp",
+  "desc": "Official plugin distribution for the hosted Zapier MCP server. Connects Claude to thousands of apps — send messages, pull data, trigger workflows."
+ },
+ {
+  "id": "sk_9943c20f2125",
+  "name": "Neeeophytee/finding-unknowns-skills",
+  "desc": "8 meta-skills that make a coding agent surface your unknowns before they get expensive: blindspot pass, interview, reference hunt, implementation plan/notes, pitch packager, and a pre-merge change quiz. Works in Claude Code, Codex, and Cursor via the agentskills.io SKILL.md format"
+ },
+ {
+  "id": "sk_9fbd78fdef27",
+  "name": "kgraph57/strategy-consulting-visualization",
+  "desc": "McKinsey-style charts and consulting slide decks"
+ },
+ {
+  "id": "sk_0b02db55d7e8",
+  "name": "vaibhavarora14/job-application-agent",
+  "desc": "JobAppAgent: free MIT open-source job application agent, one verified résumé"
+ },
+ {
+  "id": "sk_a03a56a76211",
+  "name": "wgwtest/novel-writing",
+  "desc": "Plans and revises fiction with viewpoint, dialogue, and style checks."
+ },
+ {
+  "id": "sk_a999b70f6d7a",
+  "name": "cyperx84/claude-skills-mental-models",
+  "desc": "Drop your own mental models in as files; 21 included"
+ },
+ {
+  "id": "sk_7bceefbfd9a7",
+  "name": "manavmishra/zero-slop",
+  "desc": "Edits AI-sounding prose while preserving facts, voice, and formatting"
+ },
+ {
+  "id": "sk_d0bfc28f7d05",
+  "name": "Atomic-Mail/atomicmail",
+  "desc": "Agent registers its own inbox, then sends and reads mail"
+ },
+ {
+  "id": "sk_ee1da979add7",
+  "name": "forjd/better-writing",
+  "desc": "Rewrites AI-sounding prose without inventing facts; eval-tested"
+ },
+ {
+  "id": "sk_62baed5a0b86",
+  "name": "OneWave-AI/claude-skills",
+  "desc": "225 business, everyday-life, and coding skills, many with scripts"
+ },
+ {
+  "id": "sk_ecb6dc053dcd",
+  "name": "GiaSip/giasip-research",
+  "desc": "Source-linked research reports with explicit unresolved checks"
+ },
+ {
+  "id": "sk_e0bbdfd368d9",
+  "name": "tronghieu/agent-skills",
+  "desc": "18 method-driven skills for knowledge work: strategy, research, writing"
+ },
+ {
+  "id": "sk_731c3e224281",
+  "name": "dmoshehun-prog/learn-from-materials",
+  "desc": "Turn documents into source-grounded interactive learning pages for AI agents"
+ },
+ {
+  "id": "sk_005b90d205d4",
+  "name": "chrisryugj/kordoc",
+  "desc": "Convert Korean HWP/HWPX documents to Markdown, fill forms, generate HWPX"
+ },
+ {
+  "id": "sk_27577e19b2b8",
+  "name": "bablobanov/hermes-agent-telegram-checklist",
+  "desc": "Create and manage native Telegram checklists with verified writes"
+ },
+ {
+  "id": "sk_78916a5fdb1b",
+  "name": "siril9/presentation-skill",
+  "desc": "Generate editable PowerPoint decks from source with visual QA."
+ },
+ {
+  "id": "sk_983979f8ace1",
+  "name": "teableio/teable-assistant-ops",
+  "desc": "Manage Teable data, SQL queries, automations, and apps."
+ },
+ {
+  "id": "sk_e57c64e4f420",
+  "name": "cbrock84/headcount",
+  "desc": "Company departments as installable skills, each citing its sources"
+ },
+ {
+  "id": "sk_264048cb626b",
+  "name": "luchasarie/bro",
+  "desc": "Re-explains the last reply in plain language"
+ },
+ {
+  "id": "sk_028d869cb7cb",
+  "name": "radres/call-me",
+  "desc": "Agent phones your iPhone and returns your spoken answer"
+ },
+ {
+  "id": "sk_3a101a04fa1a",
+  "name": "ysskrishna/ai-agent-skills",
+  "desc": "Structured thinking skills: five whys, pre-mortem, trade-offs"
+ },
+ {
+  "id": "sk_bc4f0cf127a3",
+  "name": "AugustusW/audio-tldr",
+  "desc": "Summarize videos and podcasts with local, cached transcription"
+ },
+ {
+  "id": "sk_54c30a486c74",
+  "name": "voygr-tech/placecall",
+  "desc": "Calls US businesses by phone and returns outcome and transcript"
+ },
+ {
+  "id": "sk_b6c56bb60e51",
+  "name": "arifszn/slide-wright",
+  "desc": "Generate themed HTML slide decks, export to PowerPoint or PDF"
+ }
+]

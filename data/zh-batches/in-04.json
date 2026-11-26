@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "sk_01a7831f1be8",
+  "name": "coinbase/authenticate-wallet",
+  "desc": "Handle sign-in for the Coinbase payments wallet via email OTP"
+ },
+ {
+  "id": "sk_ae9d37b68b93",
+  "name": "coinbase/fund",
+  "desc": "Add USDC to a Coinbase-powered wallet through Coinbase Onramp"
+ },
+ {
+  "id": "sk_0b80dd24b24f",
+  "name": "coinbase/monetize-service",
+  "desc": "Scaffold an Express server that charges USDC per request using x402"
+ },
+ {
+  "id": "sk_885e6ca3c488",
+  "name": "coinbase/pay-for-service",
+  "desc": "Call paid API endpoints that use the x402 protocol with automatic USDC"
+ },
+ {
+  "id": "sk_3a81f962703f",
+  "name": "coinbase/query-onchain-data",
+  "desc": "Query decoded onchain data (events, tx, blocks) on Base"
+ },
+ {
+  "id": "sk_73fdf67d8f50",
+  "name": "coinbase/search-for-service",
+  "desc": "Search and browse the x402 bazaar marketplace"
+ },
+ {
+  "id": "sk_03d5af57854c",
+  "name": "coinbase/send-usdc",
+  "desc": "Send USDC to any Ethereum address or ENS name on Base"
+ },
+ {
+  "id": "sk_8b9ffd144766",
+  "name": "coinbase/trade",
+  "desc": "Swap and trade tokens on Base using the CDP Swap API"
+ },
+ {
+  "id": "sk_082eea1b8c6c",
+  "name": "coinbase/x402",
+  "desc": "Discover and call paid API endpoints using the x402 payment protocol"
+ },
+ {
+  "id": "sk_0cb2d7b8d803",
+  "name": "datadog-labs/dd-apm",
+  "desc": "Query Datadog APM data directly from your editor"
+ },
+ {
+  "id": "sk_8f943f8edf48",
+  "name": "datadog-labs/dd-docs",
+  "desc": "Look up Datadog documentation via the LLM-optimized docs index"
+ },
+ {
+  "id": "sk_f71ed30fa1b1",
+  "name": "datadog-labs/dd-llmo-eval-bootstrap",
+  "desc": "Analyze production LLM traces and generate evaluators"
+ },
+ {
+  "id": "sk_a36a9e7bdd3f",
+  "name": "datadog-labs/dd-llmo-eval-trace-rca",
+  "desc": "Root-cause LLM app failures using eval traces"
+ },
+ {
+  "id": "sk_fe88ff00ccb5",
+  "name": "datadog-labs/dd-llmo-experiment-analyzer",
+  "desc": "Analyze single or comparative LLM experiment results"
+ },
+ {
+  "id": "sk_96fde4da4da6",
+  "name": "datadog-labs/dd-logs",
+  "desc": "Search, filter, and archive Datadog logs through pup CLI"
+ },
+ {
+  "id": "sk_ba7821aab691",
+  "name": "datadog-labs/dd-monitors",
+  "desc": "Manage Datadog monitors through the pup CLI"
+ },
+ {
+  "id": "sk_702c20bfb678",
+  "name": "datadog-labs/dd-pup",
+  "desc": "Rust-based CLI (pup) for talking to the Datadog API"
+ },
+ {
+  "id": "sk_a8249d1a0191",
+  "name": "firebase/developing-genkit-dart",
+  "desc": "Build AI apps with the Genkit Dart SDK"
+ },
+ {
+  "id": "sk_16164a9569c5",
+  "name": "firebase/developing-genkit-go",
+  "desc": "Build AI apps with the Genkit Go SDK"
+ },
+ {
+  "id": "sk_b28b63d0da1f",
+  "name": "firebase/developing-genkit-js",
+  "desc": "Build AI-powered apps with Firebase Genkit in Node.js"
+ },
+ {
+  "id": "sk_7030b6994dc0",
+  "name": "firebase/firebase-ai-logic-basics",
+  "desc": "Call Gemini models from web and mobile apps via Firebase AI Logic"
+ },
+ {
+  "id": "sk_e6860cb27344",
+  "name": "firebase/firebase-app-hosting-basics",
+  "desc": "Deploy and manage full-stack web apps (Next.js, Angular, etc.)"
+ },
+ {
+  "id": "sk_b721707918bb",
+  "name": "firebase/firebase-auth-basics",
+  "desc": "Set up Firebase Authentication with sign-in providers"
+ },
+ {
+  "id": "sk_e6aca163cbba",
+  "name": "firebase/firebase-basics",
+  "desc": "Handle Firebase CLI install, auth, and day-to-day workflow"
+ },
+ {
+  "id": "sk_d29090a59020",
+  "name": "firebase/firebase-data-connect-basics",
+  "desc": "Build Firebase Data Connect backends backed by Cloud SQL"
+ },
+ {
+  "id": "sk_1721f2784583",
+  "name": "firebase/firebase-firestore-enterprise-native-mode",
+  "desc": "Set up and use Firestore Enterprise Native Mode"
+ },
+ {
+  "id": "sk_35e24ac94fda",
+  "name": "firebase/firebase-firestore-standard",
+  "desc": "Complete guide for Cloud Firestore Standard Edition"
+ },
+ {
+  "id": "sk_599ce7a66d85",
+  "name": "firebase/firebase-hosting-basics",
+  "desc": "Deploy static sites, SPAs, and microservices to Firebase Hosting"
+ },
+ {
+  "id": "sk_d4217723973f",
+  "name": "firebase/firebase-security-rules-auditor",
+  "desc": "Audit Firestore security rules and flag risky patterns"
+ },
+ {
+  "id": "sk_09bd105491e4",
+  "name": "flutter/flutter-adding-home-screen-widgets",
+  "desc": "Add home screen widgets to Flutter apps on Android and iOS"
+ },
+ {
+  "id": "sk_bb6184439d52",
+  "name": "flutter/flutter-animating-apps",
+  "desc": "Implement animated effects, transitions, and motion"
+ },
+ {
+  "id": "sk_4ac9746a8a33",
+  "name": "flutter/flutter-architecting-apps",
+  "desc": "Structure a Flutter app using layered architecture"
+ },
+ {
+  "id": "sk_426873e646cc",
+  "name": "flutter/flutter-building-forms",
+  "desc": "Build Flutter forms with validation and user input"
+ },
+ {
+  "id": "sk_57cd334aef48",
+  "name": "flutter/flutter-building-layouts",
+  "desc": "Build and fix layouts using the constraint system (Row, Column, Stack)"
+ },
+ {
+  "id": "sk_41e06936bbb0",
+  "name": "flutter/flutter-building-plugins",
+  "desc": "Create Flutter plugins that bridge Dart with platform code"
+ },
+ {
+  "id": "sk_96e6276fbe12",
+  "name": "flutter/flutter-caching-data",
+  "desc": "Implement offline-first caching strategies"
+ },
+ {
+  "id": "sk_2b71e3d7cf5a",
+  "name": "flutter/flutter-embedding-native-views",
+  "desc": "Embed native Android, iOS, and macOS views in Flutter widgets"
+ },
+ {
+  "id": "sk_65bbc3eac55c",
+  "name": "flutter/flutter-handling-concurrency",
+  "desc": "Run heavy work in background Dart isolates"
+ },
+ {
+  "id": "sk_5d0dcbaf6683",
+  "name": "flutter/flutter-handling-http-and-json",
+  "desc": "Handle HTTP requests and JSON serialization"
+ },
+ {
+  "id": "sk_5c5956c7df25",
+  "name": "flutter/flutter-implementing-navigation-and-routing",
+  "desc": "Handle routing, navigation, and deep linking"
+ },
+ {
+  "id": "sk_0b21f65ccf6a",
+  "name": "flutter/flutter-improving-accessibility",
+  "desc": "Configure Flutter for screen readers and assistive tech"
+ },
+ {
+  "id": "sk_432f6af3404f",
+  "name": "flutter/flutter-interoperating-with-native-apis",
+  "desc": "Bridge Flutter with native platform APIs"
+ },
+ {
+  "id": "sk_82c628ddc032",
+  "name": "flutter/flutter-localizing-apps",
+  "desc": "Configure Flutter for multiple languages and regions"
+ },
+ {
+  "id": "sk_d7a15c3e2334",
+  "name": "flutter/flutter-managing-state",
+  "desc": "Manage local widget state and shared application state"
+ },
+ {
+  "id": "sk_8a4677064b95",
+  "name": "flutter/flutter-reducing-app-size",
+  "desc": "Measure and optimize Flutter app bundle sizes"
+ },
+ {
+  "id": "sk_2fa94c87fc1e",
+  "name": "flutter/flutter-setting-up-on-linux",
+  "desc": "Set up a Linux machine for Flutter desktop development"
+ },
+ {
+  "id": "sk_910a53e4bf20",
+  "name": "flutter/flutter-setting-up-on-macos",
+  "desc": "Set up a macOS machine for Flutter development"
+ },
+ {
+  "id": "sk_63e8adb13cf0",
+  "name": "flutter/flutter-setting-up-on-windows",
+  "desc": "Set up a Windows machine for Flutter development"
+ },
+ {
+  "id": "sk_72a0ab7708a6",
+  "name": "flutter/flutter-testing-apps",
+  "desc": "Implement unit, widget, and integration tests"
+ },
+ {
+  "id": "sk_2eca539237e3",
+  "name": "flutter/flutter-theming-apps",
+  "desc": "Customize Flutter app appearance through the theming system"
+ },
+ {
+  "id": "sk_1563904a1f48",
+  "name": "flutter/flutter-working-with-databases",
+  "desc": "Build a structured data layer using SQLite"
+ },
+ {
+  "id": "sk_1c307e1e2066",
+  "name": "deanpeters/acquisition-channel-advisor",
+  "desc": "Evaluate channels using unit economics and recommend scale/test/kill decisions"
+ },
+ {
+  "id": "sk_d7c45e025025",
+  "name": "deanpeters/ai-shaped-readiness-advisor",
+  "desc": "Assess automation vs. redesign opportunities across five competencies"
+ },
+ {
+  "id": "sk_265cbe9b1797",
+  "name": "deanpeters/altitude-horizon-framework",
+  "desc": "Navigate the PM→Director mindset shift covering scope, time horizons, and failure modes"
+ },
+ {
+  "id": "sk_5d7c13ac5b35",
+  "name": "deanpeters/business-health-diagnostic",
+  "desc": "Diagnose SaaS health, identify red flags, and prioritize recovery actions"
+ },
+ {
+  "id": "sk_3e61cf14fc38",
+  "name": "deanpeters/company-research",
+  "desc": "Deep-dive competitor or company analysis"
+ },
+ {
+  "id": "sk_604d4b1c5dcd",
+  "name": "deanpeters/customer-journey-map",
+  "desc": "Map customer experience across touchpoints using the NNGroup framework"
+ },
+ {
+  "id": "sk_2c8381526935",
+  "name": "deanpeters/eol-message",
+  "desc": "Communicate product or feature deprecation gracefully"
+ },
+ {
+  "id": "sk_253c7d7de2f5",
+  "name": "deanpeters/epic-hypothesis",
+  "desc": "Turn initiatives into testable hypotheses with measurable success metrics"
+ },
+ {
+  "id": "sk_3f1afc885153",
+  "name": "deanpeters/finance-metrics-quickref",
+  "desc": "Reference guide for 32+ SaaS finance metrics with formulas and benchmarks"
+ },
+ {
+  "id": "sk_ed7bad8188eb",
+  "name": "deanpeters/jobs-to-be-done",
+  "desc": "Understand customer objectives using the JTBD framework"
+ },
+ {
+  "id": "sk_9dad1aba5a7c",
+  "name": "deanpeters/pestel-analysis",
+  "desc": "Analyze external factors across Political, Economic, Social, Tech, Environmental, and Legal dimensions"
+ },
+ {
+  "id": "sk_dfbe60f538e8",
+  "name": "deanpeters/pol-probe",
+  "desc": "Define lightweight validation experiments to test hypotheses"
+ },
+ {
+  "id": "sk_7e5971e8ca43",
+  "name": "deanpeters/positioning-statement",
+  "desc": "Define target audience, problem solved, and differentiation using Geoffrey Moore's framework"
+ },
+ {
+  "id": "sk_28f428255ba0",
+  "name": "deanpeters/press-release",
+  "desc": "Clarify product vision with a future press release using Amazon's Working Backwards method"
+ },
+ {
+  "id": "sk_e1f8b2739adc",
+  "name": "deanpeters/problem-statement",
+  "desc": "Frame customer problems with evidence before jumping to solutions"
+ },
+ {
+  "id": "sk_cbe92884a3ae",
+  "name": "deanpeters/proto-persona",
+  "desc": "Create hypothesis-driven personas before conducting full research"
+ },
+ {
+  "id": "sk_28f3f56f7b40",
+  "name": "deanpeters/recommendation-canvas",
+  "desc": "Document AI-powered product recommendations"
+ },
+ {
+  "id": "sk_30502318a30c",
+  "name": "deanpeters/saas-economics-efficiency-metrics",
+  "desc": "Calculate unit economics and capital efficiency including CAC, LTV, payback, and Rule of 40"
+ },
+ {
+  "id": "sk_807ec88a9c0c",
+  "name": "deanpeters/saas-revenue-growth-metrics",
+  "desc": "Track revenue, retention, and growth metrics including MRR/ARR, churn, NRR, and expansion"
+ },
+ {
+  "id": "sk_4898f5dab2f4",
+  "name": "deanpeters/storyboard",
+  "desc": "Visualize user journeys with 6-frame narrative storyboards"
+ },
+ {
+  "id": "sk_8b3c07111798",
+  "name": "deanpeters/user-story",
+  "desc": "Write user stories with acceptance criteria using Mike Cohn and Gherkin formats"
+ },
+ {
+  "id": "sk_b17a77619739",
+  "name": "deanpeters/user-story-mapping",
+  "desc": "Organize stories by user workflow using Jeff Patton's story mapping approach"
+ },
+ {
+  "id": "sk_db3bc35149b7",
+  "name": "deanpeters/user-story-splitting",
+  "desc": "Break down large stories using 8 proven splitting patterns"
+ },
+ {
+  "id": "sk_e99b7fa8738d",
+  "name": "deanpeters/context-engineering-advisor",
+  "desc": "Diagnose context stuffing vs. engineering and guide memory and retrieval design"
+ },
+ {
+  "id": "sk_f3b5a7a631d9",
+  "name": "deanpeters/customer-journey-mapping-workshop",
+  "desc": "Guide journey mapping sessions with pain point identification"
+ },
+ {
+  "id": "sk_4af0ab5bd574",
+  "name": "deanpeters/director-readiness-advisor",
+  "desc": "Coach the PM→Director transition across four key situations"
+ },
+ {
+  "id": "sk_07d66cdf564b",
+  "name": "deanpeters/discovery-interview-prep",
+  "desc": "Plan customer interviews using Mom Test style based on research goals"
+ },
+ {
+  "id": "sk_05dc1c0d2eac",
+  "name": "deanpeters/epic-breakdown-advisor",
+  "desc": "Split epics into stories using Richard Lawrence's 9 splitting patterns"
+ },
+ {
+  "id": "sk_e0f698d3c094",
+  "name": "deanpeters/feature-investment-advisor",
+  "desc": "Evaluate features using ROI and strategic value scoring"
+ },
+ {
+  "id": "sk_12ee98ec111b",
+  "name": "deanpeters/finance-based-pricing-advisor",
+  "desc": "Evaluate pricing changes using financial impact analysis"
+ },
+ {
+  "id": "sk_a2c68688032e",
+  "name": "deanpeters/lean-ux-canvas",
+  "desc": "Set up hypothesis-driven planning using Jeff Gothelf's Lean UX Canvas v2"
+ },
+ {
+  "id": "sk_03e07c456bcc",
+  "name": "deanpeters/opportunity-solution-tree",
+  "desc": "Generate opportunities and solutions and recommend proof-of-concept tests"
+ },
+ {
+  "id": "sk_b7f99b856d84",
+  "name": "deanpeters/pol-probe-advisor",
+  "desc": "Recommend prototype type: Feasibility, Task-Focused, Narrative, Synthetic, or Vibe"
+ },
+ {
+  "id": "sk_cc4172c2c626",
+  "name": "deanpeters/positioning-workshop",
+  "desc": "Guide positioning definition with adaptive discovery questions"
+ },
+ {
+  "id": "sk_0d62be227945",
+  "name": "deanpeters/prioritization-advisor",
+  "desc": "Recommend the right prioritization framework (RICE, ICE, Kano, etc.) for your situation"
+ },
+ {
+  "id": "sk_d987774309f1",
+  "name": "deanpeters/problem-framing-canvas",
+  "desc": "Lead through MITRE Problem Framing: Look Inward, Outward, and Reframe"
+ },
+ {
+  "id": "sk_dc6608c3b2bb",
+  "name": "deanpeters/tam-sam-som-calculator",
+  "desc": "Project market size with real-world data and citations"
+ },
+ {
+  "id": "sk_03064489efee",
+  "name": "deanpeters/user-story-mapping-workshop",
+  "desc": "Walk through creating story maps with backbone and release slices"
+ },
+ {
+  "id": "sk_93bfc78f342c",
+  "name": "deanpeters/vp-cpo-readiness-advisor",
+  "desc": "Coach the Director→VP/CPO transition including a CEO interview framework"
+ },
+ {
+  "id": "sk_4927087156c8",
+  "name": "deanpeters/workshop-facilitation",
+  "desc": "Add step-by-step facilitation with numbered recommendations to any workshop"
+ },
+ {
+  "id": "sk_d704c89e5d93",
+  "name": "deanpeters/discovery-process",
+  "desc": "Full discovery cycle: frame problem → research → synthesize → validate (3-4 weeks)"
+ },
+ {
+  "id": "sk_3980c28ee4ae",
+  "name": "deanpeters/executive-onboarding-playbook",
+  "desc": "30-60-90 day diagnostic playbook for VP/CPO onboarding transitions"
+ },
+ {
+  "id": "sk_3b6b3e6efccf",
+  "name": "deanpeters/prd-development",
+  "desc": "Structured PRD process: problem → personas → solution → metrics → stories (2-4 days)"
+ },
+ {
+  "id": "sk_ae004bf4e27e",
+  "name": "deanpeters/product-strategy-session",
+  "desc": "Full strategy session: positioning → framing → exploration → roadmap (2-4 weeks)"
+ },
+ {
+  "id": "sk_a218eeef05e4",
+  "name": "deanpeters/roadmap-planning",
+  "desc": "Strategic roadmap process: inputs → epics → prioritize → sequence → communicate (1-2 weeks)"
+ },
+ {
+  "id": "sk_64e43bc7aac7",
+  "name": "deanpeters/skill-authoring-workflow",
+  "desc": "Meta workflow for authoring skills: choose path → validate → update docs → package"
+ },
+ {
+  "id": "sk_ec94dd61a677",
+  "name": "phuryn/ab-test-analysis",
+  "desc": "Analyze A/B test results with statistical significance and recommendations"
+ },
+ {
+  "id": "sk_c2bfa60d7b72",
+  "name": "phuryn/cohort-analysis",
+  "desc": "Cohort retention curves, feature adoption, and segment insights"
+ },
+ {
+  "id": "sk_e87ab02a6539",
+  "name": "phuryn/sql-queries",
+  "desc": "Generate SQL queries from natural language across major dialects"
+ },
+ {
+  "id": "sk_56ce7aea10d1",
+  "name": "phuryn/brainstorm-okrs",
+  "desc": "Brainstorm team OKRs aligned with company objectives"
+ },
+ {
+  "id": "sk_27946d13bdef",
+  "name": "phuryn/create-prd",
+  "desc": "Create a PRD with 8-section template covering problem to release"
+ },
+ {
+  "id": "sk_c1f5c0f22e4c",
+  "name": "phuryn/dummy-dataset",
+  "desc": "Generate realistic dummy datasets in CSV, JSON, or SQL"
+ },
+ {
+  "id": "sk_e81ff7b84437",
+  "name": "phuryn/job-stories",
+  "desc": "Create job stories with acceptance criteria in JTBD format"
+ },
+ {
+  "id": "sk_d57765996a4e",
+  "name": "phuryn/outcome-roadmap",
+  "desc": "Transform output roadmaps into outcome-focused strategic plans"
+ },
+ {
+  "id": "sk_5678c393b98c",
+  "name": "phuryn/pre-mortem",
+  "desc": "Run pre-mortem risk analysis on PRDs and launch plans"
+ },
+ {
+  "id": "sk_05f8ed942b48",
+  "name": "phuryn/prioritization-frameworks",
+  "desc": "Reference guide to 9 prioritization frameworks with templates"
+ },
+ {
+  "id": "sk_449af15f3635",
+  "name": "phuryn/release-notes",
+  "desc": "Generate user-facing release notes from tickets or changelogs"
+ },
+ {
+  "id": "sk_43d1b9442cf3",
+  "name": "phuryn/retro",
+  "desc": "Facilitate structured sprint retrospectives with action items"
+ },
+ {
+  "id": "sk_ee4a3c0dbf11",
+  "name": "phuryn/sprint-plan",
+  "desc": "Plan sprints with capacity, story selection, and risk mapping"
+ },
+ {
+  "id": "sk_74380fc630ef",
+  "name": "phuryn/stakeholder-map",
+  "desc": "Build stakeholder maps with power/interest grid and comms plan"
+ },
+ {
+  "id": "sk_a52a4079de8e",
+  "name": "phuryn/summarize-meeting",
+  "desc": "Summarize meeting transcripts into structured notes and actions"
+ },
+ {
+  "id": "sk_03ec7604fd7a",
+  "name": "phuryn/test-scenarios",
+  "desc": "Create comprehensive test scenarios from user stories"
+ },
+ {
+  "id": "sk_e3ff26982d40",
+  "name": "phuryn/user-stories",
+  "desc": "Create INVEST-compliant user stories with 3 C's structure"
+ },
+ {
+  "id": "sk_d2d71aa8859d",
+  "name": "phuryn/wwas",
+  "desc": "Create backlog items in Why-What-Acceptance format"
+ },
+ {
+  "id": "sk_05b8888224b9",
+  "name": "phuryn/beachhead-segment",
+  "desc": "Identify the first beachhead market segment for product launch"
+ },
+ {
+  "id": "sk_783850b3c57a",
+  "name": "phuryn/competitive-battlecard",
+  "desc": "Create sales-ready battlecards against specific competitors"
+ },
+ {
+  "id": "sk_43d18860e8bf",
+  "name": "phuryn/growth-loops",
+  "desc": "Identify growth loops across 5 flywheel types for traction"
+ },
+ {
+  "id": "sk_66e1e057aa1d",
+  "name": "phuryn/gtm-motions",
+  "desc": "Identify best GTM motions across 7 types including PLG and ABM"
+ },
+ {
+  "id": "sk_c6cc5db9f579",
+  "name": "phuryn/gtm-strategy",
+  "desc": "Create GTM strategy with channels, messaging, and launch timeline"
+ },
+ {
+  "id": "sk_19cecf237b64",
+  "name": "phuryn/ideal-customer-profile",
+  "desc": "Identify ICP with demographics, behaviors, and JTBD"
+ },
+ {
+  "id": "sk_c01ae203b28f",
+  "name": "phuryn/competitor-analysis",
+  "desc": "Analyze competitors with strengths, weaknesses, and differentiation"
+ },
+ {
+  "id": "sk_71e5118e88a9",
+  "name": "phuryn/customer-journey-map",
+  "desc": "Map customer journeys with touchpoints, emotions, and opportunities"
+ },
+ {
+  "id": "sk_55f9a8cb3e61",
+  "name": "phuryn/market-segments",
+  "desc": "Identify 3-5 customer segments with JTBD and product fit"
+ },
+ {
+  "id": "sk_6cc1d184727a",
+  "name": "phuryn/market-sizing",
+  "desc": "Estimate TAM, SAM, SOM with top-down and bottom-up approaches"
+ },
+ {
+  "id": "sk_640251b84287",
+  "name": "phuryn/sentiment-analysis",
+  "desc": "Analyze user feedback with sentiment scores and JTBD insights"
+ },
+ {
+  "id": "sk_15e1d2bdefde",
+  "name": "phuryn/user-personas",
+  "desc": "Create 3 user personas with JTBD, pains, and gains"
+ },
+ {
+  "id": "sk_0e6d5680657a",
+  "name": "phuryn/user-segmentation",
+  "desc": "Segment users by behavior, JTBD, and needs from feedback data"
+ },
+ {
+  "id": "sk_e60e1df74832",
+  "name": "phuryn/marketing-ideas",
+  "desc": "Generate 5 creative, cost-effective marketing ideas with rationale"
+ },
+ {
+  "id": "sk_046d233fb246",
+  "name": "phuryn/north-star-metric",
+  "desc": "Define North Star Metric and input metrics constellation"
+ },
+ {
+  "id": "sk_a76ed68c5b44",
+  "name": "phuryn/positioning-ideas",
+  "desc": "Brainstorm positioning ideas differentiated from competitors"
+ },
+ {
+  "id": "sk_1aa5fc989c66",
+  "name": "phuryn/product-name",
+  "desc": "Brainstorm 5 memorable product names aligned to brand values"
+ },
+ {
+  "id": "sk_741c1a9b2a46",
+  "name": "phuryn/value-prop-statements",
+  "desc": "Generate value prop statements for marketing, sales, and onboarding"
+ },
+ {
+  "id": "sk_3b6939571ebf",
+  "name": "phuryn/analyze-feature-requests",
+  "desc": "Prioritize feature requests by theme, impact, effort, and risk"
+ },
+ {
+  "id": "sk_e83a407645f8",
+  "name": "phuryn/brainstorm-experiments-existing",
+  "desc": "Design experiments to test assumptions for existing products"
+ },
+ {
+  "id": "sk_54b7ed6a5b15",
+  "name": "phuryn/brainstorm-experiments-new",
+  "desc": "Design lean pretotypes for new product validation"
+ },
+ {
+  "id": "sk_0167d8a2d902",
+  "name": "phuryn/brainstorm-ideas-existing",
+  "desc": "Brainstorm product ideas from PM, Designer, Engineer perspectives"
+ },
+ {
+  "id": "sk_596f64004763",
+  "name": "phuryn/brainstorm-ideas-new",
+  "desc": "Brainstorm feature ideas for new products in early discovery"
+ },
+ {
+  "id": "sk_ff28200ae768",
+  "name": "phuryn/identify-assumptions-existing",
+  "desc": "Identify risky assumptions across Value, Usability, Viability, Feasibility"
+ },
+ {
+  "id": "sk_b062b6507f4c",
+  "name": "phuryn/identify-assumptions-new",
+  "desc": "Identify risky assumptions for new products across 8 risk categories"
+ },
+ {
+  "id": "sk_af57b7f0914f",
+  "name": "phuryn/interview-script",
+  "desc": "Create structured customer interview scripts with JTBD probing"
+ },
+ {
+  "id": "sk_d7a76829ecbe",
+  "name": "phuryn/metrics-dashboard",
+  "desc": "Define product metrics dashboard with sources and alert thresholds"
+ },
+ {
+  "id": "sk_7c55700fb0e6",
+  "name": "phuryn/opportunity-solution-tree",
+  "desc": "Build Opportunity Solution Trees based on Teresa Torres' method"
+ },
+ {
+  "id": "sk_796b2618e4fb",
+  "name": "phuryn/prioritize-assumptions",
+  "desc": "Prioritize assumptions with Impact × Risk matrix and experiments"
+ },
+ {
+  "id": "sk_dd345ac1c92b",
+  "name": "phuryn/prioritize-features",
+  "desc": "Prioritize backlog by impact, effort, risk, and strategic alignment"
+ },
+ {
+  "id": "sk_7714ce9e1248",
+  "name": "phuryn/summarize-interview",
+  "desc": "Summarize interview transcripts with JTBD and action items"
+ },
+ {
+  "id": "sk_f73f18e56ab3",
+  "name": "phuryn/ansoff-matrix",
+  "desc": "Ansoff Matrix analysis across 4 growth strategy quadrants"
+ },
+ {
+  "id": "sk_af6cbc98b726",
+  "name": "phuryn/business-model",
+  "desc": "Generate Business Model Canvas with all 9 building blocks"
+ },
+ {
+  "id": "sk_c7267b0bafeb",
+  "name": "phuryn/lean-canvas",
+  "desc": "Generate Lean Canvas with problem, solution, UVP, and metrics"
+ },
+ {
+  "id": "sk_c8aa1903ec2c",
+  "name": "phuryn/monetization-strategy",
+  "desc": "Brainstorm 3-5 monetization strategies with validation experiments"
+ },
+ {
+  "id": "sk_09fca32b9b26",
+  "name": "phuryn/pestle-analysis",
+  "desc": "PESTLE analysis across Political, Economic, Social, Tech, Legal, Environmental"
+ },
+ {
+  "id": "sk_dc84afd37184",
+  "name": "phuryn/porters-five-forces",
+  "desc": "Porter's Five Forces competitive analysis with strategic insights"
+ },
+ {
+  "id": "sk_8c53861c2dd6",
+  "name": "phuryn/pricing-strategy",
+  "desc": "Design pricing strategies with competitive analysis and WTP estimation"
+ },
+ {
+  "id": "sk_1ff5b02a3386",
+  "name": "phuryn/product-strategy",
+  "desc": "Create product strategy using 9-section Product Strategy Canvas"
+ },
+ {
+  "id": "sk_b1a2635b572c",
+  "name": "phuryn/product-vision",
+  "desc": "Brainstorm inspiring, achievable product vision statements"
+ },
+ {
+  "id": "sk_2d60f3455823",
+  "name": "phuryn/startup-canvas",
+  "desc": "Generate Startup Canvas combining Product Strategy and Business Model"
+ },
+ {
+  "id": "sk_79222fd099ac",
+  "name": "phuryn/swot-analysis",
+  "desc": "SWOT analysis with actionable recommendations per quadrant"
+ },
+ {
+  "id": "sk_a83f981bca29",
+  "name": "phuryn/value-proposition",
+  "desc": "Design value propositions using 6-part JTBD template"
+ },
+ {
+  "id": "sk_2836d10b2c36",
+  "name": "phuryn/draft-nda",
+  "desc": "Draft NDAs covering information types, jurisdiction, and clauses"
+ },
+ {
+  "id": "sk_b656553fb217",
+  "name": "phuryn/grammar-check",
+  "desc": "Identify grammar and flow errors with targeted fix suggestions"
+ },
+ {
+  "id": "sk_78658b0448f5",
+  "name": "phuryn/privacy-policy",
+  "desc": "Draft privacy policies with GDPR compliance considerations"
+ },
+ {
+  "id": "sk_fd3f3499adeb",
+  "name": "phuryn/review-resume",
+  "desc": "PM resume review against 10 best practices including XYZ+S formula"
+ },
+ {
+  "id": "sk_b92966cce4aa",
+  "name": "MiniMax-AI/cli",
+  "desc": "Generate text, image, video, speech, and music via MiniMax AI"
+ },
+ {
+  "id": "sk_e109ec1708ce",
+  "name": "MiniMax-AI/frontend-dev",
+  "desc": "Full-stack frontend with cinematic animations, AI-generated media via MiniMax API, and generative art"
+ },
+ {
+  "id": "sk_8e1d5257027a",
+  "name": "MiniMax-AI/fullstack-dev",
+  "desc": "Backend architecture with REST API design, auth flows, real-time features, and database integration"
+ },
+ {
+  "id": "sk_f93f9ac3c027",
+  "name": "MiniMax-AI/android-native-dev",
+  "desc": "Android native development with Kotlin/Jetpack Compose, Material Design 3, and accessibility"
+ },
+ {
+  "id": "sk_42aad8180a52",
+  "name": "MiniMax-AI/ios-application-dev",
+  "desc": "iOS development with UIKit, SnapKit, and SwiftUI covering navigation, Dark Mode, and HIG compliance"
+ },
+ {
+  "id": "sk_adacd333cda5",
+  "name": "MiniMax-AI/shader-dev",
+  "desc": "GLSL shader techniques for ray marching, fluid simulation, particle systems, and procedural generation"
+ },
+ {
+  "id": "sk_1980536a0fb8",
+  "name": "MiniMax-AI/gif-sticker-maker",
+  "desc": "Convert photos into animated GIF stickers in Funko Pop / Pop Mart style via MiniMax API"
+ },
+ {
+  "id": "sk_d9938dd7539e",
+  "name": "MiniMax-AI/minimax-pdf",
+  "desc": "Generate, fill, and reformat PDFs with a token-based design system and 15 cover styles"
+ },
+ {
+  "id": "sk_50778ae3a054",
+  "name": "MiniMax-AI/pptx-generator",
+  "desc": "Create and edit PowerPoint presentations from scratch with PptxGenJS"
+ },
+ {
+  "id": "sk_65341f79401d",
+  "name": "MiniMax-AI/minimax-xlsx",
+  "desc": "Create, read, analyze, and validate Excel/spreadsheet files with zero format loss"
+ },
+ {
+  "id": "sk_dabcb71aa1bb",
+  "name": "MiniMax-AI/minimax-docx",
+  "desc": "Professional DOCX document creation and editing using OpenXML SDK"
+ },
+ {
+  "id": "sk_29511207c9ab",
+  "name": "duckdb/attach-db",
+  "desc": "Attach a DuckDB database file for interactive querying with automatic schema exploration"
+ },
+ {
+  "id": "sk_f9550be7f735",
+  "name": "duckdb/query",
+  "desc": "Run SQL queries against attached databases or ad-hoc against files using Friendly SQL dialect"
+ },
+ {
+  "id": "sk_e030fc94a071",
+  "name": "duckdb/read-file",
+  "desc": "Read any data file (CSV, JSON, Parquet, Avro, Excel, spatial) locally or from remote storage"
+ },
+ {
+  "id": "sk_9430501fa3c8",
+  "name": "duckdb/duckdb-docs",
+  "desc": "Search DuckDB and DuckLake documentation using full-text search over HTTPS"
+ },
+ {
+  "id": "sk_74b4195178d5",
+  "name": "duckdb/read-memories",
+  "desc": "Search past Claude Code session logs to recover context from previous conversations"
+ },
+ {
+  "id": "sk_b9a7ce7fa353",
+  "name": "duckdb/install-duckdb",
+  "desc": "Install or update DuckDB CLI and extensions with version management"
+ },
+ {
+  "id": "sk_96b12d88d77d",
+  "name": "greensock/gsap-core",
+  "desc": "Core API with gsap.to(), from(), fromTo(), easing, duration, stagger, and defaults"
+ },
+ {
+  "id": "sk_cee05f8629c0",
+  "name": "greensock/gsap-timeline",
+  "desc": "Timelines with sequencing, position parameter, labels, nesting, and playback control"
+ },
+ {
+  "id": "sk_b00ab6983ba2",
+  "name": "greensock/gsap-scrolltrigger",
+  "desc": "ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling"
+ },
+ {
+  "id": "sk_4e3067f1f458",
+  "name": "greensock/gsap-plugins",
+  "desc": "Plugins including ScrollToPlugin, Flip, Draggable, SplitText, SVG, and physics"
+ },
+ {
+  "id": "sk_dc4b2360a84b",
+  "name": "greensock/gsap-utils",
+  "desc": "Utility functions like clamp, mapRange, interpolate, snap, selector, and wrap"
+ },
+ {
+  "id": "sk_f80e5f997f37",
+  "name": "greensock/gsap-react",
+  "desc": "React integration with useGSAP hook, refs, gsap.context(), cleanup, and SSR"
+ },
+ {
+  "id": "sk_d9bb2825f339",
+  "name": "greensock/gsap-performance",
+  "desc": "Performance tips for transforms, will-change, batching, and ScrollTrigger optimization"
+ },
+ {
+  "id": "sk_a28a8aac8a93",
+  "name": "greensock/gsap-frameworks",
+  "desc": "Vue, Svelte, and other frameworks with lifecycle, scoping, and cleanup patterns"
+ },
+ {
+  "id": "sk_aa13d68babdc",
+  "name": "garrytan/office-hours",
+  "desc": "YC Office Hours: six forcing questions that reframe your product before you write code"
+ },
+ {
+  "id": "sk_6ef6b105767a",
+  "name": "garrytan/plan-ceo-review",
+  "desc": "CEO/Founder plan review with four modes: Expansion, Selective Expansion, Hold Scope, Reduction"
+ },
+ {
+  "id": "sk_4bd48c6cd869",
+  "name": "garrytan/plan-eng-review",
+  "desc": "Eng Manager review: lock in architecture, data flow, diagrams, edge cases, and tests"
+ },
+ {
+  "id": "sk_4e143d18c890",
+  "name": "garrytan/plan-design-review",
+  "desc": "Senior Designer review: rates each design dimension 0-10, explains what a 10 looks like, AI Slop detection"
+ },
+ {
+  "id": "sk_22add0b2804e",
+  "name": "garrytan/design-consultation",
+  "desc": "Build a complete design system from scratch with creative risks and realistic product mockups"
+ },
+ {
+  "id": "sk_e4e598d6746a",
+  "name": "garrytan/design-review",
+  "desc": "Designer Who Codes: visual audit then fixes with atomic commits and before/after screenshots"
+ },
+ {
+  "id": "sk_6c1b31883a3e",
+  "name": "garrytan/review",
+  "desc": "Staff Engineer code review: finds bugs that pass CI but blow up in production"
+ },
+ {
+  "id": "sk_e39d087bf00e",
+  "name": "garrytan/investigate",
+  "desc": "Systematic root-cause debugging: no fixes without investigation, traces data flow, tests hypotheses"
+ },
+ {
+  "id": "sk_b95b5f8eed93",
+  "name": "garrytan/qa",
+  "desc": "QA Lead: test your app, find bugs, fix them with atomic commits, auto-generate regression tests"
+ },
+ {
+  "id": "sk_6bfb6da87698",
+  "name": "garrytan/qa-only",
+  "desc": "QA Reporter: same methodology as /qa but report only, no code changes"
+ },
+ {
+  "id": "sk_8f6cb228ff8a",
+  "name": "garrytan/cso",
+  "desc": "Chief Security Officer: OWASP Top 10 + STRIDE threat model with zero false-positive exclusions"
+ },
+ {
+  "id": "sk_e23905c86ff7",
+  "name": "garrytan/ship",
+  "desc": "Release Engineer: sync main, run tests, audit coverage, push, open PR"
+ },
+ {
+  "id": "sk_af86c34709fa",
+  "name": "garrytan/land-and-deploy",
+  "desc": "Merge the PR, wait for CI and deploy, verify production health"
+ }
+]

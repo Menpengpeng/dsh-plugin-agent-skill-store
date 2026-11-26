@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "sk_fc1438f4d6c5",
+  "name": "google-labs-code/enhance-prompt",
+  "desc": "Improve prompts with design specs and UI/UX vocabulary"
+ },
+ {
+  "id": "sk_cf15896a562b",
+  "name": "google-labs-code/react-components",
+  "desc": "Stitch to React components conversion"
+ },
+ {
+  "id": "sk_3e441f2bec1d",
+  "name": "google-labs-code/remotion",
+  "desc": "Generate walkthrough videos from Stitch app designs"
+ },
+ {
+  "id": "sk_03a10f22958d",
+  "name": "google-labs-code/shadcn-ui",
+  "desc": "Build UI components with shadcn/ui"
+ },
+ {
+  "id": "sk_57b42d33ab91",
+  "name": "google-labs-code/stitch-loop",
+  "desc": "Iterative design-to-code feedback loop"
+ },
+ {
+  "id": "sk_c55c15ba8014",
+  "name": "googleworkspace/gws-shared",
+  "desc": "Shared authentication, global flags, and output formatting"
+ },
+ {
+  "id": "sk_dbce00b35786",
+  "name": "googleworkspace/gws-drive",
+  "desc": "Manage Google Drive files, folders, and shared drives"
+ },
+ {
+  "id": "sk_75981acb13f6",
+  "name": "googleworkspace/gws-sheets",
+  "desc": "Read and write Google Sheets spreadsheets"
+ },
+ {
+  "id": "sk_131800ae24b6",
+  "name": "googleworkspace/gws-gmail",
+  "desc": "Send, read, and manage Gmail email"
+ },
+ {
+  "id": "sk_1767f6b256b3",
+  "name": "googleworkspace/gws-calendar",
+  "desc": "Manage Google Calendar calendars and events"
+ },
+ {
+  "id": "sk_fc9b914b7742",
+  "name": "googleworkspace/gws-admin-reports",
+  "desc": "Audit logs and usage reports for Workspace"
+ },
+ {
+  "id": "sk_67c7007c9bbd",
+  "name": "googleworkspace/gws-docs",
+  "desc": "Read and write Google Docs documents"
+ },
+ {
+  "id": "sk_1292584bfe30",
+  "name": "googleworkspace/gws-slides",
+  "desc": "Read and write Google Slides presentations"
+ },
+ {
+  "id": "sk_af173c72b97c",
+  "name": "googleworkspace/gws-tasks",
+  "desc": "Manage Google Tasks task lists and tasks"
+ },
+ {
+  "id": "sk_ed1a537ac857",
+  "name": "googleworkspace/gws-people",
+  "desc": "Manage Google People contacts and profiles"
+ },
+ {
+  "id": "sk_bbc5b02ad41d",
+  "name": "googleworkspace/gws-chat",
+  "desc": "Manage Google Chat spaces and messages"
+ },
+ {
+  "id": "sk_df573de631cc",
+  "name": "googleworkspace/gws-classroom",
+  "desc": "Manage Google Classroom classes, rosters, and coursework"
+ },
+ {
+  "id": "sk_b25df5ec32a9",
+  "name": "googleworkspace/gws-forms",
+  "desc": "Read and write Google Forms"
+ },
+ {
+  "id": "sk_545e26aef174",
+  "name": "googleworkspace/gws-keep",
+  "desc": "Manage Google Keep notes"
+ },
+ {
+  "id": "sk_380ff48eef4a",
+  "name": "googleworkspace/gws-events",
+  "desc": "Subscribe to Google Workspace events"
+ },
+ {
+  "id": "sk_0434537d47d6",
+  "name": "googleworkspace/gws-modelarmor",
+  "desc": "Filter user-generated content for safety"
+ },
+ {
+  "id": "sk_7a0e0b68407c",
+  "name": "googleworkspace/gws-workflow",
+  "desc": "Cross-service Google Workspace productivity workflows"
+ },
+ {
+  "id": "sk_3f9e2d2c9ecc",
+  "name": "expo/building-native-ui",
+  "desc": "Build apps with Expo Router, styling, components, navigation, and animations"
+ },
+ {
+  "id": "sk_938958238b5c",
+  "name": "expo/expo-api-routes",
+  "desc": "Create API routes in Expo Router with EAS Hosting"
+ },
+ {
+  "id": "sk_40bc62c303e2",
+  "name": "expo/expo-cicd-workflows",
+  "desc": "CI/CD workflows for Expo projects"
+ },
+ {
+  "id": "sk_c8deb0036df3",
+  "name": "expo/expo-deployment",
+  "desc": "Deploy Expo apps to production"
+ },
+ {
+  "id": "sk_3822d4f66fe4",
+  "name": "expo/expo-dev-client",
+  "desc": "Build and distribute Expo dev clients locally or via TestFlight"
+ },
+ {
+  "id": "sk_e3a66ee94e60",
+  "name": "expo/expo-tailwind-setup",
+  "desc": "Set up Tailwind CSS v4 in Expo with NativeWind v5"
+ },
+ {
+  "id": "sk_c6437aae8929",
+  "name": "expo/expo-ui-jetpack-compose",
+  "desc": "Jetpack Compose UI components for Expo"
+ },
+ {
+  "id": "sk_c100a4f3a075",
+  "name": "expo/expo-ui-swift-ui",
+  "desc": "SwiftUI components for Expo"
+ },
+ {
+  "id": "sk_24988d347418",
+  "name": "expo/native-data-fetching",
+  "desc": "Network requests, API calls, caching, and offline support"
+ },
+ {
+  "id": "sk_a4af3c4977c2",
+  "name": "expo/upgrading-expo",
+  "desc": "Upgrade Expo SDK versions"
+ },
+ {
+  "id": "sk_8d99efb02857",
+  "name": "expo/use-dom",
+  "desc": "Run web code in a webview on native using DOM components"
+ },
+ {
+  "id": "sk_4336a67d238a",
+  "name": "huggingface/hf-cli",
+  "desc": "HF CLI tool for Hub operations"
+ },
+ {
+  "id": "sk_8c0eae75a165",
+  "name": "huggingface/hugging-face-dataset-viewer",
+  "desc": "Browse and query HF datasets with the Dataset Viewer API"
+ },
+ {
+  "id": "sk_445a076bf45b",
+  "name": "huggingface/hugging-face-datasets",
+  "desc": "Create and manage datasets with configs and SQL querying"
+ },
+ {
+  "id": "sk_0e0c1e7a202a",
+  "name": "huggingface/hugging-face-evaluation",
+  "desc": "Model evaluation with vLLM/lighteval and eval tables"
+ },
+ {
+  "id": "sk_e7da8b4f549f",
+  "name": "huggingface/hugging-face-jobs",
+  "desc": "Run compute jobs and Python scripts on HF infrastructure"
+ },
+ {
+  "id": "sk_b6c276620c8c",
+  "name": "huggingface/hugging-face-model-trainer",
+  "desc": "Train models with TRL: SFT, DPO, GRPO, GGUF conversion"
+ },
+ {
+  "id": "sk_b96ac97c2f00",
+  "name": "huggingface/hugging-face-paper-pages",
+  "desc": "Create and manage paper pages on HF Hub"
+ },
+ {
+  "id": "sk_e74becabe61f",
+  "name": "huggingface/hugging-face-paper-publisher",
+  "desc": "Publish papers on HF Hub with model/dataset links"
+ },
+ {
+  "id": "sk_2507bbbe43cb",
+  "name": "huggingface/hugging-face-tool-builder",
+  "desc": "Build reusable scripts for HF API operations"
+ },
+ {
+  "id": "sk_a2006ebbcfd1",
+  "name": "huggingface/hugging-face-trackio",
+  "desc": "Track ML experiments with real-time dashboards"
+ },
+ {
+  "id": "sk_467c0ce265cf",
+  "name": "huggingface/hugging-face-vision-trainer",
+  "desc": "Train vision models on HF infrastructure"
+ },
+ {
+  "id": "sk_43021607846d",
+  "name": "huggingface/huggingface-gradio",
+  "desc": "Build Gradio apps and deploy to HF Spaces"
+ },
+ {
+  "id": "sk_bb0d20589437",
+  "name": "huggingface/transformers.js",
+  "desc": "Run ML models in the browser with Transformers.js"
+ },
+ {
+  "id": "sk_870eb8f2f579",
+  "name": "trailofbits/ask-questions-if-underspecified",
+  "desc": "Prompt for clarification on ambiguous requirements"
+ },
+ {
+  "id": "sk_e524e675d0be",
+  "name": "trailofbits/audit-context-building",
+  "desc": "Deep architectural context via ultra-granular code analysis"
+ },
+ {
+  "id": "sk_6316fd756005",
+  "name": "trailofbits/building-secure-contracts",
+  "desc": "Smart contract security toolkit with vulnerability scanners for 6 blockchains"
+ },
+ {
+  "id": "sk_24810e426231",
+  "name": "trailofbits/burpsuite-project-parser",
+  "desc": "Search and extract data from Burp Suite project files"
+ },
+ {
+  "id": "sk_2e06b9c8ff2f",
+  "name": "trailofbits/claude-in-chrome-troubleshooting",
+  "desc": "Diagnose and fix Claude in Chrome MCP extension connectivity issues"
+ },
+ {
+  "id": "sk_856cc5ecd118",
+  "name": "trailofbits/constant-time-analysis",
+  "desc": "Detect compiler-induced timing side-channels in crypto code"
+ },
+ {
+  "id": "sk_b75f78534bbc",
+  "name": "trailofbits/culture-index",
+  "desc": "Index and search culture documentation"
+ },
+ {
+  "id": "sk_500d78c2120f",
+  "name": "trailofbits/differential-review",
+  "desc": "Security-focused diff review with git history analysis"
+ },
+ {
+  "id": "sk_946d719075a7",
+  "name": "trailofbits/dwarf-expert",
+  "desc": "DWARF debugging format expertise"
+ },
+ {
+  "id": "sk_6cc95e5ee522",
+  "name": "trailofbits/entry-point-analyzer",
+  "desc": "Identify state-changing entry points in smart contracts"
+ },
+ {
+  "id": "sk_ec983a597653",
+  "name": "trailofbits/firebase-apk-scanner",
+  "desc": "Scan Android APKs for Firebase misconfigurations and security vulnerabilities"
+ },
+ {
+  "id": "sk_810f3e620665",
+  "name": "trailofbits/insecure-defaults",
+  "desc": "Detect insecure default configurations like hardcoded secrets, default credentials, and weak crypto"
+ },
+ {
+  "id": "sk_2cae4aaa740d",
+  "name": "trailofbits/modern-python",
+  "desc": "Modern Python tooling with uv, ruff, ty, and pytest best practices"
+ },
+ {
+  "id": "sk_10952bfee4d4",
+  "name": "trailofbits/property-based-testing",
+  "desc": "Property-based testing for multiple languages and smart contracts"
+ },
+ {
+  "id": "sk_0beb18b29490",
+  "name": "trailofbits/semgrep-rule-creator",
+  "desc": "Create and refine Semgrep rules for vulnerability detection"
+ },
+ {
+  "id": "sk_8cfd7270f76f",
+  "name": "trailofbits/semgrep-rule-variant-creator",
+  "desc": "Port existing Semgrep rules to new target languages with test-driven validation"
+ },
+ {
+  "id": "sk_2250e5c872b6",
+  "name": "trailofbits/sharp-edges",
+  "desc": "Identify error-prone APIs and dangerous configurations"
+ },
+ {
+  "id": "sk_de7f54065f1c",
+  "name": "trailofbits/spec-to-code-compliance",
+  "desc": "Specification-to-code compliance checker for blockchain audits"
+ },
+ {
+  "id": "sk_2eb7d2d89072",
+  "name": "trailofbits/static-analysis",
+  "desc": "Static analysis toolkit with CodeQL, Semgrep, and SARIF"
+ },
+ {
+  "id": "sk_2e3d3796882a",
+  "name": "trailofbits/testing-handbook-skills",
+  "desc": "Testing Handbook skills: fuzzers, static analysis, sanitizers"
+ },
+ {
+  "id": "sk_cda70b430c26",
+  "name": "trailofbits/variant-analysis",
+  "desc": "Find similar vulnerabilities via pattern-based analysis"
+ },
+ {
+  "id": "sk_7bc9343c6ebf",
+  "name": "getsentry/sentry-sdk-setup",
+  "desc": "Set up Sentry in any language or framework — detects platform and routes to the right SDK"
+ },
+ {
+  "id": "sk_7b0626afe511",
+  "name": "getsentry/sentry-workflow",
+  "desc": "End-to-end Sentry workflow: fix production issues and review code with Sentry context"
+ },
+ {
+  "id": "sk_f40c3e377f42",
+  "name": "getsentry/sentry-fix-issues",
+  "desc": "Find and fix Sentry issues with stack trace, breadcrumb, and trace context via MCP"
+ },
+ {
+  "id": "sk_428a33f45d00",
+  "name": "getsentry/sentry-code-review",
+  "desc": "Review code changes using Sentry issue and trace context"
+ },
+ {
+  "id": "sk_b0f1a9b462e9",
+  "name": "getsentry/sentry-pr-code-review",
+  "desc": "Review PR comments from Seer Bug Prediction and Sentry feedback"
+ },
+ {
+  "id": "sk_27c5af05ccec",
+  "name": "getsentry/sentry-create-alert",
+  "desc": "Create Sentry alerts with email, Slack, PagerDuty, Discord, and more"
+ },
+ {
+  "id": "sk_edaf796760e9",
+  "name": "getsentry/sentry-feature-setup",
+  "desc": "Configure advanced Sentry features: AI monitoring, OTel pipelines, and alerts"
+ },
+ {
+  "id": "sk_03c18e8bb3d0",
+  "name": "getsentry/sentry-otel-exporter-setup",
+  "desc": "Configure the OpenTelemetry Collector with Sentry Exporter"
+ },
+ {
+  "id": "sk_115a7f8b87e7",
+  "name": "getsentry/sentry-setup-ai-monitoring",
+  "desc": "Instrument OpenAI, Anthropic, Vercel AI, LangChain, Google GenAI, and Pydantic AI"
+ },
+ {
+  "id": "sk_a97f9d8ed86a",
+  "name": "getsentry/sentry-sdk-upgrade",
+  "desc": "Upgrade the Sentry JavaScript SDK across major versions"
+ },
+ {
+  "id": "sk_722d855c28b6",
+  "name": "getsentry/sentry-sdk-skill-creator",
+  "desc": "Create a new Sentry SDK skill bundle for a platform"
+ },
+ {
+  "id": "sk_5df485756463",
+  "name": "getsentry/sentry-android-sdk",
+  "desc": "Full Sentry SDK setup for Android (Kotlin and Java)"
+ },
+ {
+  "id": "sk_08f1b64f95fd",
+  "name": "getsentry/sentry-browser-sdk",
+  "desc": "Full Sentry SDK setup for browser JavaScript"
+ },
+ {
+  "id": "sk_350eda3d9c75",
+  "name": "getsentry/sentry-cloudflare-sdk",
+  "desc": "Full Sentry SDK setup for Cloudflare Workers, Pages, Durable Objects, Queues, and Workflows"
+ },
+ {
+  "id": "sk_521511b2af65",
+  "name": "getsentry/sentry-cocoa-sdk",
+  "desc": "Full Sentry SDK setup for Apple platforms (iOS, macOS, tvOS, watchOS, visionOS)"
+ },
+ {
+  "id": "sk_d0c745e21a2e",
+  "name": "getsentry/sentry-dotnet-sdk",
+  "desc": "Full Sentry SDK setup for .NET (ASP.NET Core, MAUI, WPF, WinForms, Blazor, Azure Functions)"
+ },
+ {
+  "id": "sk_29f9afbf2a02",
+  "name": "getsentry/sentry-elixir-sdk",
+  "desc": "Full Sentry SDK setup for Elixir, Phoenix, Plug, LiveView, Oban, and Quantum"
+ },
+ {
+  "id": "sk_6bb9461df089",
+  "name": "getsentry/sentry-flutter-sdk",
+  "desc": "Full Sentry SDK setup for Flutter and Dart across all platforms"
+ },
+ {
+  "id": "sk_1208e2d3578a",
+  "name": "getsentry/sentry-go-sdk",
+  "desc": "Full Sentry SDK setup for Go (net/http, Gin, Echo, Fiber, FastHTTP, Iris, Negroni)"
+ },
+ {
+  "id": "sk_3e1505f571a7",
+  "name": "getsentry/sentry-nestjs-sdk",
+  "desc": "Full Sentry SDK setup for NestJS with Express or Fastify, GraphQL, microservices"
+ },
+ {
+  "id": "sk_a7f92a3996dd",
+  "name": "getsentry/sentry-nextjs-sdk",
+  "desc": "Full Sentry SDK setup for Next.js 13+ (App Router and Pages Router)"
+ },
+ {
+  "id": "sk_3452eab3f7ed",
+  "name": "getsentry/sentry-node-sdk",
+  "desc": "Full Sentry SDK setup for Node.js, Bun, and Deno"
+ },
+ {
+  "id": "sk_2584454676b9",
+  "name": "getsentry/sentry-php-sdk",
+  "desc": "Full Sentry SDK setup for PHP, Laravel, and Symfony"
+ },
+ {
+  "id": "sk_83feec9aa490",
+  "name": "getsentry/sentry-python-sdk",
+  "desc": "Full Sentry SDK setup for Python (Django, Flask, FastAPI, Celery, Starlette, AIOHTTP, Tornado)"
+ },
+ {
+  "id": "sk_0de49305114a",
+  "name": "getsentry/sentry-react-native-sdk",
+  "desc": "Full Sentry SDK setup for React Native and Expo"
+ },
+ {
+  "id": "sk_e560ec670864",
+  "name": "getsentry/sentry-react-sdk",
+  "desc": "Full Sentry SDK setup for React (React Router v5-v7, TanStack Router, Redux, Vite, webpack)"
+ },
+ {
+  "id": "sk_d159b145eab5",
+  "name": "getsentry/sentry-ruby-sdk",
+  "desc": "Full Sentry SDK setup for Ruby (Rails, Sinatra, Rack, Sidekiq, Resque)"
+ },
+ {
+  "id": "sk_7a787a050153",
+  "name": "getsentry/sentry-svelte-sdk",
+  "desc": "Full Sentry SDK setup for Svelte and SvelteKit"
+ },
+ {
+  "id": "sk_69fd330c6b75",
+  "name": "microsoft/cloud-solution-architect",
+  "desc": "Design well-architected Azure cloud systems"
+ },
+ {
+  "id": "sk_17e1a2368f55",
+  "name": "microsoft/continual-learning",
+  "desc": "Continual learning patterns for Azure AI"
+ },
+ {
+  "id": "sk_7d7a40811a00",
+  "name": "microsoft/copilot-sdk",
+  "desc": "Build applications powered by GitHub Copilot SDK"
+ },
+ {
+  "id": "sk_8747ca05019e",
+  "name": "microsoft/entra-agent-id",
+  "desc": "Microsoft Entra Agent ID OAuth2 identities via Graph API"
+ },
+ {
+  "id": "sk_94859faeae3e",
+  "name": "microsoft/frontend-design-review",
+  "desc": "Review and create distinctive frontend interfaces"
+ },
+ {
+  "id": "sk_1d720c867341",
+  "name": "microsoft/github-issue-creator",
+  "desc": "Structured GitHub issue reports from notes"
+ },
+ {
+  "id": "sk_4b5e29c88206",
+  "name": "microsoft/mcp-builder",
+  "desc": "MCP server creation guide for LLM tool integration"
+ },
+ {
+  "id": "sk_6dbd84dc2e03",
+  "name": "microsoft/podcast-generation",
+  "desc": "AI podcast audio with Azure OpenAI Realtime API"
+ },
+ {
+  "id": "sk_35a694414ec8",
+  "name": "microsoft/skill-creator",
+  "desc": "Guide for creating effective skills for AI coding agents"
+ },
+ {
+  "id": "sk_d2fd77bf2638",
+  "name": "microsoft/azure-ai-document-intelligence-dotnet",
+  "desc": "Document text, table, and data extraction"
+ },
+ {
+  "id": "sk_08fa8a309a86",
+  "name": "microsoft/azure-ai-openai-dotnet",
+  "desc": "GPT-4, embeddings, DALL-E, and Whisper client"
+ },
+ {
+  "id": "sk_7e7a72d1a790",
+  "name": "microsoft/azure-ai-projects-dotnet",
+  "desc": "AI Foundry project management SDK"
+ },
+ {
+  "id": "sk_42123b10f375",
+  "name": "microsoft/azure-ai-voicelive-dotnet",
+  "desc": "Real-time bidirectional voice AI"
+ },
+ {
+  "id": "sk_f569fccade03",
+  "name": "microsoft/azure-eventgrid-dotnet",
+  "desc": "Event Grid topic and domain publishing"
+ },
+ {
+  "id": "sk_d1c68c8de326",
+  "name": "microsoft/azure-eventhub-dotnet",
+  "desc": "High-throughput event streaming"
+ },
+ {
+  "id": "sk_674ed612308e",
+  "name": "microsoft/azure-identity-dotnet",
+  "desc": "Microsoft Entra ID authentication"
+ },
+ {
+  "id": "sk_734c0c316aa6",
+  "name": "microsoft/azure-maps-search-dotnet",
+  "desc": "Geocoding, routing, and weather services"
+ },
+ {
+  "id": "sk_20cefffc8161",
+  "name": "microsoft/azure-mgmt-apicenter-dotnet",
+  "desc": "API inventory and governance"
+ },
+ {
+  "id": "sk_af5d5ecaccf9",
+  "name": "microsoft/azure-mgmt-apimanagement-dotnet",
+  "desc": "API Management provisioning via ARM"
+ },
+ {
+  "id": "sk_38b246604f7e",
+  "name": "microsoft/azure-mgmt-applicationinsights-dotnet",
+  "desc": "Application Insights resource management"
+ },
+ {
+  "id": "sk_98d6e9044eef",
+  "name": "microsoft/azure-mgmt-arizeaiobservabilityeval-dotnet",
+  "desc": "Arize AI observability management"
+ },
+ {
+  "id": "sk_151e2a224a88",
+  "name": "microsoft/azure-mgmt-botservice-dotnet",
+  "desc": "Bot Service provisioning via ARM"
+ },
+ {
+  "id": "sk_19cfc8fd35b7",
+  "name": "microsoft/azure-mgmt-fabric-dotnet",
+  "desc": "Microsoft Fabric capacity management"
+ },
+ {
+  "id": "sk_5ceef60af5c5",
+  "name": "microsoft/azure-mgmt-mongodbatlas-dotnet",
+  "desc": "MongoDB Atlas as ARM resources"
+ },
+ {
+  "id": "sk_9bced2770a0f",
+  "name": "microsoft/azure-mgmt-weightsandbiases-dotnet",
+  "desc": "Weights & Biases deployment management"
+ },
+ {
+  "id": "sk_9cedb5aec04b",
+  "name": "microsoft/azure-resource-manager-cosmosdb-dotnet",
+  "desc": "Cosmos DB resource provisioning"
+ },
+ {
+  "id": "sk_bb016a7fbcfd",
+  "name": "microsoft/azure-resource-manager-durabletask-dotnet",
+  "desc": "Durable Task Scheduler management"
+ },
+ {
+  "id": "sk_afece61c7c5b",
+  "name": "microsoft/azure-resource-manager-mysql-dotnet",
+  "desc": "MySQL Flexible Server management"
+ },
+ {
+  "id": "sk_e7479d937ec8",
+  "name": "microsoft/azure-resource-manager-playwright-dotnet",
+  "desc": "Playwright Testing workspace management"
+ },
+ {
+  "id": "sk_c7d6cb224b99",
+  "name": "microsoft/azure-resource-manager-postgresql-dotnet",
+  "desc": "PostgreSQL Flexible Server management"
+ },
+ {
+  "id": "sk_b6128a8cbaad",
+  "name": "microsoft/azure-resource-manager-redis-dotnet",
+  "desc": "Azure Cache for Redis provisioning"
+ },
+ {
+  "id": "sk_d9ae715869bc",
+  "name": "microsoft/azure-resource-manager-sql-dotnet",
+  "desc": "Azure SQL resource management"
+ },
+ {
+  "id": "sk_059982c729e8",
+  "name": "microsoft/azure-search-documents-dotnet",
+  "desc": "Full-text, vector, and hybrid search"
+ },
+ {
+  "id": "sk_2999b5841a40",
+  "name": "microsoft/azure-security-keyvault-keys-dotnet",
+  "desc": "Cryptographic key management"
+ },
+ {
+  "id": "sk_298948933355",
+  "name": "microsoft/azure-servicebus-dotnet",
+  "desc": "Enterprise messaging with queues and topics"
+ },
+ {
+  "id": "sk_c9665cadb739",
+  "name": "microsoft/m365-agents-dotnet",
+  "desc": "M365, Teams, and Copilot Studio agents"
+ },
+ {
+  "id": "sk_8d42b087ea12",
+  "name": "microsoft/microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+  "desc": "Entra ID custom auth events handler"
+ },
+ {
+  "id": "sk_12e59cab0f4f",
+  "name": "microsoft/azure-ai-anomalydetector-java",
+  "desc": "Anomaly detection applications"
+ },
+ {
+  "id": "sk_c360d8f368d2",
+  "name": "microsoft/azure-ai-contentsafety-java",
+  "desc": "Content moderation and safety"
+ },
+ {
+  "id": "sk_3079a4cca9b5",
+  "name": "microsoft/azure-ai-formrecognizer-java",
+  "desc": "Document analysis and form extraction"
+ },
+ {
+  "id": "sk_8763b6e86dbd",
+  "name": "microsoft/azure-ai-projects-java",
+  "desc": "AI Foundry project management"
+ },
+ {
+  "id": "sk_8f8606b6077e",
+  "name": "microsoft/azure-ai-vision-imageanalysis-java",
+  "desc": "Image captioning, OCR, and object detection"
+ },
+ {
+  "id": "sk_e85ec6219799",
+  "name": "microsoft/azure-ai-voicelive-java",
+  "desc": "Real-time bidirectional voice AI"
+ },
+ {
+  "id": "sk_7a3b6197f1c8",
+  "name": "microsoft/azure-appconfiguration-java",
+  "desc": "Centralized app configuration management"
+ },
+ {
+  "id": "sk_5b11d7bb26e8",
+  "name": "microsoft/azure-communication-callautomation-java",
+  "desc": "Call automation with IVR and AI"
+ },
+ {
+  "id": "sk_9e2fbd89985d",
+  "name": "microsoft/azure-communication-callingserver-java",
+  "desc": "CallingServer legacy SDK"
+ },
+ {
+  "id": "sk_9b7e15d51403",
+  "name": "microsoft/azure-communication-chat-java",
+  "desc": "Real-time chat with threads and receipts"
+ },
+ {
+  "id": "sk_338e5f8a300c",
+  "name": "microsoft/azure-communication-common-java",
+  "desc": "Communication Services common utilities"
+ },
+ {
+  "id": "sk_08bad4136d24",
+  "name": "microsoft/azure-communication-sms-java",
+  "desc": "SMS sending and delivery reports"
+ },
+ {
+  "id": "sk_5ed860db9d03",
+  "name": "microsoft/azure-compute-batch-java",
+  "desc": "Large-scale parallel and HPC batch jobs"
+ },
+ {
+  "id": "sk_26382873bb16",
+  "name": "microsoft/azure-cosmos-java",
+  "desc": "Cosmos DB NoSQL with global distribution"
+ },
+ {
+  "id": "sk_369b76bd22f7",
+  "name": "microsoft/azure-data-tables-java",
+  "desc": "NoSQL key-value table storage"
+ },
+ {
+  "id": "sk_c3104cb61c1c",
+  "name": "microsoft/azure-eventgrid-java",
+  "desc": "Event-driven pub/sub messaging"
+ },
+ {
+  "id": "sk_fb4ac5c3433c",
+  "name": "microsoft/azure-eventhub-java",
+  "desc": "Real-time high-throughput streaming"
+ },
+ {
+  "id": "sk_42db93203b07",
+  "name": "microsoft/azure-identity-java",
+  "desc": "Microsoft Entra ID authentication"
+ },
+ {
+  "id": "sk_61f686fc5c53",
+  "name": "microsoft/azure-messaging-webpubsub-java",
+  "desc": "Real-time WebSocket messaging"
+ },
+ {
+  "id": "sk_18f35359665f",
+  "name": "microsoft/azure-monitor-ingestion-java",
+  "desc": "Custom log ingestion to Azure Monitor"
+ },
+ {
+  "id": "sk_8fccb64113a6",
+  "name": "microsoft/azure-monitor-opentelemetry-exporter-java",
+  "desc": "OpenTelemetry export to Azure Monitor"
+ },
+ {
+  "id": "sk_8924586fb3b4",
+  "name": "microsoft/azure-monitor-query-java",
+  "desc": "Query Azure Monitor logs and metrics"
+ },
+ {
+  "id": "sk_247c48c3e6a8",
+  "name": "microsoft/azure-security-keyvault-keys-java",
+  "desc": "Cryptographic key management"
+ },
+ {
+  "id": "sk_92aadc5e8bf5",
+  "name": "microsoft/azure-security-keyvault-secrets-java",
+  "desc": "Secret management for passwords and keys"
+ },
+ {
+  "id": "sk_beb9efa309b4",
+  "name": "microsoft/azure-storage-blob-java",
+  "desc": "Blob storage for file management"
+ },
+ {
+  "id": "sk_f64767f5686b",
+  "name": "microsoft/agent-framework-azure-ai-py",
+  "desc": "Agent Framework for Azure AI Foundry"
+ },
+ {
+  "id": "sk_4feb770b0e68",
+  "name": "microsoft/agents-v2-py",
+  "desc": "Foundry Agents SDK — container-based agents with custom images"
+ },
+ {
+  "id": "sk_55e843a21714",
+  "name": "microsoft/azure-ai-contentsafety-py",
+  "desc": "Harmful content detection"
+ },
+ {
+  "id": "sk_d6770221f275",
+  "name": "microsoft/azure-ai-contentunderstanding-py",
+  "desc": "Multimodal content extraction"
+ },
+ {
+  "id": "sk_e632effcf4a8",
+  "name": "microsoft/azure-ai-ml-py",
+  "desc": "Azure ML workspace and job management"
+ },
+ {
+  "id": "sk_6de9d4048c29",
+  "name": "microsoft/azure-ai-projects-py",
+  "desc": "AI Foundry project client and agents"
+ },
+ {
+  "id": "sk_b6514493f7a4",
+  "name": "microsoft/azure-ai-textanalytics-py",
+  "desc": "NLP: sentiment, entities, key phrases"
+ },
+ {
+  "id": "sk_8b91d10fb9cb",
+  "name": "microsoft/azure-ai-transcription-py",
+  "desc": "Speech-to-text transcription"
+ },
+ {
+  "id": "sk_e218709dae37",
+  "name": "microsoft/azure-ai-translation-document-py",
+  "desc": "Batch document translation"
+ },
+ {
+  "id": "sk_e630188913f0",
+  "name": "microsoft/azure-ai-translation-text-py",
+  "desc": "Real-time text translation"
+ },
+ {
+  "id": "sk_5f32c8eab309",
+  "name": "microsoft/azure-ai-vision-imageanalysis-py",
+  "desc": "Image captions, tags, OCR, objects"
+ },
+ {
+  "id": "sk_fc652c2cad02",
+  "name": "microsoft/azure-ai-voicelive-py",
+  "desc": "Real-time bidirectional voice AI"
+ },
+ {
+  "id": "sk_0ec0896db5b0",
+  "name": "microsoft/azure-appconfiguration-py",
+  "desc": "Feature flags and dynamic settings"
+ },
+ {
+  "id": "sk_163b07cb1ad5",
+  "name": "microsoft/azure-containerregistry-py",
+  "desc": "Container image and registry management"
+ },
+ {
+  "id": "sk_b1ecd30160f5",
+  "name": "microsoft/azure-cosmos-db-py",
+  "desc": "Cosmos DB with Python/FastAPI patterns"
+ },
+ {
+  "id": "sk_679666c8e12f",
+  "name": "microsoft/azure-cosmos-py",
+  "desc": "Cosmos DB NoSQL client library"
+ },
+ {
+  "id": "sk_b1f23fede06a",
+  "name": "microsoft/azure-data-tables-py",
+  "desc": "NoSQL key-value table storage"
+ },
+ {
+  "id": "sk_e0ff1465859a",
+  "name": "microsoft/azure-eventgrid-py",
+  "desc": "Event-driven pub/sub routing"
+ },
+ {
+  "id": "sk_8743a49f9d0f",
+  "name": "microsoft/azure-eventhub-py",
+  "desc": "High-throughput event streaming"
+ },
+ {
+  "id": "sk_b621cce331b3",
+  "name": "microsoft/azure-identity-py",
+  "desc": "Microsoft Entra ID authentication"
+ },
+ {
+  "id": "sk_472183a96c5f",
+  "name": "microsoft/azure-keyvault-py",
+  "desc": "Secrets, keys, and certificate management"
+ },
+ {
+  "id": "sk_b4e7f33aded9",
+  "name": "microsoft/azure-messaging-webpubsubservice-py",
+  "desc": "Real-time WebSocket messaging"
+ },
+ {
+  "id": "sk_2520f47c5b82",
+  "name": "microsoft/azure-mgmt-apicenter-py",
+  "desc": "API inventory and governance"
+ },
+ {
+  "id": "sk_d201778789b4",
+  "name": "microsoft/azure-mgmt-apimanagement-py",
+  "desc": "API Management service administration"
+ },
+ {
+  "id": "sk_0d539dc50adb",
+  "name": "microsoft/azure-mgmt-botservice-py",
+  "desc": "Bot Service resource management"
+ },
+ {
+  "id": "sk_46f209f63142",
+  "name": "microsoft/azure-mgmt-fabric-py",
+  "desc": "Microsoft Fabric capacity management"
+ },
+ {
+  "id": "sk_aeba7de1c6e8",
+  "name": "microsoft/azure-monitor-ingestion-py",
+  "desc": "Custom log ingestion to Azure Monitor"
+ },
+ {
+  "id": "sk_d4dc8810e746",
+  "name": "microsoft/azure-monitor-opentelemetry-exporter-py",
+  "desc": "OpenTelemetry export to Application Insights"
+ },
+ {
+  "id": "sk_da409ce43570",
+  "name": "microsoft/azure-monitor-opentelemetry-py",
+  "desc": "One-line Application Insights setup"
+ },
+ {
+  "id": "sk_a897d2d5cead",
+  "name": "microsoft/azure-monitor-query-py",
+  "desc": "Query Azure Monitor logs and metrics"
+ },
+ {
+  "id": "sk_dab33369cae2",
+  "name": "microsoft/azure-search-documents-py",
+  "desc": "Full-text, vector, and hybrid search"
+ },
+ {
+  "id": "sk_5f1984859bd3",
+  "name": "microsoft/azure-servicebus-py",
+  "desc": "Enterprise messaging with queues and topics"
+ },
+ {
+  "id": "sk_5ce7993d4797",
+  "name": "microsoft/azure-speech-to-text-rest-py",
+  "desc": "REST speech-to-text for short audio"
+ },
+ {
+  "id": "sk_b516c0b5771b",
+  "name": "microsoft/azure-storage-blob-py",
+  "desc": "Blob object storage client"
+ },
+ {
+  "id": "sk_db87e42c46aa",
+  "name": "microsoft/azure-storage-file-datalake-py",
+  "desc": "Hierarchical data lake storage"
+ },
+ {
+  "id": "sk_77ddd369e7c7",
+  "name": "microsoft/azure-storage-file-share-py",
+  "desc": "SMB file share management"
+ },
+ {
+  "id": "sk_11090fabf843",
+  "name": "microsoft/azure-storage-queue-py",
+  "desc": "Simple message queuing"
+ },
+ {
+  "id": "sk_045646be413e",
+  "name": "microsoft/fastapi-router-py",
+  "desc": "FastAPI routers with CRUD and auth"
+ },
+ {
+  "id": "sk_e93663f9c883",
+  "name": "microsoft/m365-agents-py",
+  "desc": "M365, Teams, and Copilot Studio agents"
+ },
+ {
+  "id": "sk_c0b8e8b1739c",
+  "name": "microsoft/pydantic-models-py",
+  "desc": "Pydantic models for API schemas"
+ },
+ {
+  "id": "sk_4331becea7ee",
+  "name": "microsoft/azure-cosmos-rust",
+  "desc": "Cosmos DB NoSQL client"
+ },
+ {
+  "id": "sk_b29d1333688d",
+  "name": "microsoft/azure-eventhub-rust",
+  "desc": "Event Hubs streaming client"
+ },
+ {
+  "id": "sk_088b682f154a",
+  "name": "microsoft/azure-identity-rust",
+  "desc": "Microsoft Entra ID authentication"
+ }
+]

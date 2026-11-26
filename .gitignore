@@ -1,0 +1,5 @@
+﻿node_modules/
+tmp/
+data/zh-batches/*.part-*.json
+*.log
+.DS_Store

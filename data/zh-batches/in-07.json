@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "sk_929c4c4014c9",
+  "name": "NotMyself/claude-win11-speckit-update-skill",
+  "desc": "Windows 11 system management"
+ },
+ {
+  "id": "sk_0e17a6242eb4",
+  "name": "sanjay3290/imagen",
+  "desc": "Generate images using Google Gemini's API"
+ },
+ {
+  "id": "sk_35e4e6fbb91b",
+  "name": "SHADOWPR0/security-bluebook-builder",
+  "desc": "Build security Blue Books for sensitive apps"
+ },
+ {
+  "id": "sk_5c3a9e96857a",
+  "name": "huifer/WellAlly-health",
+  "desc": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance."
+ },
+ {
+  "id": "sk_31dcecf3e06d",
+  "name": "frmoretto/clarity-gate",
+  "desc": "Epistemic quality verification for RAG systems"
+ },
+ {
+  "id": "sk_33fefb772df7",
+  "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+  "desc": "Autonomous ML research with cross-model review loops and GPU deployment"
+ },
+ {
+  "id": "sk_f30363e53939",
+  "name": "Orchestra-Research/AI-Research-SKILLs",
+  "desc": "AI research skills for model training, inference, and MLOps"
+ },
+ {
+  "id": "sk_c1e5410de9e5",
+  "name": "komal-SkyNET/claude-skill-homeassistant",
+  "desc": "Supercharge and manage Home Assistant workflows"
+ },
+ {
+  "id": "sk_ac51820b2b22",
+  "name": "more-io/apple-bridges",
+  "desc": "Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges"
+ },
+ {
+  "id": "sk_5933c04276cb",
+  "name": "hanhuark/mechanical-engineering-research-skill",
+  "desc": "Thermal-fluid research writing, proposals, DOE, and presentation feedback"
+ },
+ {
+  "id": "sk_922e2d68b12a",
+  "name": "prompt-security/clawsec",
+  "desc": "Security skill suite with drift detection, automated audits, and skill integrity verification"
+ },
+ {
+  "id": "sk_04ba6c973f54",
+  "name": "BehiSecc/vibesec",
+  "desc": "Helps write secure code by preventing common vulnerabilities including IDOR, XSS, SQL injection, SSRF, and weak authentication, approaching code from a bug hunter's perspective"
+ },
+ {
+  "id": "sk_71b0a4bdeb67",
+  "name": "lawve-ai/awesome-legal-skills",
+  "desc": "Curated agent skills for automating legal workflows"
+ },
+ {
+  "id": "sk_96a4b2cb8145",
+  "name": "peas/genealogy-research",
+  "desc": "Genealogy research agent with OCR, FamilySearch, YAML data, and human-in-the-loop"
+ },
+ {
+  "id": "sk_d38a96d9b52b",
+  "name": "vmware-skills/VMware-AIops",
+  "desc": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP."
+ },
+ {
+  "id": "sk_22b33b0e4b00",
+  "name": "video-db/skills",
+  "desc": "Realtime and batch video workflows: capture screen/audio, ingest URLs/YouTube/RTSP, transcribe, index, search, generate subtitles, edit timelines, and stream HLS output"
+ },
+ {
+  "id": "sk_5983e13a918a",
+  "name": "materials-simulation-skills",
+  "desc": "Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, mesh generation, simulation validation, parameter optimization, and post-processing"
+ },
+ {
+  "id": "sk_6cc5705840a9",
+  "name": "Ericyoung-183/alpha-insights",
+  "desc": "Harness-enforced business research for Claude Code and Codex"
+ },
+ {
+  "id": "sk_88231d13e0dc",
+  "name": "takechanman1228/claude-ecom",
+  "desc": "Ecommerce CSV to business review with KPI decomposition"
+ },
+ {
+  "id": "sk_dd605e54b668",
+  "name": "talkstream/ru-text",
+  "desc": "Russian text quality: ~1,040 rules for typography, info-style, editorial, UX writing, business correspondence. Cross-platform: Claude Code, Codex CLI, Gemini CLI, Cursor."
+ },
+ {
+  "id": "sk_779a71b76532",
+  "name": "helius-labs/helius-skills",
+  "desc": "Ship Solana apps end-to-end; transaction sending, asset queries, real-time streaming, token swaps, prediction markets, browser wallets, and deep research into protocol internals all powered by Helius APIs, DFlow trading, and Phantom wallet integrations"
+ },
+ {
+  "id": "sk_53d4bcae7534",
+  "name": "meodai/skill.color-expert",
+  "desc": "Color science expert skill with 286K words of reference material covering OKLCH/OKLAB, palette generation, accessibility/contrast, color naming, pigment mixing, and historical color theory"
+ },
+ {
+  "id": "sk_1bcaf2a32b21",
+  "name": "aklofas/kicad-happy",
+  "desc": "AI-powered KiCad electronics design review and analysis"
+ },
+ {
+  "id": "sk_c9a4039e7fc0",
+  "name": "bitwize-music-studio/claude-ai-music-skills",
+  "desc": "Full-lifecycle AI music album production"
+ },
+ {
+  "id": "sk_af8421732a5f",
+  "name": "Alisa0808/vibe-creating-skill",
+  "desc": "Rewrites a rough idea or shot script into text-to-video prompts"
+ },
+ {
+  "id": "sk_acb3ebd6697e",
+  "name": "HUANGCHIHHUNGLeo/claude-real-video",
+  "desc": "Scene-aware keyframes plus transcripts so any LLM watches videos"
+ },
+ {
+  "id": "sk_ef7d4a3df330",
+  "name": "Optim-Agent/optim-agent",
+  "desc": "Agent-guided optimization for measurable system tuning."
+ },
+ {
+  "id": "sk_121d8b460347",
+  "name": "Orkas-AI/video-router",
+  "desc": "Route video requests through deterministic agent production stages"
+ },
+ {
+  "id": "sk_952df1e20144",
+  "name": "perso-ai/perso-dubbing",
+  "desc": "Video translator: dubbing, lip-sync, subtitles, and short clips"
+ },
+ {
+  "id": "sk_55085c43454e",
+  "name": "GarethManning/regenerative-project-design-orchestrator",
+  "desc": "Orchestrates proportionate regenerative learning projects with safeguards and stewardship"
+ },
+ {
+  "id": "sk_b63e6e60f29f",
+  "name": "GarethManning/learning-target-authoring-guide",
+  "desc": "Authors observable competency learning targets across developmental bands"
+ },
+ {
+  "id": "sk_95f9373e4959",
+  "name": "GarethManning/assessment-validity-checker",
+  "desc": "Audits assessments for validity, reliability, and learning alignment"
+ },
+ {
+  "id": "sk_6e0f6a9dd329",
+  "name": "GarethManning/progressive-hint-ladder",
+  "desc": "Provides graduated hints while preserving learner thinking and agency"
+ },
+ {
+  "id": "sk_a1292984ed69",
+  "name": "GarethManning/competency-unpacker",
+  "desc": "Unpacks broad competencies into assessable sub-skills and success criteria"
+ },
+ {
+  "id": "sk_f2b474670952",
+  "name": "ZeroPointRepo/youtube-skills",
+  "desc": "Agent skills for YouTube: pull video transcripts and discover videos (search, channel and playlist listings) via TranscriptAPI."
+ },
+ {
+  "id": "sk_04ecedf911ac",
+  "name": "morluto/rea",
+  "desc": "Reverse-engineer binaries, applications, and runtimes with REA"
+ },
+ {
+  "id": "sk_e6057bdc82d5",
+  "name": "apitube/news-api-skills",
+  "desc": "Search worldwide news by keyword, entity, sentiment, source, date"
+ },
+ {
+  "id": "sk_2d53c03d0a1c",
+  "name": "zincio/universal-checkout",
+  "desc": "Official Zinc API (zinc.com) checkout across 50+ US retailers"
+ },
+ {
+  "id": "sk_27a6a0d211bc",
+  "name": "swaylq/humanize-chinese",
+  "desc": "Detect and rewrite AI-generated Chinese text, fully offline, no LLM"
+ },
+ {
+  "id": "sk_75690c7a8a32",
+  "name": "renezander030/capcut-edit",
+  "desc": "Edit CapCut and JianYing video projects from any agent"
+ },
+ {
+  "id": "sk_8f41970d0bb6",
+  "name": "MartinDelophy/edit-timeline-studio",
+  "desc": "Create editable video timelines with captions, voiceovers, and verified exports."
+ },
+ {
+  "id": "sk_bfe604533def",
+  "name": "Tencent/aig-agent-redteam",
+  "desc": "One-command Agent red-team security assessment skill"
+ },
+ {
+  "id": "sk_dbe9ea3b184e",
+  "name": "ilyautov/small-business-ru",
+  "desc": "34 skills for Russian small business: taxes, deadlines, counterparty checks"
+ },
+ {
+  "id": "sk_22645ebb5241",
+  "name": "eatmoreduck/boss-zhipin-scraper",
+  "desc": "BOSS Zhipin (zhipin.com) job scraper via Chrome CDP, plaintext salaries"
+ },
+ {
+  "id": "sk_0d16fba1f74a",
+  "name": "AceDataCloud/fish-audio",
+  "desc": "Generate speech and clone voices with Fish Audio"
+ },
+ {
+  "id": "sk_13bb2f0abe68",
+  "name": "yang0/handraw-style",
+  "desc": "Hand-drawn illustration styles, layouts, and prompts for image generation"
+ },
+ {
+  "id": "sk_48ff0352ed7d",
+  "name": "OptimNow/cloud-finops-skills",
+  "desc": "FinOps knowledge: cloud billing mechanics, commitments, allocation, AI spend"
+ },
+ {
+  "id": "sk_b0852933490d",
+  "name": "elithril/blender-kiln",
+  "desc": "Text or photo to game-ready GLB through Blender MCP"
+ },
+ {
+  "id": "sk_d5197566a16e",
+  "name": "wiltodelta/remove-ai-watermarks",
+  "desc": "Remove AI watermarks and provenance metadata from images you own"
+ },
+ {
+  "id": "sk_1e34b3a74a85",
+  "name": "hyperb1iss/unifly",
+  "desc": "Inspect and manage Ubiquiti UniFi networks through the unifly CLI"
+ },
+ {
+  "id": "sk_f7eda5fac1bc",
+  "name": "MetaMask/metamask-agent-wallet",
+  "desc": "Official MetaMask self-custodial wallet: swaps, bridges, perps, x402 payments"
+ },
+ {
+  "id": "sk_be96661050e9",
+  "name": "assafkip/claudemy",
+  "desc": "Any topic into 2-minute audio lessons with cited sources"
+ },
+ {
+  "id": "sk_893af74f1f9a",
+  "name": "verdikta/verdikta-bounties-onboarding",
+  "desc": "Hunt and post AI-judged escrow bounties on Base"
+ },
+ {
+  "id": "sk_0174820fc96e",
+  "name": "nexscope-ai/eCommerce-Skills",
+  "desc": "150+ ecommerce skills for Amazon, Shopify, Etsy, TikTok sellers"
+ },
+ {
+  "id": "sk_0976e5a5a36d",
+  "name": "jgsystemsconsulting/jgs-se-knowledge-packs",
+  "desc": "74 licence-vetted systems-engineering reference packs for coding agents"
+ },
+ {
+  "id": "sk_6a2d98c6be23",
+  "name": "KalarisLabs/research-agent-skills",
+  "desc": "280+ skills for literature review, analysis, and paper writing"
+ },
+ {
+  "id": "sk_96db81f26aa2",
+  "name": "federicodeponte/autonomous-research",
+  "desc": "One topic line to a cited paper, every DOI checked"
+ },
+ {
+  "id": "sk_c367445edbcc",
+  "name": "antvis/ava",
+  "desc": "Analyze files and databases, reuse definitions, render interactive charts"
+ },
+ {
+  "id": "sk_9aa8a819f364",
+  "name": "kinprove/genealogy-research-recipes",
+  "desc": "Fact-checked recipes for DNA evidence and genealogy record searches"
+ },
+ {
+  "id": "sk_290a5b3e2d2f",
+  "name": "ChatCut-Inc/talking-head-guide",
+  "desc": "Edit talking-head videos: remove fillers, pauses, retakes; add captions, B-roll"
+ },
+ {
+  "id": "sk_812ddbe20a78",
+  "name": "ChatCut-Inc/create-motion-graphics",
+  "desc": "Create editable motion graphics for video: titles, lower thirds, overlays"
+ },
+ {
+  "id": "sk_e6591563ceb0",
+  "name": "pashov/skills",
+  "desc": "Solidity AI audit, threat model, fuzz suites."
+ },
+ {
+  "id": "sk_d874143a8541",
+  "name": "makevoid/motion-graphics-music-video-skill-noimage",
+  "desc": "Create music videos with native Swift graphics on macOS"
+ },
+ {
+  "id": "sk_b0caa897f102",
+  "name": "rhiever/evident-charts",
+  "desc": "Makes and critiques charts and checks the rendered image"
+ },
+ {
+  "id": "sk_9ea5e144ad2f",
+  "name": "mhfed/vn-law-check",
+  "desc": "Audit websites and apps against Vietnamese law"
+ },
+ {
+  "id": "sk_f9daa7b2053a",
+  "name": "Vladimir-Human/ru-marketplace-mcp",
+  "desc": "15 skills for read-only search, product cards, seller details, reviews, and cross-marketplace price comparison across 12 Russian and Chinese marketplaces without API keys"
+ },
+ {
+  "id": "sk_5d0a3f93f972",
+  "name": "everyinfra/everyinfra-agent-plugins",
+  "desc": "Public data from 100+ platforms, web search, CAPTCHA solving"
+ },
+ {
+  "id": "sk_2013dc37bd96",
+  "name": "czlonkowski/n8n-code-javascript",
+  "desc": "JavaScript in n8n Code nodes with data access patterns"
+ },
+ {
+  "id": "sk_0725ab69fa1a",
+  "name": "czlonkowski/n8n-code-python",
+  "desc": "Python coding in n8n Code nodes with limitations"
+ },
+ {
+  "id": "sk_250969aa6708",
+  "name": "czlonkowski/n8n-expression-syntax",
+  "desc": "n8n expression syntax with {{}} and $json/$node variables"
+ },
+ {
+  "id": "sk_51f074ec2f31",
+  "name": "czlonkowski/n8n-mcp-tools-expert",
+  "desc": "MCP tools guide with tool selection and node formats"
+ },
+ {
+  "id": "sk_806522fb5028",
+  "name": "czlonkowski/n8n-node-configuration",
+  "desc": "Node configuration with dependency rules and AI connections"
+ },
+ {
+  "id": "sk_f579662c2203",
+  "name": "czlonkowski/n8n-validation-expert",
+  "desc": "Fix n8n validation errors with error catalog"
+ },
+ {
+  "id": "sk_4bc1ac805942",
+  "name": "czlonkowski/n8n-workflow-patterns",
+  "desc": "Workflow patterns for webhook, HTTP, database, and AI tasks"
+ },
+ {
+  "id": "sk_5d1c7426f26d",
+  "name": "danoszz/penthera",
+  "desc": "Offline rule-based security checks for repos, dependencies and agent configs"
+ },
+ {
+  "id": "sk_7db0725f1f27",
+  "name": "anthropics/academy-guide",
+  "desc": "当用户询问如何使用 Claude 时，推荐相关的 Claude Academy 课程、教程与使用场景。"
+ },
+ {
+  "id": "sk_d5e23213dc75",
+  "name": "anthropics/algorithmic-art",
+  "desc": "使用 p5.js 与带种子的随机性创作生成式艺术。"
+ },
+ {
+  "id": "sk_e88410042bc8",
+  "name": "anthropics/brand-guidelines",
+  "desc": "把 Anthropic 的品牌规范应用到文档与演示等交付物上。"
+ },
+ {
+  "id": "sk_fdba09e53f9e",
+  "name": "anthropics/canvas-design",
+  "desc": "以 PNG 与 PDF 格式设计视觉作品。"
+ },
+ {
+  "id": "sk_d244099b1d61",
+  "name": "anthropics/claude-api",
+  "desc": "Claude API 与 SDK 文档技能，用于构建 LLM 驱动的应用。"
+ },
+ {
+  "id": "sk_c67db144fef2",
+  "name": "anthropics/discernment-nudge",
+  "desc": "在关键判断点上提醒用户保持审慎，避免盲从模型输出。"
+ },
+ {
+  "id": "sk_6f2ae62c43b4",
+  "name": "anthropics/doc-coauthoring",
+  "desc": "协作文档编辑与共同撰写。"
+ },
+ {
+  "id": "sk_1f32d8a64818",
+  "name": "anthropics/docx",
+  "desc": "创建、编辑与分析 Word 文档。"
+ },
+ {
+  "id": "sk_98e51c753945",
+  "name": "anthropics/frontend-design",
+  "desc": "前端设计与 UI/UX 开发工具。"
+ },
+ {
+  "id": "sk_5125d643cfe2",
+  "name": "anthropics/internal-comms",
+  "desc": "撰写企业内部沟通材料，如公告、简报与致辞。"
+ },
+ {
+  "id": "sk_934f6a41dcff",
+  "name": "anthropics/mcp-builder",
+  "desc": "构建 MCP（Model Context Protocol）服务器，把外部能力接给 Agent。"
+ },
+ {
+  "id": "sk_dedbe96f96e5",
+  "name": "anthropics/pdf",
+  "desc": "提取文本、创建 PDF，并处理 PDF 表单。"
+ },
+ {
+  "id": "sk_ae517c274448",
+  "name": "anthropics/pptx",
+  "desc": "创建、编辑与分析 PowerPoint 演示文稿。"
+ },
+ {
+  "id": "sk_a82df88ae62f",
+  "name": "anthropics/skill-creator",
+  "desc": "按规范创建新的 Agent Skill，包括目录结构与 SKILL.md 元数据。"
+ },
+ {
+  "id": "sk_326213386084",
+  "name": "anthropics/slack-gif-creator",
+  "desc": "生成符合 Slack 尺寸限制的动图 GIF。"
+ },
+ {
+  "id": "sk_444a3ad252c3",
+  "name": "anthropics/theme-factory",
+  "desc": "生成并应用一致的视觉主题样式。"
+ },
+ {
+  "id": "sk_d48ef2a9bb78",
+  "name": "anthropics/web-artifacts-builder",
+  "desc": "构建可分发的 Web Artifact（单页应用与交互页面）。"
+ },
+ {
+  "id": "sk_69b24bf2d9d1",
+  "name": "anthropics/webapp-testing",
+  "desc": "测试 Web 应用，覆盖交互流程与回归检查。"
+ },
+ {
+  "id": "sk_af2e0605aa00",
+  "name": "anthropics/xlsx",
+  "desc": "创建、编辑与分析 Excel 电子表格。"
+ },
+ {
+  "id": "sk_21a7833b1997",
+  "name": "data-labeling",
+  "desc": "Create labeled datasets for machine learning model training"
+ },
+ {
+  "id": "sk_2b9383378c48",
+  "name": "hyperparameter-tuning",
+  "desc": "Optimize model hyperparameters for better performance"
+ },
+ {
+  "id": "sk_3044a96e426c",
+  "name": "ml-pipeline-creation",
+  "desc": "Build end-to-end machine learning pipelines"
+ },
+ {
+  "id": "sk_9caefab7aa1b",
+  "name": "model-deployment",
+  "desc": "Deploy trained models to production environments"
+ },
+ {
+  "id": "sk_265fccc4d034",
+  "name": "model-training",
+  "desc": "Train machine learning models on given datasets"
+ },
+ {
+  "id": "sk_e0015dfbbaf8",
+  "name": "agent-evaluation",
+  "desc": "Design reproducible evaluations, graders, baselines, and release gates for AI agents"
+ },
+ {
+  "id": "sk_353bbed78205",
+  "name": "agent-observability",
+  "desc": "Instrument agent traces, metrics, cost attribution, dashboards, and investigations"
+ },
+ {
+  "id": "sk_77bcbc8f53e3",
+  "name": "human-in-the-loop",
+  "desc": "Design auditable approval gates, escalation paths, and safe state transitions"
+ },
+ {
+  "id": "sk_b81c66b5a4e8",
+  "name": "mcp-server-building",
+  "desc": "Build and verify secure, interoperable Model Context Protocol servers"
+ },
+ {
+  "id": "sk_bebf26e7ef1f",
+  "name": "multi-agent-orchestration",
+  "desc": "Coordinate bounded multi-agent workflows, handoffs, shared state, and recovery"
+ },
+ {
+  "id": "sk_12ef125e83d6",
+  "name": "tool-schema-design",
+  "desc": "Design precise model-facing tool schemas with explicit side effects and safe defaults"
+ },
+ {
+  "id": "sk_e81b45911292",
+  "name": "agent-red-teaming",
+  "desc": "Plan authorized adversarial tests for agent behavior, tools, memory, and controls"
+ },
+ {
+  "id": "sk_093004ca3015",
+  "name": "prompt-injection-defense",
+  "desc": "Defend agent workflows against direct and indirect prompt injection"
+ },
+ {
+  "id": "sk_84590893a4e1",
+  "name": "skill-supply-chain-audit",
+  "desc": "Audit skill bundles for malicious instructions, unsafe scripts, provenance, and excessive permissions"
+ },
+ {
+  "id": "sk_463cdaa642a8",
+  "name": "api-design",
+  "desc": "Design RESTful APIs with resources, endpoints, and data models"
+ },
+ {
+  "id": "sk_c63876e90e7b",
+  "name": "api-integration",
+  "desc": "Integrate third-party APIs into applications"
+ },
+ {
+  "id": "sk_9f4448435d42",
+  "name": "graphql-api-design",
+  "desc": "Design GraphQL schemas, queries, and mutations"
+ },
+ {
+  "id": "sk_1782aba7222b",
+  "name": "oauth-2-0-setup",
+  "desc": "Implement OAuth 2.0 authentication flows"
+ },
+ {
+  "id": "sk_5573f6f02c59",
+  "name": "webhook-setup",
+  "desc": "Configure webhooks for event-driven integrations"
+ },
+ {
+  "id": "sk_1ba68b35a846",
+  "name": "code-documentation",
+  "desc": "Generate comprehensive code documentation"
+ },
+ {
+  "id": "sk_dd7c59dd9b62",
+  "name": "code-review",
+  "desc": "Review code for bugs, style violations, and performance issues"
+ },
+ {
+  "id": "sk_7d9a78ab3d9f",
+  "name": "debugging",
+  "desc": "Identify and fix errors with root cause analysis"
+ },
+ {
+  "id": "sk_b6a1b3754162",
+  "name": "refactoring",
+  "desc": "Improve code quality and maintainability"
+ },
+ {
+  "id": "sk_0a1c0ea54278",
+  "name": "testing",
+  "desc": "Write and run unit, integration, and end-to-end tests"
+ },
+ {
+  "id": "sk_eab37b585e0c",
+  "name": "version-control",
+  "desc": "Manage Git workflows, branching, and merging"
+ },
+ {
+  "id": "sk_d951935d697a",
+  "name": "chatbot-conversation-design",
+  "desc": "Design conversational flows for chatbots"
+ },
+ {
+  "id": "sk_aca34cfbdaa5",
+  "name": "email-drafting",
+  "desc": "Draft professional emails for various purposes"
+ },
+ {
+  "id": "sk_9fcc27cc6d84",
+  "name": "meeting-transcription",
+  "desc": "Transcribe and summarize meeting recordings"
+ },
+ {
+  "id": "sk_780ae102cc8d",
+  "name": "presentation-creation",
+  "desc": "Create slide decks and presentations"
+ },
+ {
+  "id": "sk_76257799ae7b",
+  "name": "report-generation",
+  "desc": "Generate structured business and technical reports"
+ },
+ {
+  "id": "sk_bdb886271e28",
+  "name": "churn-analysis",
+  "desc": "Identify at-risk accounts and churn indicators"
+ },
+ {
+  "id": "sk_92ad68f67f54",
+  "name": "customer-feedback-analysis",
+  "desc": "Analyze NPS, CSAT, and qualitative feedback for themes"
+ },
+ {
+  "id": "sk_44444fbdbb49",
+  "name": "knowledge-base-article-writing",
+  "desc": "Write help center articles and FAQ entries"
+ },
+ {
+  "id": "sk_ea650bae43f5",
+  "name": "onboarding-playbook-creation",
+  "desc": "Design customer onboarding workflows and checklists"
+ },
+ {
+  "id": "sk_e86940eefa14",
+  "name": "ticket-triage",
+  "desc": "Classify, prioritize, and route support tickets"
+ },
+ {
+  "id": "sk_135d4d38f862",
+  "name": "context-compression",
+  "desc": "Compress context to reduce token usage"
+ },
+ {
+  "id": "sk_ef025ae5830b",
+  "name": "context-injection",
+  "desc": "Inject relevant context into agent prompts"
+ },
+ {
+  "id": "sk_db4de45ba333",
+  "name": "context-optimization",
+  "desc": "Optimize context for improved agent performance"
+ },
+ {
+  "id": "sk_e846dda0a4fa",
+  "name": "context-ranking",
+  "desc": "Rank and prioritize context by relevance"
+ },
+ {
+  "id": "sk_df67f0f32b61",
+  "name": "context-retrieval",
+  "desc": "Retrieve relevant context from knowledge bases"
+ },
+ {
+  "id": "sk_4e861500fb5d",
+  "name": "data-analysis",
+  "desc": "Analyze datasets to extract insights and identify trends"
+ },
+ {
+  "id": "sk_35934b34d438",
+  "name": "data-cleaning",
+  "desc": "Clean and preprocess raw data for analysis"
+ },
+ {
+  "id": "sk_ee06057cceb7",
+  "name": "data-visualization",
+  "desc": "Create charts, graphs, and interactive visualizations"
+ },
+ {
+  "id": "sk_4fd3bfa6adbb",
+  "name": "exploratory-data-analysis",
+  "desc": "Perform initial data exploration and profiling"
+ },
+ {
+  "id": "sk_ca06f92ddd4b",
+  "name": "sql-query-generation",
+  "desc": "Generate optimized SQL queries from natural language"
+ },
+ {
+  "id": "sk_6d1acac108c2",
+  "name": "database-backup",
+  "desc": "Create and manage database backups"
+ },
+ {
+  "id": "sk_fb640dee689c",
+  "name": "database-migration",
+  "desc": "Plan and execute database schema migrations"
+ },
+ {
+  "id": "sk_4a8341a8739b",
+  "name": "database-schema-design",
+  "desc": "Design normalized database schemas"
+ },
+ {
+  "id": "sk_28f1ba2a0914",
+  "name": "database-seeding",
+  "desc": "Populate databases with test or initial data"
+ },
+ {
+  "id": "sk_134485864562",
+  "name": "query-optimization",
+  "desc": "Optimize slow database queries"
+ },
+ {
+  "id": "sk_6d969173eecf",
+  "name": "accessibility-testing",
+  "desc": "Test interfaces for WCAG compliance"
+ },
+ {
+  "id": "sk_e06807e97f4a",
+  "name": "frontend-design",
+  "desc": "Design and build frontend interfaces"
+ },
+ {
+  "id": "sk_ee6d50310f2b",
+  "name": "logo-design",
+  "desc": "Create logo concepts and brand identity"
+ },
+ {
+  "id": "sk_72e2e200f78b",
+  "name": "user-flow-mapping",
+  "desc": "Map user journeys and interaction flows"
+ },
+ {
+  "id": "sk_aa56676139e9",
+  "name": "wireframing",
+  "desc": "Create wireframes and low-fidelity mockups"
+ },
+ {
+  "id": "sk_7d1de0b0f4d4",
+  "name": "pdf-processing",
+  "desc": "Extract, transform, create, and visually verify PDF documents safely"
+ },
+ {
+  "id": "sk_0da9ff4bb8c8",
+  "name": "spreadsheet-analysis",
+  "desc": "Analyze and modify spreadsheets while preserving formulas, structure, and auditability"
+ },
+ {
+  "id": "sk_b22afc6d5029",
+  "name": "budget-planning",
+  "desc": "Create and manage budgets with variance analysis"
+ },
+ {
+  "id": "sk_ccc3736d8676",
+  "name": "expense-categorization",
+  "desc": "Classify expenses by category, department, and tax deductibility"
+ },
+ {
+  "id": "sk_6cfeae27e367",
+  "name": "financial-modeling",
+  "desc": "Build financial projections, P&L, and DCF models"
+ },
+ {
+  "id": "sk_ee0440996e1d",
+  "name": "financial-report-generation",
+  "desc": "Generate balance sheets, cash flow statements, and financial summaries"
+ },
+ {
+  "id": "sk_6e91575bce00",
+  "name": "invoice-processing",
+  "desc": "Extract, validate, and categorize invoice data"
+ },
+ {
+  "id": "sk_23fd6b38b62b",
+  "name": "ci-cd",
+  "desc": "Set up CI/CD pipelines for automated builds and deployments"
+ },
+ {
+  "id": "sk_3b7f83470b8f",
+  "name": "cloud-monitoring",
+  "desc": "Configure cloud monitoring and alerting"
+ },
+ {
+  "id": "sk_967fe157adfc",
+  "name": "docker-compose-setup",
+  "desc": "Create Docker Compose configurations for multi-service apps"
+ },
+ {
+  "id": "sk_a69912db714a",
+  "name": "infrastructure-as-code",
+  "desc": "Define infrastructure using Terraform, Pulumi, or CloudFormation"
+ },
+ {
+  "id": "sk_9e3a0f413f33",
+  "name": "kubernetes-deployment",
+  "desc": "Deploy and manage applications on Kubernetes"
+ },
+ {
+  "id": "sk_51ad933771fc",
+  "name": "compliance-checklist-generation",
+  "desc": "Create compliance checklists for SOC2, HIPAA, PCI-DSS, and GDPR"
+ },
+ {
+  "id": "sk_05dc3eb1150f",
+  "name": "contract-review",
+  "desc": "Analyze contracts for risks, obligations, and key clauses"
+ },
+ {
+  "id": "sk_07fe89caf208",
+  "name": "eu-ai-act-readiness",
+  "desc": "Assess EU AI Act readiness with dated evidence, gaps, owners, and counsel review"
+ },
+ {
+  "id": "sk_0ef32e284881",
+  "name": "license-analysis",
+  "desc": "Analyze open-source license compatibility and obligations"
+ },
+ {
+  "id": "sk_edf9dba0c1ef",
+  "name": "privacy-policy-drafting",
+  "desc": "Draft privacy-policy language and a jurisdiction-aware review checklist"
+ },
+ {
+  "id": "sk_9eb8a7c7a236",
+  "name": "terms-of-service-generation",
+  "desc": "Draft Terms of Service documents for web apps and SaaS"
+ },
+ {
+  "id": "sk_a4b15fd3aab7",
+  "name": "analytics-reporting",
+  "desc": "Generate marketing analytics reports"
+ },
+ {
+  "id": "sk_53e57035ad66",
+  "name": "content-strategy",
+  "desc": "Develop content marketing strategies"
+ },
+ {
+  "id": "sk_4b01724d3a2f",
+  "name": "keyword-research",
+  "desc": "Research and analyze keywords for SEO"
+ },
+ {
+  "id": "sk_eade3fe0b790",
+  "name": "seo-optimization",
+  "desc": "Optimize webpages for search engine visibility"
+ },
+ {
+  "id": "sk_5f35e9d85eeb",
+  "name": "social-media-posting",
+  "desc": "Create and schedule social media content"
+ },
+ {
+  "id": "sk_4f3999bf9977",
+  "name": "file-organization",
+  "desc": "Organize and structure files and directories"
+ },
+ {
+  "id": "sk_69570a509a35",
+  "name": "meeting-scheduler",
+  "desc": "Schedule meetings across calendars and time zones"
+ },
+ {
+  "id": "sk_1bd182d67986",
+  "name": "note-taking",
+  "desc": "Take structured notes from meetings and documents"
+ },
+ {
+  "id": "sk_3ccd828da5c4",
+  "name": "project-management",
+  "desc": "Manage tasks, milestones, and team coordination"
+ },
+ {
+  "id": "sk_c9392aef3dbc",
+  "name": "task-automation",
+  "desc": "Automate repetitive tasks and workflows"
+ },
+ {
+  "id": "sk_07aed650b7a6",
+  "name": "deep-research",
+  "desc": "Conduct comprehensive multi-source research"
+ },
+ {
+  "id": "sk_b8dc149fab28",
+  "name": "fact-checking",
+  "desc": "Verify claims against authoritative sources"
+ },
+ {
+  "id": "sk_5d45177d506b",
+  "name": "knowledge-graph-creation",
+  "desc": "Build knowledge graphs from unstructured data"
+ },
+ {
+  "id": "sk_d31bc4e8c8fc",
+  "name": "literature-review",
+  "desc": "Review and synthesize academic literature"
+ },
+ {
+  "id": "sk_0801f64a9f19",
+  "name": "summarization",
+  "desc": "Summarize long documents and articles"
+ },
+ {
+  "id": "sk_966c90b49629",
+  "name": "competitive-battlecard-creation",
+  "desc": "Build sales battlecards for competitive positioning"
+ },
+ {
+  "id": "sk_18b2e0e9db50",
+  "name": "crm-data-enrichment",
+  "desc": "Enrich CRM records with firmographic and contact data"
+ },
+ {
+  "id": "sk_dbb19fcd567c",
+  "name": "lead-scoring",
+  "desc": "Score and prioritize leads based on fit and engagement signals"
+ },
+ {
+  "id": "sk_dafdc52dc7f8",
+  "name": "proposal-generation",
+  "desc": "Create tailored sales proposals and RFP responses"
+ },
+ {
+  "id": "sk_b464a0f5639a",
+  "name": "sales-email-sequences",
+  "desc": "Design multi-touch outbound email sequences"
+ },
+ {
+  "id": "sk_838e8e1e5f50",
+  "name": "dependency-scanning",
+  "desc": "Scan dependencies for known vulnerabilities"
+ },
+ {
+  "id": "sk_e2df44010e9d",
+  "name": "dynamic-application-security-testing",
+  "desc": "Test running applications for security flaws"
+ },
+ {
+  "id": "sk_bc403ab741f9",
+  "name": "security-audit",
+  "desc": "Perform comprehensive security audits"
+ },
+ {
+  "id": "sk_1c5812493e79",
+  "name": "static-application-security-testing",
+  "desc": "Analyze source code for security vulnerabilities"
+ },
+ {
+  "id": "sk_1767fbc83faa",
+  "name": "threat-modeling",
+  "desc": "Identify and prioritize security threats"
+ },
+ {
+  "id": "sk_bf520f10e1b5",
+  "name": "blog-post-writing",
+  "desc": "Write engaging blog posts and articles"
+ },
+ {
+  "id": "sk_a21867b0b843",
+  "name": "copywriting",
+  "desc": "Write persuasive marketing and advertising copy"
+ },
+ {
+  "id": "sk_d8ea3881ce7b",
+  "name": "proofreading",
+  "desc": "Proofread and edit text for grammar and clarity"
+ },
+ {
+  "id": "sk_b4a625db31f3",
+  "name": "technical-writing",
+  "desc": "Write technical documentation and user guides"
+ },
+ {
+  "id": "sk_ca4c719c6d88",
+  "name": "translation",
+  "desc": "Translate text between languages"
+ },
+ {
+  "id": "sk_1badab54203c",
+  "name": "ai-operations",
+  "desc": "Prompt management, model selection, fine-tuning, RAG pipelines, AI governance, monitoring, synthetic data review。插件内含 13 个 skill。"
+ },
+ {
+  "id": "sk_ed5cbdb5236e",
+  "name": "analytics",
+  "desc": "KPI definition, dashboard design, data modeling, attribution, cohort analysis, predictive analytics。插件内含 10 个 skill。"
+ },
+ {
+  "id": "sk_f97e97ed94ca",
+  "name": "communications",
+  "desc": "Crisis comms, executive briefings, press releases, speeches, media training, newsletters, change comms。插件内含 14 个 skill。"
+ }
+]

@@ -1,0 +1,802 @@
+﻿[
+ {
+  "id": "sk_981ed9f74c9a",
+  "zh": "用设计规格与 UI/UX 术语改进提示词"
+ },
+ {
+  "id": "sk_e08ffee676d7",
+  "zh": "把 Stitch 设计转换成 React 组件"
+ },
+ {
+  "id": "sk_61909398a2b4",
+  "zh": "根据 Stitch 应用设计生成演示讲解视频"
+ },
+ {
+  "id": "sk_59270ed5634e",
+  "zh": "用 shadcn/ui 构建风格统一、可复用的界面组件"
+ },
+ {
+  "id": "sk_4092a8b582a0",
+  "zh": "从设计稿到代码的迭代式反馈闭环，边改边看效果"
+ },
+ {
+  "id": "sk_240701d822a5",
+  "zh": "共用的认证、全局参数与输出格式的统一处理"
+ },
+ {
+  "id": "sk_89c6de26d1c0",
+  "zh": "管理 Google Drive 的文件、文件夹与共享云端硬盘"
+ },
+ {
+  "id": "sk_2c20bc1dade6",
+  "zh": "读写 Google Sheets 电子表格"
+ },
+ {
+  "id": "sk_645569ff0a40",
+  "zh": "发送、阅读并管理 Gmail 邮件与收件箱"
+ },
+ {
+  "id": "sk_8397e9f8987d",
+  "zh": "管理 Google Calendar 的日历与日程"
+ },
+ {
+  "id": "sk_324ba9bd978a",
+  "zh": "Workspace 的审计日志与使用情况报告"
+ },
+ {
+  "id": "sk_4332c5932e7e",
+  "zh": "读写 Google Docs 文档并调整正文结构"
+ },
+ {
+  "id": "sk_ca2afca983c8",
+  "zh": "读写 Google Slides 演示文稿"
+ },
+ {
+  "id": "sk_27586774c65c",
+  "zh": "管理 Google Tasks 的任务清单与任务"
+ },
+ {
+  "id": "sk_d98a68b197c8",
+  "zh": "管理 Google People 的联系人与资料"
+ },
+ {
+  "id": "sk_3393bbd781a8",
+  "zh": "管理 Google Chat 的空间与消息"
+ },
+ {
+  "id": "sk_b7309d1ca9e4",
+  "zh": "管理 Google Classroom 的班级、名册与课程作业"
+ },
+ {
+  "id": "sk_d9ec919a47d7",
+  "zh": "读写 Google Forms 表单及其题目与回答"
+ },
+ {
+  "id": "sk_0a104a1a5b5a",
+  "zh": "管理 Google Keep 的笔记与标签"
+ },
+ {
+  "id": "sk_0788b506a9f9",
+  "zh": "订阅 Google Workspace 的事件通知"
+ },
+ {
+  "id": "sk_c07b872da099",
+  "zh": "对用户生成内容做安全过滤，按风险等级拦截"
+ },
+ {
+  "id": "sk_28413aa85b54",
+  "zh": "跨多个 Google Workspace 服务的效率工作流"
+ },
+ {
+  "id": "sk_ecf952f7cf17",
+  "zh": "用 Expo Router 构建应用，涵盖样式、组件、导航与动画"
+ },
+ {
+  "id": "sk_9fa58cc35329",
+  "zh": "在 Expo Router 中用 EAS Hosting 创建 API 路由"
+ },
+ {
+  "id": "sk_8ec32281b71c",
+  "zh": "面向 Expo 项目的持续集成与部署工作流"
+ },
+ {
+  "id": "sk_7ba97aa02081",
+  "zh": "把 Expo 应用构建并部署到生产环境，含签名步骤"
+ },
+ {
+  "id": "sk_95bbb9e5fdb6",
+  "zh": "在本地或通过 TestFlight 构建并分发 Expo 开发客户端"
+ },
+ {
+  "id": "sk_1d49f1d50af8",
+  "zh": "在 Expo 中结合 NativeWind v5 配置 Tailwind CSS v4"
+ },
+ {
+  "id": "sk_4ef978677033",
+  "zh": "面向 Expo 的 Jetpack Compose 界面组件"
+ },
+ {
+  "id": "sk_f96e0492768d",
+  "zh": "面向 Expo 的 SwiftUI 组件"
+ },
+ {
+  "id": "sk_099022a3556a",
+  "zh": "网络请求、接口调用、缓存与离线可用的处理方式"
+ },
+ {
+  "id": "sk_4b450bb2c81b",
+  "zh": "把项目升级到新的 Expo SDK 版本并处理兼容问题"
+ },
+ {
+  "id": "sk_2f053f4626dd",
+  "zh": "用 DOM 组件在原生 WebView 中运行 Web 代码"
+ },
+ {
+  "id": "sk_1cb55d4520c7",
+  "zh": "用于 Hub 各项操作的 HF 命令行工具"
+ },
+ {
+  "id": "sk_556169fb4b45",
+  "zh": "通过 Dataset Viewer API 浏览并查询 HF 数据集"
+ },
+ {
+  "id": "sk_1ec3ca0ba00e",
+  "zh": "创建并管理带配置的数据集，支持 SQL 查询"
+ },
+ {
+  "id": "sk_6f145f0e8491",
+  "zh": "用 vLLM 与 lighteval 做模型评测并生成评测表"
+ },
+ {
+  "id": "sk_d9f7b2b4e8d5",
+  "zh": "在 HF 基础设施上运行计算任务与 Python 脚本"
+ },
+ {
+  "id": "sk_35da8ebf3bad",
+  "zh": "用 TRL 训练模型，含 SFT、DPO、GRPO 与 GGUF 转换"
+ },
+ {
+  "id": "sk_a669ae7877a5",
+  "zh": "在 HF Hub 上创建与管理论文页面及元信息"
+ },
+ {
+  "id": "sk_9bceb3c93d0b",
+  "zh": "在 HF Hub 发布论文并关联模型与数据集"
+ },
+ {
+  "id": "sk_5c47d8f1f296",
+  "zh": "把常用 HF API 操作封装成可复用的脚本"
+ },
+ {
+  "id": "sk_d69f5ff6cec8",
+  "zh": "用实时看板跟踪机器学习实验的指标变化曲线"
+ },
+ {
+  "id": "sk_6cb6d7e487fa",
+  "zh": "在 HF 基础设施上训练图像分类等视觉模型"
+ },
+ {
+  "id": "sk_dec9e3976df2",
+  "zh": "构建 Gradio 应用并部署到 HF Spaces"
+ },
+ {
+  "id": "sk_98735eb3f703",
+  "zh": "用 Transformers.js 在浏览器中运行机器学习模型"
+ },
+ {
+  "id": "sk_d03105df5f24",
+  "zh": "需求含糊时先追问澄清，再动手实现，避免返工"
+ },
+ {
+  "id": "sk_6d4de6646c07",
+  "zh": "通过超细粒度代码分析建立深入的架构上下文"
+ },
+ {
+  "id": "sk_549f012636f3",
+  "zh": "智能合约安全工具箱，为 6 条区块链提供漏洞扫描"
+ },
+ {
+  "id": "sk_5c04a394a919",
+  "zh": "搜索并从 Burp Suite 项目文件中提取数据"
+ },
+ {
+  "id": "sk_e5a7cffe2939",
+  "zh": "诊断并修复 Claude in Chrome MCP 扩展的连接问题"
+ },
+ {
+  "id": "sk_91b861ea0cc3",
+  "zh": "检测编译器在加密代码中引入的时序侧信道问题"
+ },
+ {
+  "id": "sk_fbed8af50f07",
+  "zh": "为团队文化文档建立索引，方便检索与相互引用"
+ },
+ {
+  "id": "sk_dd57ece56f2a",
+  "zh": "结合 git 历史的以安全为重点的代码差异评审"
+ },
+ {
+  "id": "sk_b7c52692383e",
+  "zh": "DWARF 调试信息格式的专业用法解析与排错"
+ },
+ {
+  "id": "sk_79aa06dc4531",
+  "zh": "识别智能合约中会改变链上状态的入口点函数"
+ },
+ {
+  "id": "sk_7b40a3c244a0",
+  "zh": "扫描 Android APK，发现 Firebase 配置错误与安全漏洞"
+ },
+ {
+  "id": "sk_7bce9e6f9c6a",
+  "zh": "发现硬编码密钥、默认凭据与弱加密等不安全默认配置"
+ },
+ {
+  "id": "sk_62aa6b28c0dd",
+  "zh": "现代 Python 工具链实践，含 uv、ruff、ty 与 pytest"
+ },
+ {
+  "id": "sk_79c6cd01d810",
+  "zh": "面向多种编程语言与智能合约的基于属性的测试"
+ },
+ {
+  "id": "sk_a89bafea764d",
+  "zh": "编写并打磨用于漏洞检测的 Semgrep 规则"
+ },
+ {
+  "id": "sk_5d8e5cc3502e",
+  "zh": "把已有 Semgrep 规则移植到新语言并用测试驱动验证"
+ },
+ {
+  "id": "sk_fa9f67f159d7",
+  "zh": "识别易出错的 API 与容易踩坑的危险配置"
+ },
+ {
+  "id": "sk_ce626075ca22",
+  "zh": "面向区块链审计的规格文档与代码一致性检查"
+ },
+ {
+  "id": "sk_5f4cfd32951d",
+  "zh": "静态分析工具箱，整合 CodeQL、Semgrep 与 SARIF"
+ },
+ {
+  "id": "sk_9fd1207a9b1a",
+  "zh": "Testing Handbook 配套能力，含模糊测试、静态分析与消毒器"
+ },
+ {
+  "id": "sk_ac6183230143",
+  "zh": "通过模式匹配分析找出同一类型的漏洞变体代码"
+ },
+ {
+  "id": "sk_311687f09597",
+  "zh": "为任意语言或框架接入 Sentry，自动判断平台并选用对应 SDK"
+ },
+ {
+  "id": "sk_d58ed2a180b5",
+  "zh": "Sentry 端到端流程，修复线上问题并结合上下文做代码评审"
+ },
+ {
+  "id": "sk_c0ee9a6c1028",
+  "zh": "借助 MCP 提供的堆栈、面包屑与链路上下文定位并修复 Sentry 问题"
+ },
+ {
+  "id": "sk_1df0fe50e8d0",
+  "zh": "结合 Sentry 的问题与链路信息评审代码改动"
+ },
+ {
+  "id": "sk_6581e95943fa",
+  "zh": "处理 Seer 缺陷预测与 Sentry 反馈给出的 PR 评论"
+ },
+ {
+  "id": "sk_12318d425499",
+  "zh": "创建 Sentry 告警，支持邮件、Slack、PagerDuty、Discord 等通道"
+ },
+ {
+  "id": "sk_ee30b5cd55c8",
+  "zh": "配置 Sentry 进阶功能，含 AI 监控、OTel 管道与告警"
+ },
+ {
+  "id": "sk_04bdc2590280",
+  "zh": "为 OpenTelemetry Collector 配置 Sentry Exporter"
+ },
+ {
+  "id": "sk_ad1c36e34fcf",
+  "zh": "为 OpenAI、Anthropic、Vercel AI、LangChain、Google GenAI 与 Pydantic AI 接入监控"
+ },
+ {
+  "id": "sk_9811ff290609",
+  "zh": "跨大版本升级 Sentry JavaScript SDK"
+ },
+ {
+  "id": "sk_b2871312c1b3",
+  "zh": "为某个平台新建一套 Sentry SDK skill 打包"
+ },
+ {
+  "id": "sk_ca8710142495",
+  "zh": "Android 平台的 Sentry SDK 完整接入，支持 Kotlin 与 Java"
+ },
+ {
+  "id": "sk_38d5a1a4c1d8",
+  "zh": "浏览器端 JavaScript 的 Sentry SDK 完整接入"
+ },
+ {
+  "id": "sk_2ca7baaf66ce",
+  "zh": "覆盖 Workers、Pages、Durable Objects、Queues 与 Workflows 的 Sentry 接入"
+ },
+ {
+  "id": "sk_10c91c6f0b77",
+  "zh": "Apple 各平台（iOS、macOS、tvOS、watchOS、visionOS）的 Sentry 接入"
+ },
+ {
+  "id": "sk_46b19ecadf94",
+  "zh": ".NET 各框架（ASP.NET Core、MAUI、WPF、Blazor 等）的 Sentry 接入"
+ },
+ {
+  "id": "sk_4f9ba3a2e94b",
+  "zh": "Elixir 生态（Phoenix、Plug、LiveView、Oban、Quantum）的 Sentry 接入"
+ },
+ {
+  "id": "sk_69a932b87edb",
+  "zh": "Flutter 与 Dart 跨平台的 Sentry SDK 完整接入"
+ },
+ {
+  "id": "sk_a4afd30e0ec4",
+  "zh": "Go 各 Web 框架（net/http、Gin、Echo、Fiber 等）的 Sentry 接入"
+ },
+ {
+  "id": "sk_d18a761b2ba1",
+  "zh": "NestJS 搭配 Express 或 Fastify、含 GraphQL 与微服务的 Sentry 接入"
+ },
+ {
+  "id": "sk_8c30c40156b8",
+  "zh": "Next.js 13 以上（App Router 与 Pages Router）的 Sentry 接入"
+ },
+ {
+  "id": "sk_3311947082d2",
+  "zh": "Node.js、Bun 与 Deno 环境的 Sentry SDK 完整接入"
+ },
+ {
+  "id": "sk_1452d4fc2927",
+  "zh": "PHP、Laravel 与 Symfony 的 Sentry SDK 完整接入"
+ },
+ {
+  "id": "sk_d94b3326c302",
+  "zh": "Python 各框架（Django、Flask、FastAPI、Celery 等）的 Sentry 接入"
+ },
+ {
+  "id": "sk_c4d326364fc4",
+  "zh": "React Native 与 Expo 的 Sentry SDK 完整接入"
+ },
+ {
+  "id": "sk_4787912113d9",
+  "zh": "React 项目（多种路由、Redux、Vite、webpack）的 Sentry 接入"
+ },
+ {
+  "id": "sk_9ad5fb1a1de2",
+  "zh": "Ruby 生态（Rails、Sinatra、Rack、Sidekiq、Resque）的 Sentry 接入"
+ },
+ {
+  "id": "sk_cacb5e4802ea",
+  "zh": "Svelte 与 SvelteKit 的 Sentry SDK 完整接入"
+ },
+ {
+  "id": "sk_f982badae2cd",
+  "zh": "设计架构良好、可扩展的 Azure 云上系统"
+ },
+ {
+  "id": "sk_ab4c25386f20",
+  "zh": "Azure AI 场景下的持续学习设计模式"
+ },
+ {
+  "id": "sk_2f012d58c081",
+  "zh": "用 GitHub Copilot SDK 构建应用"
+ },
+ {
+  "id": "sk_9fbe7f304916",
+  "zh": "通过 Graph API 使用 Microsoft Entra Agent ID 的 OAuth2 身份"
+ },
+ {
+  "id": "sk_f1f0239c6757",
+  "zh": "评审并打造有辨识度的前端界面与整体视觉风格"
+ },
+ {
+  "id": "sk_0823c61d19f2",
+  "zh": "把零散笔记整理成结构化的 GitHub issue 报告"
+ },
+ {
+  "id": "sk_e79ff230cc3d",
+  "zh": "创建 MCP 服务器以供大模型调用外部工具的指南"
+ },
+ {
+  "id": "sk_ce9b5459a424",
+  "zh": "用 Azure OpenAI Realtime API 生成 AI 播客音频"
+ },
+ {
+  "id": "sk_ab410ea893fb",
+  "zh": "指导编写面向 AI 编码 agent 的高质量 skill"
+ },
+ {
+  "id": "sk_b6f69f8ca436",
+  "zh": "用 Azure AI Document Intelligence 从文档中提取文本、表格与数据"
+ },
+ {
+  "id": "sk_bc1d80c45a35",
+  "zh": "调用 Azure OpenAI 的 GPT-4、嵌入、DALL-E 与 Whisper 能力"
+ },
+ {
+  "id": "sk_35fbc86657c3",
+  "zh": "管理 AI Foundry 项目的 SDK"
+ },
+ {
+  "id": "sk_9b462be60f1f",
+  "zh": "实现双向实时的语音 AI 交互与打断处理"
+ },
+ {
+  "id": "sk_43fca47538f4",
+  "zh": "向 Event Grid 的 topic 与 domain 发布事件"
+ },
+ {
+  "id": "sk_b6d6679a6d47",
+  "zh": "高吞吐的事件流式传输、分区消费与位点管理"
+ },
+ {
+  "id": "sk_d2aa423406d5",
+  "zh": "接入 Microsoft Entra ID 完成身份认证"
+ },
+ {
+  "id": "sk_8de2ab22f19c",
+  "zh": "地理编码、路线规划与天气查询等地图服务接口"
+ },
+ {
+  "id": "sk_9db89b820e8d",
+  "zh": "维护 API 清单并做统一治理与合规检查"
+ },
+ {
+  "id": "sk_2de2ad82d22d",
+  "zh": "通过 ARM 开通并配置 API Management"
+ },
+ {
+  "id": "sk_5cb188889c45",
+  "zh": "管理 Application Insights 资源"
+ },
+ {
+  "id": "sk_e3fdd6f043cd",
+  "zh": "管理 Arize AI 可观测性与评测相关资源"
+ },
+ {
+  "id": "sk_822897128808",
+  "zh": "通过 ARM 开通 Bot Service"
+ },
+ {
+  "id": "sk_3cdbf05ef1fb",
+  "zh": "管理 Microsoft Fabric 容量资源"
+ },
+ {
+  "id": "sk_cbce001e79c3",
+  "zh": "把 MongoDB Atlas 作为 ARM 资源来管理"
+ },
+ {
+  "id": "sk_9baa41b9d662",
+  "zh": "管理 Weights & Biases 的部署资源"
+ },
+ {
+  "id": "sk_b6c1f3a5e356",
+  "zh": "开通并配置 Cosmos DB 资源与容器"
+ },
+ {
+  "id": "sk_f01c9359c669",
+  "zh": "管理 Durable Task Scheduler 资源与任务编排配置"
+ },
+ {
+  "id": "sk_968641857bb8",
+  "zh": "管理 MySQL Flexible Server 实例及其网络与备份配置"
+ },
+ {
+  "id": "sk_9b7d5cd1c630",
+  "zh": "管理 Playwright Testing 工作区"
+ },
+ {
+  "id": "sk_9c530906c6a3",
+  "zh": "管理 PostgreSQL Flexible Server 实例及其网络与备份配置"
+ },
+ {
+  "id": "sk_369c53290fe4",
+  "zh": "开通并配置 Azure Cache for Redis"
+ },
+ {
+  "id": "sk_7ceb5fa6e762",
+  "zh": "管理 Azure SQL 数据库及其服务端资源"
+ },
+ {
+  "id": "sk_e64e0f46f9d4",
+  "zh": "实现全文检索、向量检索与混合检索三种模式"
+ },
+ {
+  "id": "sk_435177a72a6d",
+  "zh": "Azure Key Vault 中的加密密钥管理"
+ },
+ {
+  "id": "sk_f5d33be49627",
+  "zh": "基于队列与主题的企业级消息传递与消息消费"
+ },
+ {
+  "id": "sk_ae8dc056d632",
+  "zh": "构建 M365、Teams 与 Copilot Studio 中的 agent"
+ },
+ {
+  "id": "sk_79d2157bccd7",
+  "zh": "处理 Entra ID 自定义认证事件与扩展逻辑"
+ },
+ {
+  "id": "sk_1d2bff2933df",
+  "zh": "构建异常检测应用并定位异常出现的时间点与幅度"
+ },
+ {
+  "id": "sk_de8b2524ce4c",
+  "zh": "内容审核与安全过滤，拦截不当的文本与图片"
+ },
+ {
+  "id": "sk_cf7902bca351",
+  "zh": "文档分析与表单字段抽取，输出结构化字段结果"
+ },
+ {
+  "id": "sk_d72389698fa1",
+  "zh": "管理 AI Foundry 项目及其下属资源"
+ },
+ {
+  "id": "sk_e17b846d1eed",
+  "zh": "图像描述、文字识别与目标检测等视觉分析能力"
+ },
+ {
+  "id": "sk_5dd30a94d6b2",
+  "zh": "实现双向实时的语音 AI 交互与低延迟响应"
+ },
+ {
+  "id": "sk_88d383db33b6",
+  "zh": "集中管理应用配置项与多环境参数，支持热更新"
+ },
+ {
+  "id": "sk_4b0a1a0c4b0c",
+  "zh": "用 IVR 与 AI 实现通话自动化与语音交互"
+ },
+ {
+  "id": "sk_0129ead81b54",
+  "zh": "CallingServer 旧版 SDK 的用法"
+ },
+ {
+  "id": "sk_c7cd2a4923ea",
+  "zh": "CallingServer 旧版 SDK 的用法与迁移建议"
+ },
+ {
+  "id": "sk_62a7fb503aa1",
+  "zh": "Communication Services 的公共工具方法"
+ },
+ {
+  "id": "sk_213fbd2c7fa1",
+  "zh": "发送短信并获取每条消息的送达状态与回执报告"
+ },
+ {
+  "id": "sk_9d4cdf8bcbc8",
+  "zh": "运行大规模并行与高性能计算场景下的批处理作业"
+ },
+ {
+  "id": "sk_91d4ee920aeb",
+  "zh": "使用支持全球分布的 Cosmos DB NoSQL"
+ },
+ {
+  "id": "sk_6d714333759e",
+  "zh": "使用 NoSQL 键值表存储并查询结构化数据"
+ },
+ {
+  "id": "sk_0bc774c36d19",
+  "zh": "基于事件驱动实现发布订阅式的消息分发与投递"
+ },
+ {
+  "id": "sk_127a37a07212",
+  "zh": "实时高吞吐的流式数据处理、消费与位点管理"
+ },
+ {
+  "id": "sk_a89d10462c64",
+  "zh": "接入 Microsoft Entra ID 身份认证"
+ },
+ {
+  "id": "sk_f8853010671d",
+  "zh": "基于 WebSocket 的实时消息推送"
+ },
+ {
+  "id": "sk_14c5b8e030bb",
+  "zh": "向 Azure Monitor 写入自定义日志"
+ },
+ {
+  "id": "sk_3a87e065a3e1",
+  "zh": "把 OpenTelemetry 数据导出到 Azure Monitor"
+ },
+ {
+  "id": "sk_f009fe5426be",
+  "zh": "查询 Azure Monitor 的日志与指标"
+ },
+ {
+  "id": "sk_9486c1335ab3",
+  "zh": "在 Key Vault 中管理加密密钥的生命周期"
+ },
+ {
+  "id": "sk_8291f8dfc003",
+  "zh": "在 Key Vault 中管理密码与密钥等敏感信息"
+ },
+ {
+  "id": "sk_85bda7a35656",
+  "zh": "用 Blob 存储管理文件的上传、下载与清理"
+ },
+ {
+  "id": "sk_250b531819a0",
+  "zh": "面向 Azure AI Foundry 的 Agent Framework"
+ },
+ {
+  "id": "sk_593f0dc40d62",
+  "zh": "Foundry Agents SDK，支持基于自定义镜像的容器化 agent"
+ },
+ {
+  "id": "sk_ea3fdeb835ac",
+  "zh": "识别并过滤有害内容，支持按类别与严重度分级拦截"
+ },
+ {
+  "id": "sk_b452300b752a",
+  "zh": "多模态内容的抽取与理解，统一成结构化输出"
+ },
+ {
+  "id": "sk_287755e0c937",
+  "zh": "管理 Azure ML 工作区与训练任务"
+ },
+ {
+  "id": "sk_9e1ba111372b",
+  "zh": "AI Foundry 项目客户端与 agent 的用法"
+ },
+ {
+  "id": "sk_cf72f8d3f35d",
+  "zh": "自然语言处理，含情感、实体与关键短语分析"
+ },
+ {
+  "id": "sk_9257f0d3f157",
+  "zh": "把语音文件转写成文字，并区分不同的说话人"
+ },
+ {
+  "id": "sk_ee8b98e03d37",
+  "zh": "批量翻译整份文档并尽量保留原有排版与格式结构"
+ },
+ {
+  "id": "sk_35e38e8ac218",
+  "zh": "实时把文本翻译成目标语言，支持多语种互译"
+ },
+ {
+  "id": "sk_82fac21a5165",
+  "zh": "图像描述、自动打标签、文字识别与目标检测"
+ },
+ {
+  "id": "sk_15811199a49f",
+  "zh": "实现双向实时的语音 AI 交互与流式响应"
+ },
+ {
+  "id": "sk_fab7ceb7c683",
+  "zh": "管理功能开关与可动态刷新的应用配置项与参数"
+ },
+ {
+  "id": "sk_06ac9967d914",
+  "zh": "管理容器镜像及其在镜像仓库中的标签与版本"
+ },
+ {
+  "id": "sk_18753dc16d3f",
+  "zh": "在 Python 与 FastAPI 中按模式使用 Cosmos DB"
+ },
+ {
+  "id": "sk_1f34a455da93",
+  "zh": "Cosmos DB NoSQL 客户端库的用法"
+ },
+ {
+  "id": "sk_0a5c4bd7facb",
+  "zh": "使用 NoSQL 键值表存储并查询结构化数据"
+ },
+ {
+  "id": "sk_d48f67468072",
+  "zh": "基于事件驱动实现发布订阅式的消息路由与分发"
+ },
+ {
+  "id": "sk_fc314571a215",
+  "zh": "高吞吐的实时事件流处理、消费与消费位点管理"
+ },
+ {
+  "id": "sk_9c3059acdf54",
+  "zh": "接入 Microsoft Entra ID 完成身份认证"
+ },
+ {
+  "id": "sk_1f2be726e6a4",
+  "zh": "统一管理机密、密钥与证书三类敏感对象资源"
+ },
+ {
+  "id": "sk_acfb40ffca44",
+  "zh": "基于 WebSocket 的实时消息推送"
+ },
+ {
+  "id": "sk_343de972447e",
+  "zh": "维护 API 清单并做统一治理与合规检查"
+ },
+ {
+  "id": "sk_0da4318181b5",
+  "zh": "管理 API Management 服务及其配置"
+ },
+ {
+  "id": "sk_6202e291a2a8",
+  "zh": "管理 Bot Service 资源及其通道与凭据配置"
+ },
+ {
+  "id": "sk_9e758d072a26",
+  "zh": "管理 Microsoft Fabric 容量资源"
+ },
+ {
+  "id": "sk_512e57c83728",
+  "zh": "向 Azure Monitor 写入自定义日志"
+ },
+ {
+  "id": "sk_64bd7683a079",
+  "zh": "把 OpenTelemetry 数据导出到 Application Insights"
+ },
+ {
+  "id": "sk_c223ea7add95",
+  "zh": "一行代码完成 Application Insights 接入"
+ },
+ {
+  "id": "sk_c9c6883971e2",
+  "zh": "查询 Azure Monitor 的日志与指标"
+ },
+ {
+  "id": "sk_0d2664f5fa14",
+  "zh": "实现全文检索、向量检索与混合检索三种模式"
+ },
+ {
+  "id": "sk_2fab26b60792",
+  "zh": "基于队列与主题的企业级消息传递与消息消费"
+ },
+ {
+  "id": "sk_e7619da7bb5f",
+  "zh": "通过 REST 接口把短音频转写为文字内容"
+ },
+ {
+  "id": "sk_9744c4710695",
+  "zh": "Blob 对象存储客户端的上传下载与目录操作"
+ },
+ {
+  "id": "sk_2c0aaf2eaab4",
+  "zh": "使用分层目录结构的数据湖存储海量文件与目录"
+ },
+ {
+  "id": "sk_f236a0643c5e",
+  "zh": "管理 SMB 文件共享及其目录结构与配额"
+ },
+ {
+  "id": "sk_91afa594e91d",
+  "zh": "实现简单的消息队列与消息的收发、清理与重试"
+ },
+ {
+  "id": "sk_bc356a07b30c",
+  "zh": "构建带增删改查与鉴权的 FastAPI 路由"
+ },
+ {
+  "id": "sk_05abeee67576",
+  "zh": "构建 M365、Teams 与 Copilot Studio 中的 agent"
+ },
+ {
+  "id": "sk_80df4303939f",
+  "zh": "用 Pydantic 模型定义接口数据结构"
+ },
+ {
+  "id": "sk_194c42375099",
+  "zh": "Cosmos DB NoSQL 的 Rust 客户端"
+ },
+ {
+  "id": "sk_236de0bd3f48",
+  "zh": "Event Hubs 流式处理客户端的发送与接收"
+ },
+ {
+  "id": "sk_207cd89fb765",
+  "zh": "接入 Microsoft Entra ID 完成身份认证"
+ }
+]
